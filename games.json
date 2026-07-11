@@ -1,0 +1,704 @@
+[
+  {
+    "game_id": 1,
+    "title": "Letter Matching Game",
+    "description": "Match uppercase letters to lowercase letters or letters to their sounds",
+    "difficulty_levels": ["beginner", "intermediate", "advanced"],
+    "game_type": "memory_matching",
+    "detailed_specs": {
+      "objective": "Help children recognize letters in both uppercase and lowercase forms, and associate letters with their phonetic sounds",
+      "gameplay_mechanics": {
+        "setup": "Display a grid of face-down cards (4x4 for beginner, 5x4 for intermediate, 6x4 for advanced)",
+        "interaction": "Click/tap to flip two cards at a time",
+        "matching_rules": {
+          "beginner": "Match uppercase to lowercase of same letter (A-a, B-b, etc.)",
+          "intermediate": "Match letter to picture of word starting with that sound (M to moon, S to sun)",
+          "advanced": "Match letter to its phonetic sound written out (/m/, /s/, etc.)"
+        },
+        "feedback": {
+          "correct_match": "Play sound effect, cards stay revealed, display encouraging message ('Great job!', 'That's right!')",
+          "incorrect_match": "Cards flip back over after 1 second, play gentle error sound",
+          "completion": "Celebration animation, display time taken and number of attempts, option to play again or increase difficulty"
+        }
+      },
+      "visual_design": {
+        "card_front": "Colorful solid background with large, clear letter or image",
+        "card_back": "Consistent pattern (stars, abc pattern, or fun graphic)",
+        "color_scheme": "Bright primary colors, high contrast for readability",
+        "animations": "Smooth flip animation (CSS 3D transform), bounce effect on match, confetti on completion"
+      },
+      "audio_elements": {
+        "letter_sounds": "Play phonetic sound when letter card is revealed (clear pronunciation)",
+        "background_music": "Optional soft, playful background music (can be toggled)",
+        "sound_effects": "Match success (chime), mismatch (soft boop), game complete (fanfare)"
+      },
+      "accessibility": {
+        "keyboard_navigation": "Arrow keys to move between cards, Enter to flip",
+        "screen_reader": "Announce card position and content when focused",
+        "color_blind_mode": "Add symbols/patterns in addition to colors for differentiation",
+        "difficulty_scaling": "Adjustable grid size, option for fewer cards"
+      },
+      "technical_implementation": {
+        "html_structure": "Grid container with card divs, each containing front/back faces",
+        "css_requirements": "Flexbox/Grid for layout, 3D transforms for flip, transitions for smooth animations",
+        "javascript_logic": "Card shuffle algorithm, match detection, timer, score tracking, state management",
+        "data_structure": "Array of letter objects with uppercase, lowercase, sound, and image properties"
+      },
+      "progression_system": {
+        "stars_earned": "3 stars for <10 attempts, 2 stars for <15 attempts, 1 star for completion",
+        "unlockables": "Complete beginner to unlock intermediate, complete intermediate to unlock advanced",
+        "achievements": "Perfect game (no mistakes), speed run (<30 seconds), all levels complete"
+      }
+    },
+    "educational_value": {
+      "skills_developed": ["Letter recognition", "Visual memory", "Letter-sound association", "Concentration"],
+      "age_range": "3-6 years",
+      "session_duration": "5-10 minutes",
+      "parent_tips": "Start with just a few letter pairs. Let your child say the letter names and sounds aloud. Praise effort, not just correct answers."
+    }
+  },
+  {
+    "game_id": 2,
+    "title": "Word Builder",
+    "description": "Drag and drop letters to build CVC words, then blend to hear the word",
+    "difficulty_levels": ["CVC_short_vowels", "CCVC_blends", "CVCe_long_vowels", "multisyllabic"],
+    "game_type": "word_construction",
+    "detailed_specs": {
+      "objective": "Build decoding and spelling skills by constructing words from individual letter sounds",
+      "gameplay_mechanics": {
+        "setup": {
+          "word_target": "Display image of target word (e.g., picture of a cat)",
+          "letter_bank": "Provide letter tiles at bottom of screen (drag source)",
+          "word_spaces": "Three (or more) blank spaces where letters should be dropped",
+          "sound_buttons": "Each letter tile plays its sound when clicked"
+        },
+        "interaction": {
+          "drag_drop": "Click/touch and drag letter tiles to appropriate spaces",
+          "snap_to_grid": "Letters snap into position when dropped in correct area",
+          "remove_letter": "Drag letter back to bank or click 'X' button to remove",
+          "blend_button": "After all spaces filled, 'Blend It!' button appears"
+        },
+        "word_checking": {
+          "real_time": "Each dropped letter is read aloud (phonetic sound)",
+          "blend_mode": "Clicking 'Blend It!' smoothly reads the whole word",
+          "correct_word": "Image animates, word is displayed, congratulatory message, word added to 'words mastered' list",
+          "incorrect_word": "Gentle feedback ('That spells [wrong word]. Try again!'), option to hear sounds again"
+        },
+        "progression": {
+          "word_queue": "Series of 8-10 words per session, progress bar shows completion",
+          "increasing_difficulty": "Start with 3-letter CVC, gradually add blends, digraphs, silent e",
+          "review_mode": "Periodically review previously mastered words"
+        }
+      },
+      "visual_design": {
+        "layout": "Target image at top, word-building area in center, letter bank at bottom",
+        "letter_tiles": "Large, colorful tiles with clear sans-serif font (consonants blue, vowels red)",
+        "word_spaces": "Outlined boxes with dashed borders, numbered (1, 2, 3) for sequencing",
+        "animations": "Tiles wiggle when incorrect, bounce when correct, smooth slide into position"
+      },
+      "audio_elements": {
+        "letter_sounds": "Individual phoneme sounds for each letter",
+        "blending": "Smooth continuous blending when 'Blend It!' is pressed (e.g., /mmm/ /aaa/ /ttt/ = mat)",
+        "whole_word": "Clear pronunciation of complete word after successful build",
+        "encouragement": "Randomized praise phrases ('Excellent!', 'You did it!', 'Super work!')"
+      },
+      "difficulty_progression": {
+        "level_1_CVC": "3-letter words with short vowels (cat, dog, sun, pig)",
+        "level_2_CCVC": "Initial blends (stop, plan, grin, flag)",
+        "level_3_CVCC": "Final blends (hand, jump, milk, fast)",
+        "level_4_CVCe": "Silent e words (cake, bike, rope, cube)",
+        "level_5_digraphs": "Words with ch, sh, th (chip, shop, that)",
+        "level_6_multisyllabic": "Two-syllable words (sunset, rabbit, napkin)"
+      },
+      "hint_system": {
+        "first_letter_hint": "Highlights first letter after 2 incorrect attempts",
+        "sound_all_letters": "Button to hear all sounds in sequence",
+        "show_word": "After 3 incorrect attempts, option to see word spelled out with animation"
+      },
+      "technical_implementation": {
+        "html_structure": "Draggable letter divs, droppable word space divs, target image container",
+        "css_requirements": "Drag-and-drop styling, tile colors, animations (keyframes), responsive grid",
+        "javascript_logic": {
+          "drag_drop_api": "HTML5 drag-and-drop or touch events for mobile",
+          "word_validation": "Compare built word against correct answer",
+          "audio_playback": "Web Audio API or Howler.js for sound management",
+          "state_management": "Track current word, attempts, completed words, mastery level"
+        },
+        "data_structure": "JSON object with word, image path, phonemes array, difficulty level, category"
+      },
+      "parent_controls": {
+        "difficulty_selection": "Choose which levels are available",
+        "word_lists": "Customize word list (focus on specific phonics patterns)",
+        "sound_speed": "Adjust blending speed (slower for beginners)",
+        "progress_tracking": "View words mastered, accuracy rate, time spent"
+      }
+    },
+    "educational_value": {
+      "skills_developed": ["Phoneme segmentation", "Blending", "Spelling patterns", "Fine motor skills (drag/drop)", "Sound-symbol correspondence"],
+      "age_range": "4-7 years",
+      "session_duration": "10-15 minutes",
+      "parent_tips": "Encourage your child to say each sound aloud as they drag letters. Model blending by running your finger under the letters as you say the sounds smoothly. Celebrate spelling success!"
+    }
+  },
+  {
+    "game_id": 3,
+    "title": "Sight Word Flash",
+    "description": "Fast-paced sight word recognition game with multiple game modes",
+    "difficulty_levels": ["pre_primer", "primer", "first_grade", "second_grade"],
+    "game_type": "rapid_recognition",
+    "detailed_specs": {
+      "objective": "Build automatic recognition of high-frequency sight words through repeated exposure and practice",
+      "game_modes": {
+        "flash_cards": {
+          "description": "Traditional flashcard practice with customizable timing",
+          "mechanics": {
+            "display": "Show word for set duration (3 seconds for beginners, 1 second for advanced)",
+            "response": "Child reads word aloud, parent/system confirms correct or incorrect",
+            "flip": "Click to see word again, arrow to next word",
+            "shuffle": "Randomize order each session"
+          },
+          "settings": {
+            "display_time": "Adjustable from 0.5-5 seconds",
+            "auto_advance": "Toggle automatic progression or manual control",
+            "word_list": "Select from Dolch, Fry, or custom word lists"
+          }
+        },
+        "word_pop": {
+          "description": "Pop bubbles containing target sight word before they float away",
+          "mechanics": {
+            "target_word": "Announce/display target word at top of screen",
+            "bubbles": "Multiple bubbles float up screen, each containing a word",
+            "gameplay": "Click/tap only bubbles with the target word",
+            "scoring": "Points for correct pops, penalty for wrong pops, combo multiplier for consecutive correct",
+            "challenge": "Speed increases as level progresses, distractor words become more similar"
+          },
+          "visual_design": {
+            "bubbles": "Translucent colorful bubbles with words inside",
+            "background": "Underwater or sky theme with gentle animation",
+            "effects": "Bubble pop animation, splash effect, score indicators floating up"
+          }
+        },
+        "word_race": {
+          "description": "Race against time to identify as many sight words as possible",
+          "mechanics": {
+            "timer": "60-second countdown",
+            "word_display": "Large word appears in center of screen",
+            "buttons": "Multiple choice buttons with word pronunciations",
+            "scoring": "1 point per correct answer, streak bonus for consecutive correct",
+            "leaderboard": "Track high scores and improvement over time"
+          },
+          "difficulty_scaling": {
+            "easy": "4 clearly different word choices, 5 seconds per word",
+            "medium": "4 similar-looking word choices, 3 seconds per word",
+            "hard": "6 choices including common confusions (there/their), 2 seconds per word"
+          }
+        },
+        "memory_match": {
+          "description": "Match sight words to pictures/definitions or duplicate word pairs",
+          "mechanics": {
+            "grid": "4x3 or 4x4 grid of face-down cards",
+            "matching": "Pair sight words with images showing their meaning, or match duplicate words",
+            "feedback": "Word is read aloud when flipped"
+          }
+        }
+      },
+      "word_lists": {
+        "pre_primer_dolch": ["a", "and", "away", "big", "blue", "can", "come", "down", "find", "for", "funny", "go", "help", "here", "I", "in", "is", "it", "jump", "little", "look", "make", "me", "my", "not", "one", "play", "red", "run", "said", "see", "the", "three", "to", "two", "up", "we", "where", "yellow", "you"],
+        "primer_dolch": ["all", "am", "are", "at", "ate", "be", "black", "brown", "but", "came", "did", "do", "eat", "four", "get", "good", "have", "he", "into", "like", "must", "new", "no", "now", "on", "our", "out", "please", "pretty", "ran", "ride", "saw", "say", "she", "so", "soon", "that", "there", "they", "this", "too", "under", "want", "was", "well", "went", "what", "white", "who", "will", "with", "yes"],
+        "first_grade_dolch": ["after", "again", "an", "any", "as", "ask", "by", "could", "every", "fly", "from", "give", "going", "had", "has", "her", "him", "his", "how", "just", "know", "let", "live", "may", "of", "old", "once", "open", "over", "put", "round", "some", "stop", "take", "thank", "them", "then", "think", "walk", "were", "when"],
+        "second_grade_dolch": ["always", "around", "because", "been", "before", "best", "both", "buy", "call", "cold", "does", "don't", "fast", "first", "five", "found", "gave", "goes", "green", "its", "made", "many", "off", "or", "pull", "read", "right", "sing", "sit", "sleep", "tell", "their", "these", "those", "upon", "us", "use", "very", "wash", "which", "why", "wish", "work", "would", "write", "your"]
+      },
+      "visual_design": {
+        "typography": "Large, clear sans-serif font (minimum 48px), excellent contrast ratio",
+        "color_coding": "Optional color coding for word types (nouns, verbs, etc.)",
+        "themes": "Selectable visual themes (ocean, space, jungle, rainbow) to maintain engagement",
+        "animations": "Minimal distracting elements, smooth transitions, clear feedback"
+      },
+      "audio_elements": {
+        "word_pronunciation": "Clear audio recording of each sight word",
+        "sentence_usage": "Optional example sentence for context",
+        "encouragement": "Positive reinforcement sounds and phrases",
+        "background_music": "Optional calm, non-distracting background music"
+      },
+      "progress_tracking": {
+        "mastery_criteria": "Word is 'mastered' after 3 consecutive correct rapid recognitions",
+        "review_schedule": "Spaced repetition algorithm brings back previously mastered words",
+        "visual_progress": "Progress bars, badges for milestones (10 words mastered, 50 words, etc.)",
+        "detailed_stats": {
+          "words_mastered": "List of mastered words with dates",
+          "accuracy_rate": "Percentage correct overall and per word list",
+          "speed_metric": "Average recognition time per word",
+          "session_history": "Calendar view of practice sessions"
+        }
+      },
+      "technical_implementation": {
+        "html_structure": "Game container, word display area, button/bubble containers, progress indicators",
+        "css_requirements": {
+          "animations": "CSS animations for bubbles floating, words appearing/disappearing",
+          "responsive": "Adapt layout for mobile, tablet, desktop",
+          "accessibility": "High contrast mode, large touch targets (minimum 44px)"
+        },
+        "javascript_logic": {
+          "word_randomization": "Fisher-Yates shuffle algorithm",
+          "timing_control": "setInterval/setTimeout for timed modes",
+          "spaced_repetition": "Algorithm to optimize review schedule based on performance",
+          "local_storage": "Save progress locally in browser"
+        },
+        "data_structure": {
+          "word_object": "{ word: string, list: string, mastered: boolean, attempts: [], lastSeen: date }",
+          "session_data": "{ date: date, words_practiced: [], accuracy: number, duration: number }"
+        }
+      },
+      "parent_dashboard": {
+        "overview": "Snapshot of child's sight word mastery",
+        "recommendations": "Suggested focus words based on performance",
+        "printables": "Generate flashcard PDF for offline practice",
+        "settings": "Customize word lists, difficulty, game modes available"
+      }
+    },
+    "educational_value": {
+      "skills_developed": ["Automatic word recognition", "Reading fluency", "Visual memory", "Focus and attention"],
+      "age_range": "4-8 years",
+      "session_duration": "5-10 minutes daily",
+      "research_basis": "Based on Dolch and Fry high-frequency word lists, which comprise 50-75% of all words in children's reading materials",
+      "parent_tips": "Practice daily for best results. These words often can't be 'sounded out' - they must be recognized by sight. Use words in sentences to build comprehension. Celebrate progress, not perfection!"
+    }
+  },
+  {
+    "game_id": 4,
+    "title": "Spelling Practice",
+    "description": "Interactive spelling game with audio prompts and visual feedback",
+    "difficulty_levels": ["CVC_words", "blends_digraphs", "long_vowels", "challenging_patterns"],
+    "game_type": "word_spelling",
+    "detailed_specs": {
+      "objective": "Develop phonemic awareness and spelling skills through auditory-visual-motor practice",
+      "game_modes": {
+        "listen_and_spell": {
+          "description": "Hear a word and spell it using on-screen keyboard or letter tiles",
+          "mechanics": {
+            "audio_prompt": "Clear pronunciation of target word",
+            "repeat_button": "Hear word again (unlimited repeats)",
+            "sentence_context": "Optional example sentence for clarity",
+            "input_method": {
+              "on_screen_keyboard": "Click/tap letters to build word",
+              "letter_tiles": "Drag tiles into position",
+              "physical_keyboard": "Type on computer keyboard (desktop only)"
+            },
+            "feedback": {
+              "letter_by_letter": "Each correct letter turns green as typed",
+              "incorrect_letter": "Turns yellow, shakes slightly, can be backspaced",
+              "completion": "Word is pronounced, animated correctly, meaning shown"
+            }
+          },
+          "hint_system": {
+            "show_image": "Display picture clue of the word",
+            "first_letter": "Reveal first letter after 1 incorrect attempt",
+            "vowel_highlight": "Highlight vowel positions after 2 incorrect attempts",
+            "sound_it_out": "Play word in slow, segmented phonemes"
+          }
+        },
+        "missing_letter": {
+          "description": "Fill in the missing letter(s) in partially completed words",
+          "mechanics": {
+            "display": "Word shown with blank spaces (e.g., c_t, s_op, _rain)",
+            "letter_choices": "3-4 letter options displayed",
+            "selection": "Click correct letter to fill blank",
+            "difficulty": "Progressively remove more letters or require more complex vowel/blend choices"
+          }
+        },
+        "word_scramble": {
+          "description": "Unscramble mixed-up letters to form correct word",
+          "mechanics": {
+            "scrambled_tiles": "Letters of word presented in random order",
+            "image_clue": "Picture showing what word represents",
+            "rearrange": "Drag letters into correct sequence",
+            "check_button": "Submit answer when ready"
+          }
+        },
+        "dictation": {
+          "description": "Write/spell sentences with multiple target words",
+          "mechanics": {
+            "sentence_audio": "Hear complete sentence read aloud",
+            "word_by_word": "Option to hear sentence word-by-word",
+            "text_input": "Full sentence input field or word-by-word boxes",
+            "checking": "Highlight correctly spelled words, offer corrections for errors"
+          },
+          "difficulty": "Start with 3-4 word sentences, progress to 8-10 words"
+        }
+      },
+      "word_selection": {
+        "phonics_pattern_based": "Words grouped by phonics pattern being practiced (CVC, CVCe, blends, etc.)",
+        "frequency_based": "Include high-frequency words appropriate to level",
+        "thematic": "Optional themed word lists (animals, food, weather, etc.)",
+        "custom": "Parent/teacher can create custom word lists"
+      },
+      "visual_design": {
+        "layout": {
+          "top": "Word count/progress indicator, score",
+          "center": "Main spelling area (keyboard, tiles, or input field)",
+          "bottom": "Hint buttons, repeat word button, submit button",
+          "sidebar": "Optional image clue area"
+        },
+        "color_scheme": {
+          "correct_letter": "Green background, white text",
+          "incorrect_letter": "Yellow background with gentle shake animation",
+          "keyboard": "Bright, colorful keys with clear labels",
+          "completed_word": "Celebratory animation (sparkles, bounce)"
+        },
+        "typography": "Large, dyslexia-friendly font (OpenDyslexic or Comic Sans as options)",
+        "animations": "Letter pop-in effects, word completion celebration, smooth transitions"
+      },
+      "audio_elements": {
+        "word_pronunciation": "Professional voice recording for each word (clear, natural speech)",
+        "phoneme_segmentation": "Optional slowed-down, segmented pronunciation (/c/ /a/ /t/)",
+        "sentence_context": "Example sentence using the word",
+        "letter_sounds": "Individual letter sounds when clicked on keyboard",
+        "feedback_sounds": {
+          "correct_letter": "Soft 'ding' or positive chime",
+          "incorrect_letter": "Gentle 'boop' (non-punitive)",
+          "word_complete": "Celebration sound, fanfare"
+        },
+        "encouragement_phrases": "Randomized verbal encouragement ('Keep going!', 'Great try!', 'You've got this!')"
+      },
+      "difficulty_progression": {
+        "level_1_CVC": "Three-letter short vowel words (cat, dog, sun, bed)",
+        "level_2_CCVC_CVCC": "Words with blends (stop, fast, club, help)",
+        "level_3_digraphs": "sh, ch, th, wh words (shop, chip, that, when)",
+        "level_4_CVCe": "Silent e words (cake, bike, rope, cute)",
+        "level_5_vowel_teams": "ai, ay, ee, ea, oa words (rain, play, tree, boat)",
+        "level_6_r_controlled": "ar, or, er, ir, ur words (car, fork, her, bird, turn)",
+        "level_7_complex": "Multi-syllable, irregular, advanced patterns (happy, light, because)"
+      },
+      "adaptive_learning": {
+        "error_analysis": "Track which phonics patterns cause most difficulty",
+        "targeted_practice": "Automatically generate practice sets focusing on weak areas",
+        "mastery_threshold": "Word must be spelled correctly 3 times (not in a row) to mark as mastered",
+        "review_cycle": "Bring back challenging words at increasing intervals (1 day, 3 days, 1 week)"
+      },
+      "accessibility_features": {
+        "text_to_speech": "All on-screen text can be read aloud",
+        "keyboard_navigation": "Full keyboard control (tab, enter, arrow keys)",
+        "screen_reader": "Compatible with screen readers, proper ARIA labels",
+        "adjustable_settings": {
+          "font_size": "Scale from 100% to 200%",
+          "contrast": "High contrast mode available",
+          "audio_speed": "Adjust pronunciation speed (0.75x to 1.5x)",
+          "timer": "Option to practice without time pressure"
+        }
+      },
+      "technical_implementation": {
+        "html_structure": {
+          "container": "Main game container with sections for display, input, controls",
+          "keyboard": "Button grid for on-screen keyboard (QWERTY layout)",
+          "input_display": "Div or input field showing letters as typed",
+          "feedback_area": "Visual feedback overlays and messages"
+        },
+        "css_requirements": {
+          "layout": "CSS Grid for keyboard, Flexbox for overall structure",
+          "animations": "Keyframe animations for letter entry, shake effects, celebrations",
+          "responsive": "Media queries for mobile (larger touch targets), tablet, desktop",
+          "themes": "CSS variables for easy theme switching"
+        },
+        "javascript_logic": {
+          "word_checking": "Compare user input to correct spelling, letter-by-letter validation",
+          "audio_management": "Preload audio files, manage playback queue",
+          "progress_tracking": "LocalStorage or IndexedDB to save progress",
+          "spaced_repetition": "Leitner system or SM-2 algorithm for review scheduling"
+        },
+        "data_structure": {
+          "word_database": "{ word: string, phonics_pattern: string, difficulty: number, audio_url: string, image_url: string }",
+          "user_progress": "{ word_id: string, attempts: number, correct_count: number, last_attempted: date, mastered: boolean }"
+        },
+        "performance_optimization": {
+          "lazy_loading": "Load images and audio on-demand",
+          "caching": "Service worker for offline capability",
+          "minification": "Minimize JS/CSS for fast load times"
+        }
+      },
+      "parent_teacher_features": {
+        "progress_reports": {
+          "summary_view": "Words attempted, accuracy rate, patterns mastered",
+          "detailed_view": "Per-word statistics, error analysis",
+          "export": "Download CSV or PDF report for sharing/records"
+        },
+        "custom_word_lists": {
+          "creation": "Interface to add custom words, assign difficulty, upload audio",
+          "assignment": "Assign specific word lists to child",
+          "sharing": "Share custom lists with other parents/teachers"
+        },
+        "settings_control": {
+          "difficulty_lock": "Set maximum difficulty level accessible",
+          "time_limits": "Set daily practice time goals",
+          "notifications": "Reminders for daily practice"
+        }
+      }
+    },
+    "educational_value": {
+      "skills_developed": ["Phonemic awareness", "Sound-letter correspondence", "Spelling patterns", "Encoding (inverse of decoding)", "Fine motor skills", "Memory and attention"],
+      "age_range": "5-8 years",
+      "session_duration": "10-20 minutes",
+      "research_basis": "Based on Orton-Gillingham approach and structured literacy principles - explicit, systematic phonics instruction combined with multisensory engagement",
+      "parent_tips": "Encourage 'sounding out' words before spelling. Praise effort and improvement, not just correct answers. Practice challenging words in short, frequent sessions rather than long, infrequent ones. Use a whiteboard or paper alongside the digital game for kinesthetic reinforcement."
+    }
+  },
+  {
+    "game_id": 5,
+    "title": "Phonics Quiz",
+    "description": "Comprehensive phonics assessment and practice covering all phonics concepts",
+    "difficulty_levels": ["letter_sounds", "CVC_words", "blends_digraphs", "long_vowels", "advanced_patterns", "mixed_review"],
+    "game_type": "adaptive_quiz",
+    "detailed_specs": {
+      "objective": "Assess and reinforce phonics knowledge through varied question types, providing targeted feedback and adaptive difficulty",
+      "question_types": {
+        "sound_identification": {
+          "description": "Identify the sound a letter or letter combination makes",
+          "format": "Multiple choice with 3-4 options",
+          "example": "What sound does 'ch' make? A) /k/ B) /s/ C) /ch/ D) /sh/",
+          "audio": "Option to hear sounds for each choice"
+        },
+        "beginning_sound": {
+          "description": "Identify which word starts with a given sound",
+          "format": "Show 3-4 images, child selects one matching the prompt",
+          "example": "Which picture starts with /b/? [images: ball, cat, dog, fish]",
+          "audio": "Target sound played before images shown"
+        },
+        "word_reading": {
+          "description": "Read a word and select matching image",
+          "format": "Display written word, 4 image choices",
+          "example": "Which picture matches the word 'cat'? [images of cat, hat, bat, mat]",
+          "difficulty_scaling": "Use visually similar choices for advanced (cat/hat look similar)"
+        },
+        "rhyming_words": {
+          "description": "Identify which words rhyme",
+          "format": "Show/say 3 words, child picks the two that rhyme",
+          "example": "Which two rhyme? cat, dog, hat",
+          "audio": "Words spoken aloud for auditory learners"
+        },
+        "blend_segmentation": {
+          "description": "Break word into sounds or blend sounds together",
+          "format_segment": "Hear word 'cat', select how many sounds (/k/ /a/ /t/ = 3)",
+          "format_blend": "Hear sounds /s/ /u/ /n/, select which word it makes (sun)",
+          "visual_aid": "Sound boxes or phoneme counters displayed"
+        },
+        "vowel_identification": {
+          "description": "Determine if vowel is short or long, or select correct vowel",
+          "format": "Read word 'cake', is the 'a' short or long?",
+          "example": "Fill in the blank: c__ke (options: a, a_e, ai, ay)",
+          "difficulty": "Progress from simple short/long distinction to choosing correct spelling pattern"
+        },
+        "pattern_recognition": {
+          "description": "Identify phonics pattern in a word",
+          "format": "What pattern do you see in 'night'? A) CVC B) -ight C) CVCe D) blend",
+          "examples": "Progress from basic CVC to complex patterns (diphthongs, r-controlled, etc.)"
+        },
+        "word_sort": {
+          "description": "Categorize words by phonics pattern",
+          "format": "Drag words into correct category buckets",
+          "example": "Sort these words: Short A | Long A → (cat, cake, rain, mat)",
+          "interaction": "Drag and drop or click to assign"
+        }
+      },
+      "quiz_modes": {
+        "practice_mode": {
+          "description": "Untimed, unlimited hints, immediate feedback",
+          "features": {
+            "hints_available": "Show first letter, play word slowly, show picture clue",
+            "immediate_feedback": "Right/wrong shown instantly with explanation",
+            "no_penalty": "Incorrect answers don't affect score, opportunity to try again",
+            "review": "After each question, option to review the concept"
+          }
+        },
+        "test_mode": {
+          "description": "Timed assessment to gauge current level",
+          "features": {
+            "timer": "Set time limit per question (10-30 seconds) or overall (10 minutes)",
+            "limited_hints": "1 hint per question maximum",
+            "score_tracking": "Percentage score calculated at end",
+            "no_retries": "Move to next question after answering",
+            "final_report": "Detailed results with strengths and areas for improvement"
+          }
+        },
+        "adaptive_mode": {
+          "description": "Difficulty adjusts based on performance",
+          "mechanics": {
+            "starting_level": "Brief placement assessment (5 questions)",
+            "difficulty_adjustment": "Correct answer → slightly harder next question; Incorrect → slightly easier",
+            "plateau_detection": "Identify current mastery level",
+            "targeted_questions": "Focus on patterns child is close to mastering"
+          }
+        },
+        "challenge_mode": {
+          "description": "Fast-paced, increasingly difficult questions",
+          "features": {
+            "lives_system": "Start with 3 lives, lose one for each error",
+            "streak_bonus": "Points multiplier for consecutive correct answers",
+            "leaderboard": "Compare scores with previous attempts or family members",
+            "unlockables": "Earn badges and rewards for high scores"
+          }
+        }
+      },
+      "visual_design": {
+        "layout": {
+          "header": "Progress bar showing question number, timer (if applicable), lives/score",
+          "question_area": "Large, clear display of question text and/or images",
+          "answer_area": "Multiple choice buttons or drag-drop zones",
+          "footer": "Hint button, quit button, sound toggle"
+        },
+        "color_coding": {
+          "correct_answer": "Green highlight with checkmark icon",
+          "incorrect_answer": "Red highlight with X icon, then show correct answer in green",
+          "neutral_state": "Soft blue or gray for unselected options"
+        },
+        "animations": {
+          "question_transition": "Smooth fade or slide between questions",
+          "answer_feedback": "Bounce/pulse animation for correct, shake for incorrect",
+          "progress": "Filling progress bar, confetti for completion"
+        },
+        "mascot": "Optional friendly character that gives encouragement (customizable avatar)"
+      },
+      "audio_elements": {
+        "question_reading": "All questions read aloud (accessibility feature)",
+        "answer_options": "Click to hear answer choices spoken",
+        "phoneme_sounds": "Accurate phonetic sounds for all phonics elements",
+        "feedback_audio": {
+          "correct": "'That's right!', 'Great job!', 'Excellent!' (varied)",
+          "incorrect": "'Not quite', 'Try again', 'Almost!' (gentle, encouraging)",
+          "explanation": "Brief audio explanation of correct answer"
+        },
+        "background_music": "Optional light, non-distracting background music (toggle on/off)"
+      },
+      "content_coverage": {
+        "level_1_letter_sounds": "All 26 letter sounds, focus on consonants and short vowels",
+        "level_2_CVC": "Reading and building CVC words, identifying short vowel sounds",
+        "level_3_blends": "Initial and final consonant blends (st, bl, nd, mp, etc.)",
+        "level_4_digraphs": "sh, ch, th, wh, ck, ng recognition and usage",
+        "level_5_long_vowels": "CVCe patterns, vowel teams (ai, ay, ee, ea, oa, ow, oo)",
+        "level_6_r_controlled": "ar, or, er, ir, ur identification",
+        "level_7_advanced": "Diphthongs (oi, oy, ou, ow), -igh, complex patterns",
+        "level_8_multisyllabic": "Breaking longer words into syllables, compound words"
+      },
+      "adaptive_algorithm": {
+        "item_response_theory": "Questions have difficulty ratings, adjust based on student ability estimate",
+        "performance_tracking": {
+          "correct_rate": "Track percentage correct per phonics pattern",
+          "speed": "Monitor response time to gauge automaticity",
+          "error_patterns": "Identify systematic errors (e.g., confusing b/d, short/long vowels)"
+        },
+        "question_selection": {
+          "spacing": "Don't repeat same question type consecutively",
+          "review_integration": "Periodically include previously mastered concepts for retention",
+          "targeted_practice": "Emphasize patterns with 50-80% accuracy (zone of proximal development)"
+        },
+        "difficulty_parameters": {
+          "easy": "70-90% of students answer correctly",
+          "medium": "40-70% answer correctly",
+          "hard": "10-40% answer correctly"
+        }
+      },
+      "feedback_system": {
+        "immediate_feedback": {
+          "correct": "Positive reinforcement, brief explanation why answer is right",
+          "incorrect": "Show correct answer, explain the phonics rule, offer to review concept"
+        },
+        "question_explanation": {
+          "concept_review": "'The 'sh' digraph makes one sound: /sh/ like in ship'",
+          "visual_aid": "Display letter combinations, example words",
+          "audio_reinforcement": "Hear sounds and words again"
+        },
+        "end_of_quiz_summary": {
+          "score": "X out of Y correct (percentage)",
+          "time": "Total time taken (if timed)",
+          "strengths": "Patterns mastered or performed well on",
+          "areas_for_growth": "Patterns needing more practice",
+          "recommendations": "Suggested lessons or games to work on weak areas",
+          "progress_comparison": "How this compares to previous attempts (improvement tracking)"
+        }
+      },
+      "gamification": {
+        "points_system": {
+          "per_correct": "10 points base",
+          "streak_bonus": "5 extra points for each consecutive correct (up to 5x multiplier)",
+          "speed_bonus": "Bonus points for quick answers (optional, not in practice mode)"
+        },
+        "badges": {
+          "phonics_novice": "Complete 10 questions",
+          "blend_master": "Perfect score on blends quiz",
+          "vowel_virtuoso": "Master all vowel patterns",
+          "perfect_quiz": "100% on any quiz",
+          "speed_demon": "Complete quiz in under 5 minutes"
+        },
+        "unlockables": {
+          "avatar_accessories": "Earn hats, glasses, backgrounds for avatar",
+          "sound_effects": "Unlock new celebration sounds",
+          "themes": "Unlock visual themes (space, underwater, jungle)"
+        },
+        "progress_visualization": {
+          "skill_tree": "Visual map of phonics skills, unlock new branches as you progress",
+          "certificate": "Printable certificate when level is completed",
+          "sticker_chart": "Virtual stickers for consistent practice"
+        }
+      },
+      "technical_implementation": {
+        "html_structure": {
+          "quiz_container": "Main container for quiz interface",
+          "question_display": "Text/image area for question",
+          "answer_options": "Buttons or interactive elements for answers",
+          "feedback_overlay": "Modal or inline feedback display",
+          "progress_indicators": "Visual progress elements"
+        },
+        "css_requirements": {
+          "responsive_design": "Mobile-first design, adapt for tablets and desktops",
+          "animations": "CSS transitions and keyframes for smooth UX",
+          "accessibility": "High contrast, large touch targets, clear focus states",
+          "themes": "CSS custom properties for theme switching"
+        },
+        "javascript_logic": {
+          "question_engine": "Randomize questions from pool, track answered questions",
+          "scoring_system": "Calculate scores, track streaks, update progress",
+          "adaptive_algorithm": "Adjust difficulty based on performance",
+          "data_persistence": "Save progress to localStorage or backend API",
+          "analytics": "Track detailed usage and performance metrics"
+        },
+        "data_structures": {
+          "question_object": "{ id, type, text, audio_url, image_url, options: [{text, correct, explanation}], difficulty, phonics_pattern }",
+          "quiz_session": "{ user_id, quiz_type, questions: [question_ids], answers: [{question_id, user_answer, correct, time_taken}], score, start_time, end_time }",
+          "user_progress": "{ phonics_patterns: [{pattern, mastered, accuracy, last_practiced}], badges_earned, total_points }"
+        },
+        "api_integration": {
+          "authentication": "Optional user accounts for progress syncing across devices",
+          "progress_sync": "Save/load progress from cloud database",
+          "leaderboards": "Optional social features for family/classroom competition"
+        }
+      },
+      "teacher_parent_dashboard": {
+        "performance_overview": {
+          "overall_progress": "Percentage of phonics concepts mastered",
+          "recent_activity": "Quizzes taken, time spent, scores",
+          "skill_breakdown": "Visual representation (chart/graph) of strength in each phonics area"
+        },
+        "detailed_reports": {
+          "by_pattern": "Performance on each phonics pattern with examples",
+          "error_analysis": "Common mistakes and misconceptions",
+          "progress_over_time": "Line graph showing improvement"
+        },
+        "recommendations": {
+          "focus_areas": "Specific phonics patterns to practice next",
+          "suggested_activities": "Links to relevant lessons, games, or external resources",
+          "intervention_alerts": "Flagged if student is struggling significantly (< 40% on multiple attempts)"
+        },
+        "customization": {
+          "quiz_creation": "Create custom quizzes focused on specific patterns",
+          "difficulty_settings": "Lock certain difficulty levels or patterns",
+          "time_management": "Set recommended daily practice time"
+        }
+      }
+    },
+    "educational_value": {
+      "skills_developed": ["Comprehensive phonics knowledge", "Decoding skills", "Phonemic awareness", "Pattern recognition", "Reading fluency foundation", "Test-taking skills", "Self-assessment"],
+      "age_range": "5-8 years",
+      "session_duration": "10-20 minutes for practice, 15-30 minutes for full assessment",
+      "research_basis": "Aligned with National Reading Panel recommendations and Common Core phonics standards. Incorporates formative assessment principles for effective learning measurement.",
+      "parent_tips": "Use practice mode for daily skill building and test mode periodically (weekly/monthly) to track progress. Celebrate growth over time, not just high scores. Use the detailed reports to identify which patterns need more focus, then supplement with targeted lessons or activities. Encourage your child to explain WHY an answer is correct to deepen understanding."
+    }
+  }
+]

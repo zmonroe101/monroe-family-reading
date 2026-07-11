@@ -1,0 +1,461 @@
+[
+  {
+    "source_name": "Reading Doctor Free Decodable Readers",
+    "source_url": "https://www.readingdoctor.com.au/decodable-readers",
+    "description": "Comprehensive free library of decodable readers following systematic phonics progression",
+    "cost": "Free",
+    "format": "PDF flipbooks (online viewing)",
+    "books": [
+      {
+        "title": "Ant nap",
+        "level": "Part I - Book 1 (CVC Words)",
+        "phonics_focus": "CVC words with letters s, a, t, p, i, n, e",
+        "sight_words": ["a", "the"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1",
+        "recommended_lesson": [5, 7, 10],
+        "description": "First decodable book introducing basic CVC words with very limited letter set"
+      },
+      {
+        "title": "The cat and cod run",
+        "level": "Part I - Book 2 (CVC Words)",
+        "phonics_focus": "CVC words with letters c, h, o, r, d, l, u",
+        "sight_words": ["a", "the"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2",
+        "recommended_lesson": [14, 19],
+        "description": "Expands CVC vocabulary with new consonants and vowels"
+      },
+      {
+        "title": "A fin is on the man",
+        "level": "Part I - Book 3 (CVC Words)",
+        "phonics_focus": "CVC words with letters b, m, w, f, g",
+        "sight_words": ["a", "the", "is"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-3",
+        "recommended_lesson": [21, 22, 23, 24],
+        "description": "Continues building CVC reading with additional consonants"
+      },
+      {
+        "title": "A yak is in the jet",
+        "level": "Part I - Book 4 (CVC Words)",
+        "phonics_focus": "CVC words with letters v, k, x, j, z",
+        "sight_words": ["a", "the", "is"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-4",
+        "recommended_lesson": [27, 28, 29, 30, 31, 32],
+        "description": "Completes CVC practice with remaining consonants"
+      },
+      {
+        "title": "A wet dog and a fat hog",
+        "level": "Part I - Book 5a (All CVC Words)",
+        "phonics_focus": "All common single-letter graphemes",
+        "sight_words": ["a", "the", "is", "this", "that", "he", "she", "have", "has"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-5",
+        "recommended_lesson": [20, 26, 34],
+        "description": "Review book using all CVC patterns learned"
+      },
+      {
+        "title": "Ted was fed in his red bed",
+        "level": "Part I - Book 5b (All CVC Words)",
+        "phonics_focus": "All common single-letter graphemes",
+        "sight_words": ["a", "the", "is", "this", "that", "he", "she", "have", "has"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-5b",
+        "recommended_lesson": [25, 26, 34],
+        "description": "Additional CVC practice with short e focus"
+      },
+      {
+        "title": "Stan will spin the spud",
+        "level": "Part I - Book 6 (CCVC Words)",
+        "phonics_focus": "Consonant blends: st, sp, sn, pl",
+        "sight_words": ["a", "the", "has", "have", "he"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-6",
+        "recommended_lesson": [35, 36, 37, 38, 56],
+        "description": "Introduction to initial consonant blends"
+      },
+      {
+        "title": "A crab is in the pram",
+        "level": "Part I - Book 7 (CCVC Words)",
+        "phonics_focus": "Consonant blends: tr, bl, pr, cr, cl",
+        "sight_words": ["a", "the", "is", "she", "he"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-7",
+        "recommended_lesson": [39, 40, 44, 45, 46, 50, 51, 57],
+        "description": "L-blends and R-blends practice"
+      },
+      {
+        "title": "This frog gran will drum",
+        "level": "Part I - Book 8 (CCVC Words)",
+        "phonics_focus": "Consonant blends: fl, gr, dr, fr, sk, sw, br",
+        "sight_words": ["a", "the", "this", "is", "she", "he", "I", "you", "to", "was", "has", "have"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8",
+        "recommended_lesson": [41, 42, 45, 47, 48, 49, 51, 52, 53, 56, 57],
+        "description": "Advanced initial blends"
+      },
+      {
+        "title": "Ending Blends Book",
+        "level": "Part I - Book 9 (CVCC Words)",
+        "phonics_focus": "Final consonant blends: -nd, -nt, -mp, -st, -lt, -nk",
+        "sight_words": ["a", "the", "is", "and", "to", "in"],
+        "url": "https://decodable-readers.readingdoctor.com.au/book-9",
+        "recommended_lesson": [58, 59, 60, 61, 62, 63],
+        "description": "Practice with ending consonant blends"
+      }
+    ]
+  },
+  {
+    "source_name": "Starfall Decodable Books",
+    "source_url": "https://teach.starfall.com/projectables/decodable-books",
+    "description": "Free printable decodable books aligned with Starfall's phonics sequence",
+    "cost": "Free (printable PDFs)",
+    "format": "PDF downloads",
+    "books": [
+      {
+        "title": "Zac the Rat",
+        "level": "Set 1 - CVC Short A",
+        "phonics_focus": "CVC words with short a",
+        "sight_words": ["a", "the", "is"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [5, 7, 14],
+        "description": "Introduction to short a CVC words"
+      },
+      {
+        "title": "Peg the Hen",
+        "level": "Set 2 - CVC Short E",
+        "phonics_focus": "CVC words with short e",
+        "sight_words": ["a", "the", "is"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [25, 26],
+        "description": "Short e CVC word practice"
+      },
+      {
+        "title": "The Big Hit",
+        "level": "Set 3 - CVC Short I",
+        "phonics_focus": "CVC words with short i",
+        "sight_words": ["a", "the", "is", "said"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [10, 14],
+        "description": "Short i CVC words with simple story"
+      },
+      {
+        "title": "Mox's Shop",
+        "level": "Set 4 - CVC Short O",
+        "phonics_focus": "CVC words with short o",
+        "sight_words": ["a", "the", "is", "to"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [14],
+        "description": "Short o CVC practice in context"
+      },
+      {
+        "title": "Gus the Duck",
+        "level": "Set 5 - CVC Short U",
+        "phonics_focus": "CVC words with short u",
+        "sight_words": ["a", "the", "is", "said"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [19],
+        "description": "Short u CVC words with character story"
+      },
+      {
+        "title": "Jake's Tale",
+        "level": "Set 6 - CVCe Long A",
+        "phonics_focus": "CVCe words with long a (a_e pattern)",
+        "sight_words": ["a", "the", "is", "said", "to"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [72, 77],
+        "description": "Introduction to magic e with long a"
+      },
+      {
+        "title": "Pete the Sheep",
+        "level": "Set 7 - CVCe Long E",
+        "phonics_focus": "CVCe words with long e (e_e pattern) and ee",
+        "sight_words": ["a", "the", "is", "to", "said"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [76, 77, 80],
+        "description": "Long e patterns: e_e and ee"
+      },
+      {
+        "title": "Nine Mice",
+        "level": "Set 8 - CVCe Long I",
+        "phonics_focus": "CVCe words with long i (i_e pattern)",
+        "sight_words": ["a", "the", "is", "said", "are"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [73, 77],
+        "description": "Magic e with long i sound"
+      },
+      {
+        "title": "The Rope Tow",
+        "level": "Set 9 - CVCe Long O",
+        "phonics_focus": "CVCe words with long o (o_e pattern)",
+        "sight_words": ["a", "the", "is", "to", "go"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [74, 77],
+        "description": "Long o with silent e pattern"
+      },
+      {
+        "title": "Luke's Mule",
+        "level": "Set 10 - CVCe Long U",
+        "phonics_focus": "CVCe words with long u (u_e pattern)",
+        "sight_words": ["a", "the", "is", "said", "to"],
+        "url": "https://teach.starfall.com/lv/resources/reading-kit",
+        "recommended_lesson": [75, 77],
+        "description": "Magic e with long u sound"
+      }
+    ]
+  },
+  {
+    "source_name": "SPELD SA Phonic Readers",
+    "source_url": "https://www.speldsa.org.au/SPELD-SA-Phonic-Readers-New-Series",
+    "description": "Free PDF phonic readers from Speech and Language Development Australia",
+    "cost": "Free (PDF downloads)",
+    "format": "PDF",
+    "books": [
+      {
+        "title": "Sam",
+        "level": "Set 1",
+        "phonics_focus": "CVC words: s, a, t, p, i, m",
+        "sight_words": ["a", "I"],
+        "url": "https://www.speldsa.org.au/SPELD-SA-Phonic-Readers-New-Series",
+        "recommended_lesson": [5, 7],
+        "description": "Very first reader with minimal phonics patterns"
+      },
+      {
+        "title": "Pip",
+        "level": "Set 2",
+        "phonics_focus": "Additional CVC: n, c, k, e, h, r",
+        "sight_words": ["a", "I", "the"],
+        "url": "https://www.speldsa.org.au/SPELD-SA-Phonic-Readers-New-Series",
+        "recommended_lesson": [10, 14],
+        "description": "Expands CVC vocabulary gradually"
+      },
+      {
+        "title": "Fish and Chips",
+        "level": "Set 3",
+        "phonics_focus": "Digraphs: sh, ch",
+        "sight_words": ["a", "the", "and", "to"],
+        "url": "https://www.speldsa.org.au/SPELD-SA-Phonic-Readers-New-Series",
+        "recommended_lesson": [65, 66, 71],
+        "description": "Introduction to basic digraphs"
+      }
+    ]
+  },
+  {
+    "source_name": "TextProject DecodableReads",
+    "source_url": "https://textproject.org/free-texts/grades-k-2/decodablereads-decodable-texts",
+    "description": "Free decodable texts for beginning readers from TextProject",
+    "cost": "Free (online viewing and PDF)",
+    "format": "Online and PDF",
+    "books": [
+      {
+        "title": "Pals on the Bus",
+        "level": "Level 1",
+        "phonics_focus": "All short vowels in CVC words",
+        "sight_words": ["the", "a", "to", "and", "is"],
+        "url": "https://textproject.org/free-texts/grades-k-2/decodablereads-decodable-texts",
+        "recommended_lesson": [20, 26, 34],
+        "description": "Short vowel review with engaging story"
+      },
+      {
+        "title": "Zed the Cat",
+        "level": "Level 1",
+        "phonics_focus": "Short vowels CVC",
+        "sight_words": ["a", "the", "is"],
+        "url": "https://textproject.org/free-texts/grades-k-2/decodablereads-decodable-texts",
+        "recommended_lesson": [20, 26],
+        "description": "Cat character story with short vowels"
+      },
+      {
+        "title": "The Bunk Bed",
+        "level": "Level 2",
+        "phonics_focus": "Glued sounds: -ank, -ink, -unk",
+        "sight_words": ["a", "the", "is", "to", "and"],
+        "url": "https://textproject.org/free-texts/grades-k-2/decodablereads-decodable-texts",
+        "recommended_lesson": [63],
+        "description": "Practice with -nk ending pattern"
+      }
+    ]
+  },
+  {
+    "source_name": "Reading Elephant Free Decodable Books",
+    "source_url": "https://www.readingelephant.com/2022/02/19/free-decodable-books-pdf",
+    "description": "Free downloadable decodable books covering short vowels, digraphs, and long vowels",
+    "cost": "Free (PDF)",
+    "format": "PDF downloads",
+    "books": [
+      {
+        "title": "Short A Book",
+        "level": "Short Vowels",
+        "phonics_focus": "CVC words with short a",
+        "sight_words": ["a", "the"],
+        "url": "https://www.readingelephant.com/2022/02/19/free-decodable-books-pdf",
+        "recommended_lesson": [5, 7, 14],
+        "description": "Focused practice on short a sound"
+      },
+      {
+        "title": "Short E Book",
+        "level": "Short Vowels",
+        "phonics_focus": "CVC words with short e",
+        "sight_words": ["a", "the"],
+        "url": "https://www.readingelephant.com/2022/02/19/free-decodable-books-pdf",
+        "recommended_lesson": [25, 26],
+        "description": "Short e CVC practice"
+      },
+      {
+        "title": "Short I Book",
+        "level": "Short Vowels",
+        "phonics_focus": "CVC words with short i",
+        "sight_words": ["a", "the"],
+        "url": "https://www.readingelephant.com/2022/02/19/free-decodable-books-pdf",
+        "recommended_lesson": [10, 14],
+        "description": "Short i focused reading"
+      },
+      {
+        "title": "Short O Book",
+        "level": "Short Vowels",
+        "phonics_focus": "CVC words with short o",
+        "sight_words": ["a", "the"],
+        "url": "https://www.readingelephant.com/2022/02/19/free-decodable-books-pdf",
+        "recommended_lesson": [14],
+        "description": "Short o practice book"
+      },
+      {
+        "title": "Short U Book",
+        "level": "Short Vowels",
+        "phonics_focus": "CVC words with short u",
+        "sight_words": ["a", "the"],
+        "url": "https://www.readingelephant.com/2022/02/19/free-decodable-books-pdf",
+        "recommended_lesson": [19],
+        "description": "Short u reading practice"
+      },
+      {
+        "title": "Consonant Digraphs Book",
+        "level": "Digraphs",
+        "phonics_focus": "sh, ch, th, wh digraphs",
+        "sight_words": ["a", "the", "is", "to"],
+        "url": "https://www.readingelephant.com/2022/02/19/free-decodable-books-pdf",
+        "recommended_lesson": [65, 66, 67, 68, 69, 71],
+        "description": "Practice with common digraphs"
+      },
+      {
+        "title": "Long Vowels Book",
+        "level": "Long Vowels",
+        "phonics_focus": "CVCe patterns (a_e, i_e, o_e, u_e)",
+        "sight_words": ["a", "the", "is", "to", "said"],
+        "url": "https://www.readingelephant.com/2022/02/19/free-decodable-books-pdf",
+        "recommended_lesson": [72, 73, 74, 75, 77],
+        "description": "Magic e practice with all vowels"
+      }
+    ]
+  },
+  {
+    "source_name": "International Children's Digital Library (ICDL)",
+    "source_url": "https://en.childrenslibrary.org/",
+    "description": "Thousands of free children's books from around the world - filter for beginner readers",
+    "cost": "Free (online viewing)",
+    "format": "Online digital books",
+    "books": [
+      {
+        "title": "Various Simple Story Books",
+        "level": "Beginning Readers",
+        "phonics_focus": "Mixed - various phonics patterns",
+        "sight_words": "High-frequency words",
+        "url": "https://en.childrenslibrary.org/",
+        "recommended_lesson": [100, 101, 115, 117, 118],
+        "description": "Search for 'easy to read' or 'beginning reader' books. Quality varies - preview before using."
+      }
+    ]
+  },
+  {
+    "source_name": "Project Gutenberg - Children's Books",
+    "source_url": "https://www.gutenberg.org/ebooks/bookshelf/22",
+    "description": "Public domain children's literature - some suitable for early readers",
+    "cost": "Free (multiple formats)",
+    "format": "EPUB, Kindle, HTML, Plain text",
+    "books": [
+      {
+        "title": "The Tale of Peter Rabbit",
+        "level": "Advanced Beginning Reader",
+        "phonics_focus": "Mixed patterns - real literature",
+        "sight_words": "All high-frequency words",
+        "url": "https://www.gutenberg.org/ebooks/14838",
+        "recommended_lesson": [101, 115, 117, 118],
+        "description": "Classic tale for transitioning to real books (not strictly decodable)"
+      },
+      {
+        "title": "Aesop's Fables",
+        "level": "Advanced Beginning Reader",
+        "phonics_focus": "Mixed - real text",
+        "sight_words": "All common words",
+        "url": "https://www.gutenberg.org/ebooks/11339",
+        "recommended_lesson": [115, 117, 118],
+        "description": "Short fables good for early chapter book readers"
+      }
+    ]
+  },
+  {
+    "source_name": "Reading Universe Free Decodables",
+    "source_url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill",
+    "description": "Curated list of free decodable texts organized by specific phonics skills",
+    "cost": "Free (links to various sources)",
+    "format": "Various (mostly PDF)",
+    "books": [
+      {
+        "title": "All Short Vowels - Recommended List",
+        "level": "CVC Level",
+        "phonics_focus": "All short vowels a, e, i, o, u",
+        "sight_words": "Basic sight words",
+        "url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill",
+        "recommended_lesson": [20, 26, 34],
+        "description": "Curated list with links to various free sources"
+      },
+      {
+        "title": "Glued Sounds (-ank, -ink, -unk)",
+        "level": "Ending Patterns",
+        "phonics_focus": "-ank, -ink, -unk patterns",
+        "sight_words": "Common sight words",
+        "url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill",
+        "recommended_lesson": [63],
+        "description": "Specific practice with -nk ending"
+      },
+      {
+        "title": "Consonant Digraphs Collection",
+        "level": "Digraphs",
+        "phonics_focus": "sh, ch, th, wh, ck",
+        "sight_words": "High-frequency words",
+        "url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill",
+        "recommended_lesson": [65, 66, 67, 68, 69, 70, 71],
+        "description": "Links to free digraph decodables"
+      },
+      {
+        "title": "Consonant Blends Collection",
+        "level": "Blends",
+        "phonics_focus": "Initial and final blends",
+        "sight_words": "Common words",
+        "url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill",
+        "recommended_lesson": [51, 56, 57, 58, 59, 60, 61, 62],
+        "description": "Free blend practice books"
+      },
+      {
+        "title": "Magic E / CVCe Collection",
+        "level": "Long Vowels",
+        "phonics_focus": "a_e, i_e, o_e, u_e patterns",
+        "sight_words": "Sight words",
+        "url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill",
+        "recommended_lesson": [72, 73, 74, 75, 76, 77],
+        "description": "Silent e pattern books"
+      }
+    ]
+  },
+  {
+    "source_name": "Flyleaf Publishing - Sample Decodables",
+    "source_url": "https://flyleafpublishing.com/",
+    "description": "Some free sample decodable books available (full sets are paid, but samples are free)",
+    "cost": "Free samples (full books paid)",
+    "format": "PDF samples",
+    "books": [
+      {
+        "title": "Free Sample Books",
+        "level": "Various",
+        "phonics_focus": "Depends on sample",
+        "sight_words": "Varies",
+        "url": "https://flyleafpublishing.com/",
+        "recommended_lesson": [5, 10, 14, 20, 26],
+        "description": "Check website for current free samples"
+      }
+    ]
+  }
+]

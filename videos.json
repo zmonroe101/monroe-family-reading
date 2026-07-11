@@ -1,0 +1,622 @@
+[
+  {
+    "category": "Alphabet & Letter Sounds",
+    "description": "Introduction to letters and their sounds",
+    "videos": [
+      {
+        "title": "Phonics Song - Learn the Alphabet Sounds",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "embed_id": "FxeHkmHxw8Q",
+        "duration": "3:45",
+        "description": "Catchy song teaching all 26 letter sounds with actions and examples",
+        "phonics_concepts": ["letter recognition", "letter sounds", "alphabet"],
+        "recommended_lesson": [1, 2, 3, 4, 6, 8, 9, 11, 12, 13, 15, 16, 17, 18, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34]
+      },
+      {
+        "title": "Alphablocks - Red Level One | Full Episodes 1-3",
+        "creator": "Alphablocks",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "embed_id": "B8Wf1EadpqE",
+        "duration": "24:30",
+        "description": "Animated blocks introduce letter sounds through stories and songs",
+        "phonics_concepts": ["letter sounds", "alphabet", "beginning reading"],
+        "recommended_lesson": [1, 2, 3, 4, 6, 8, 9, 11, 12, 13, 15, 16, 17, 18, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34]
+      },
+      {
+        "title": "Over One Hour of Fun Phonics Songs for Kids",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=Ijc8PgSnvho",
+        "embed_id": "Ijc8PgSnvho",
+        "duration": "1:03:21",
+        "description": "Compilation of traditional phonics songs covering letter sounds and blending",
+        "phonics_concepts": ["letter sounds", "CVC words", "blending"],
+        "recommended_lesson": [1, 2, 3, 4, 5, 7, 10, 14, 19, 20, 26, 34]
+      }
+    ]
+  },
+  {
+    "category": "CVC Words & Blending",
+    "description": "Learning to blend consonant-vowel-consonant words",
+    "videos": [
+      {
+        "title": "Let's Make a Chain of Words 2 - Segmented Phonics",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "embed_id": "C2ERyOPDUPE",
+        "duration": "3:42",
+        "description": "Phonemic awareness activity showing how to blend and change sounds in words",
+        "phonics_concepts": ["blending", "CVC words", "word families", "phoneme manipulation"],
+        "recommended_lesson": [5, 7, 10, 14, 19, 26, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+      },
+      {
+        "title": "Alphablocks - Learning CVC Words | Full Episodes",
+        "creator": "Alphablocks",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "embed_id": "hhxltYxHlQ0",
+        "duration": "21:15",
+        "description": "Animated letters come together to build simple three-letter words",
+        "phonics_concepts": ["CVC words", "blending", "word building"],
+        "recommended_lesson": [5, 7, 10, 14, 19, 26]
+      },
+      {
+        "title": "Short Vowel Sounds - Phonics Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=4TjcT7Gto3U",
+        "embed_id": "4TjcT7Gto3U",
+        "duration": "2:58",
+        "description": "Focuses specifically on short vowel sounds with examples",
+        "phonics_concepts": ["short vowels", "CVC words", "vowel sounds"],
+        "recommended_lesson": [3, 8, 13, 18, 20, 25, 26]
+      }
+    ]
+  },
+  {
+    "category": "Consonant Blends",
+    "description": "Two or three consonants blended together",
+    "videos": [
+      {
+        "title": "Consonant Blends Song - Beginning Blends",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=g3j-nJhxTIk",
+        "embed_id": "g3j-nJhxTIk",
+        "duration": "3:15",
+        "description": "Teaches initial consonant blends: bl, cl, fl, gl, pl, sl, br, cr, dr, fr, gr, pr, tr",
+        "phonics_concepts": ["L blends", "R blends", "S blends", "initial blends"],
+        "recommended_lesson": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+      },
+      {
+        "title": "Ending Blends - Phonics Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=d4zOj0cJJqU",
+        "embed_id": "d4zOj0cJJqU",
+        "duration": "2:45",
+        "description": "Teaches final consonant blends: -nd, -nt, -mp, -st, -lt, -nk",
+        "phonics_concepts": ["final blends", "ending blends", "CVCC words"],
+        "recommended_lesson": [58, 59, 60, 61, 62, 63]
+      },
+      {
+        "title": "Alphablocks - Blends and Friends | Full Episodes",
+        "creator": "Alphablocks",
+        "url": "https://www.youtube.com/watch?v=WQuaAo-f6_Y",
+        "embed_id": "WQuaAo-f6_Y",
+        "duration": "23:40",
+        "description": "Animated demonstration of how letter friends work together in blends",
+        "phonics_concepts": ["consonant blends", "CCVC words", "teamwork concept"],
+        "recommended_lesson": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 56, 57]
+      }
+    ]
+  },
+  {
+    "category": "Digraphs",
+    "description": "Two letters making one sound",
+    "videos": [
+      {
+        "title": "Digraphs Song - sh, ch, th, wh, ph",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FbMGqcDLKTU",
+        "embed_id": "FbMGqcDLKTU",
+        "duration": "3:20",
+        "description": "Teaches the five main digraphs with examples and motions",
+        "phonics_concepts": ["digraphs", "sh", "ch", "th", "wh", "ph"],
+        "recommended_lesson": [65, 66, 67, 68, 69, 70, 71]
+      },
+      {
+        "title": "Alphablocks - ABC | S2 E25 | Learn to Read",
+        "creator": "Alphablocks",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "embed_id": "IdIP3BGx11M",
+        "duration": "4:45",
+        "description": "Alphablocks demonstrate how two letters work together to make new sounds",
+        "phonics_concepts": ["digraphs", "teamwork", "sh", "ch", "th"],
+        "recommended_lesson": [65, 66, 67, 68, 71]
+      },
+      {
+        "title": "NG Sound Song - Digraph Phonics",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=E7PwZ2YvLOQ",
+        "embed_id": "E7PwZ2YvLOQ",
+        "duration": "2:30",
+        "description": "Specific focus on the -ng ending sound with examples",
+        "phonics_concepts": ["ng digraph", "ending sounds"],
+        "recommended_lesson": [64, 71]
+      }
+    ]
+  },
+  {
+    "category": "Long Vowels - Silent E",
+    "description": "Magic E and CVCe patterns",
+    "videos": [
+      {
+        "title": "Secret Stories® Phonics Song - The Super E",
+        "creator": "Jack Hartmann with Secret Stories",
+        "url": "https://www.youtube.com/watch?v=7zzhOcUpDv4",
+        "embed_id": "7zzhOcUpDv4",
+        "duration": "3:55",
+        "description": "Teaches how silent E makes vowels say their names with memorable stories",
+        "phonics_concepts": ["silent e", "CVCe", "long vowels", "magic e"],
+        "recommended_lesson": [72, 73, 74, 75, 76, 77]
+      },
+      {
+        "title": "The Bossy E Song",
+        "creator": "Between the Lions PBS",
+        "url": "https://www.youtube.com/watch?v=j8iAoqVCQHU",
+        "embed_id": "j8iAoqVCQHU",
+        "duration": "2:15",
+        "description": "Fun song explaining how 'bossy E' changes short vowels to long vowels",
+        "phonics_concepts": ["silent e", "CVCe pattern", "vowel transformation"],
+        "recommended_lesson": [72, 73, 74, 75, 77]
+      },
+      {
+        "title": "Super E - Mark D. Pencil",
+        "creator": "Mark D. Pencil",
+        "url": "https://www.youtube.com/watch?v=9KqKk6c5TGo",
+        "embed_id": "9KqKk6c5TGo",
+        "duration": "1:45",
+        "description": "Catchy superhero-themed song about silent E's powers",
+        "phonics_concepts": ["silent e", "long vowels", "word transformation"],
+        "recommended_lesson": [72, 73, 74, 75, 77]
+      }
+    ]
+  },
+  {
+    "category": "Vowel Teams",
+    "description": "Two vowels working together",
+    "videos": [
+      {
+        "title": "When Two Vowels Go Walking",
+        "creator": "Between the Lions PBS",
+        "url": "https://www.youtube.com/watch?v=cs7QGRKQO3M",
+        "embed_id": "cs7QGRKQO3M",
+        "duration": "2:45",
+        "description": "Classic song teaching 'when two vowels go walking, the first one does the talking'",
+        "phonics_concepts": ["vowel teams", "long vowels", "ai", "ay", "ee", "ea", "oa"],
+        "recommended_lesson": [78, 79, 80, 81, 82, 83, 86]
+      },
+      {
+        "title": "AI and AY Vowel Team Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=pRi3bpuTYak",
+        "embed_id": "pRi3bpuTYak",
+        "duration": "2:50",
+        "description": "Teaches the difference between ai (middle of words) and ay (end of words)",
+        "phonics_concepts": ["ai vowel team", "ay vowel team", "long a sound"],
+        "recommended_lesson": [78, 79, 86]
+      },
+      {
+        "title": "EE and EA Vowel Teams",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=i7N9gC4bXqk",
+        "embed_id": "i7N9gC4bXqk",
+        "duration": "2:35",
+        "description": "Focuses on the two spellings of long E sound",
+        "phonics_concepts": ["ee vowel team", "ea vowel team", "long e sound"],
+        "recommended_lesson": [80, 81, 86]
+      },
+      {
+        "title": "OA and OW Vowel Teams",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=q6d2K7ZrpOo",
+        "embed_id": "q6d2K7ZrpOo",
+        "duration": "3:10",
+        "description": "Long O sound spelled oa and ow with examples",
+        "phonics_concepts": ["oa vowel team", "ow vowel team", "long o sound"],
+        "recommended_lesson": [82, 83, 86]
+      },
+      {
+        "title": "OO Sound Song - Two Sounds of OO",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=wLTwpw8rqhI",
+        "embed_id": "wLTwpw8rqhI",
+        "duration": "2:40",
+        "description": "Teaches both the long oo (moon) and short oo (book) sounds",
+        "phonics_concepts": ["oo vowel team", "long oo", "short oo"],
+        "recommended_lesson": [84, 85, 86]
+      }
+    ]
+  },
+  {
+    "category": "Diphthongs",
+    "description": "Vowel sounds that glide",
+    "videos": [
+      {
+        "title": "OI and OY Diphthong Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=9Xn_yHQwKUw",
+        "embed_id": "9Xn_yHQwKUw",
+        "duration": "2:55",
+        "description": "Teaches oi (middle) and oy (end) spellings of the /oi/ sound",
+        "phonics_concepts": ["oi diphthong", "oy diphthong", "vowel glides"],
+        "recommended_lesson": [87, 88]
+      },
+      {
+        "title": "OU and OW Diphthong Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=kIzP5fP2yGM",
+        "embed_id": "kIzP5fP2yGM",
+        "duration": "3:05",
+        "description": "Teaches the /ow/ sound spelled ou and ow (as in 'cow')",
+        "phonics_concepts": ["ou diphthong", "ow diphthong", "/ow/ sound"],
+        "recommended_lesson": [89, 90]
+      },
+      {
+        "title": "Diphthongs - What Are They?",
+        "creator": "Homeschool Pop",
+        "url": "https://www.youtube.com/watch?v=N0InqRPHFgc",
+        "embed_id": "N0InqRPHFgc",
+        "duration": "5:20",
+        "description": "Educational video explaining what diphthongs are with clear examples",
+        "phonics_concepts": ["diphthongs", "oi", "oy", "ou", "ow"],
+        "recommended_lesson": [87, 88, 89, 90]
+      }
+    ]
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "description": "Bossy R changes vowel sounds",
+    "videos": [
+      {
+        "title": "R-Controlled Vowels Song - ar, er, ir, or, ur",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=7ELHRmhCJVE",
+        "embed_id": "7ELHRmhCJVE",
+        "duration": "3:30",
+        "description": "Comprehensive song covering all five r-controlled vowel patterns",
+        "phonics_concepts": ["r-controlled vowels", "ar", "or", "er", "ir", "ur", "bossy r"],
+        "recommended_lesson": [91, 92, 93, 94]
+      },
+      {
+        "title": "AR Sound Song - Bossy R",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=lQI5Z7xV7K4",
+        "embed_id": "lQI5Z7xV7K4",
+        "duration": "2:20",
+        "description": "Focused practice on the ar sound with examples",
+        "phonics_concepts": ["ar r-controlled vowel", "bossy r"],
+        "recommended_lesson": [91, 94]
+      },
+      {
+        "title": "OR Sound Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=t3MnNNQfLjY",
+        "embed_id": "t3MnNNQfLjY",
+        "duration": "2:15",
+        "description": "Focused practice on the or sound",
+        "phonics_concepts": ["or r-controlled vowel", "bossy r"],
+        "recommended_lesson": [92, 94]
+      },
+      {
+        "title": "ER, IR, UR Sound Song - Three Spellings, One Sound",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=8SFE03r_17Q",
+        "embed_id": "8SFE03r_17Q",
+        "duration": "2:50",
+        "description": "Explains how er, ir, and ur all make the same sound",
+        "phonics_concepts": ["er", "ir", "ur", "r-controlled vowels"],
+        "recommended_lesson": [93, 94]
+      }
+    ]
+  },
+  {
+    "category": "Advanced Patterns",
+    "description": "Complex spelling patterns and rules",
+    "videos": [
+      {
+        "title": "IGH Pattern Song - Long I Sound",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=kIb_QN_S6-E",
+        "embed_id": "kIb_QN_S6-E",
+        "duration": "2:25",
+        "description": "Teaches the -ight pattern with examples like night, light, right",
+        "phonics_concepts": ["igh pattern", "silent letters", "long i"],
+        "recommended_lesson": [95, 109]
+      },
+      {
+        "title": "TION and SION Suffix Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=oXNF0K_1yT4",
+        "embed_id": "oXNF0K_1yT4",
+        "duration": "3:00",
+        "description": "Teaches common suffixes that sound like 'shun'",
+        "phonics_concepts": ["-tion suffix", "-sion suffix", "multisyllabic words"],
+        "recommended_lesson": [96, 97]
+      },
+      {
+        "title": "Soft C and Soft G",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=H9L8Y2pFqsU",
+        "embed_id": "H9L8Y2pFqsU",
+        "duration": "2:45",
+        "description": "Explains when C says /s/ and G says /j/",
+        "phonics_concepts": ["soft c", "soft g", "consonant rules"],
+        "recommended_lesson": [98, 99]
+      },
+      {
+        "title": "Silent Letters Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=kS68ckxcNG8",
+        "embed_id": "kS68ckxcNG8",
+        "duration": "3:15",
+        "description": "Covers common silent letter patterns: kn, wr, mb, gh, and more",
+        "phonics_concepts": ["silent letters", "kn-", "wr-", "-gh", "-mb"],
+        "recommended_lesson": [107, 108, 109]
+      }
+    ]
+  },
+  {
+    "category": "Syllables & Multisyllabic Words",
+    "description": "Breaking longer words into parts",
+    "videos": [
+      {
+        "title": "Syllable Rules and Patterns",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=tk-VbZ8YKC8",
+        "embed_id": "tk-VbZ8YKC8",
+        "duration": "3:40",
+        "description": "Teaches syllable division rules and types",
+        "phonics_concepts": ["syllables", "syllable division", "multisyllabic words"],
+        "recommended_lesson": [100, 101]
+      },
+      {
+        "title": "Clap the Syllables Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=dJkdnGF4-qs",
+        "embed_id": "dJkdnGF4-qs",
+        "duration": "2:30",
+        "description": "Fun kinesthetic activity for counting syllables",
+        "phonics_concepts": ["syllable counting", "phonological awareness"],
+        "recommended_lesson": [101]
+      },
+      {
+        "title": "Consonant + LE Syllables",
+        "creator": "Homeschool Pop",
+        "url": "https://www.youtube.com/watch?v=xqZSOOPWgac",
+        "embed_id": "xqZSOOPWgac",
+        "duration": "4:15",
+        "description": "Explains final stable syllables ending in -le",
+        "phonics_concepts": ["c+le syllables", "final stable syllables"],
+        "recommended_lesson": [100]
+      }
+    ]
+  },
+  {
+    "category": "Word Study",
+    "description": "Prefixes, suffixes, compound words, contractions",
+    "videos": [
+      {
+        "title": "Compound Words Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=VK_7pWRBS4k",
+        "embed_id": "VK_7pWRBS4k",
+        "duration": "2:50",
+        "description": "Teaches how two small words combine to make compound words",
+        "phonics_concepts": ["compound words", "word parts"],
+        "recommended_lesson": [102]
+      },
+      {
+        "title": "Contractions Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=rjvIKzMRAL0",
+        "embed_id": "rjvIKzMRAL0",
+        "duration": "3:05",
+        "description": "Fun song about common contractions and apostrophes",
+        "phonics_concepts": ["contractions", "apostrophes"],
+        "recommended_lesson": [103]
+      },
+      {
+        "title": "Prefixes UN and RE",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=b2M8Pd-TXD0",
+        "embed_id": "b2M8Pd-TXD0",
+        "duration": "2:40",
+        "description": "Teaches meaning and usage of un- and re- prefixes",
+        "phonics_concepts": ["prefixes", "un-", "re-", "morphology"],
+        "recommended_lesson": [104]
+      },
+      {
+        "title": "Suffixes ED and ING",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=Qqb3MArYGP4",
+        "embed_id": "Qqb3MArYGP4",
+        "duration": "2:55",
+        "description": "Teaches how to add -ed and -ing to base words",
+        "phonics_concepts": ["suffixes", "-ed", "-ing", "verb tenses"],
+        "recommended_lesson": [105]
+      },
+      {
+        "title": "Plural Suffixes S and ES",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=YA4Mh0b3TQU",
+        "embed_id": "YA4Mh0b3TQU",
+        "duration": "2:30",
+        "description": "Explains when to use -s vs -es for plurals",
+        "phonics_concepts": ["plurals", "-s", "-es", "noun forms"],
+        "recommended_lesson": [106]
+      }
+    ]
+  },
+  {
+    "category": "Sight Words & High-Frequency Words",
+    "description": "Common words that appear frequently in text",
+    "videos": [
+      {
+        "title": "Sight Words | High Frequency Words | All 220 Dolch Sight Words",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=TvMyssfAUx0",
+        "embed_id": "TvMyssfAUx0",
+        "duration": "17:30",
+        "description": "Complete compilation of all Dolch sight words with clear pronunciation",
+        "phonics_concepts": ["sight words", "high-frequency words", "Dolch list"],
+        "recommended_lesson": [111, 112]
+      },
+      {
+        "title": "Pre-Primer Sight Words | Dolch Words",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=f0qJb3MFp_E",
+        "embed_id": "f0qJb3MFp_E",
+        "duration": "3:45",
+        "description": "Beginner sight words with repetition for memorization",
+        "phonics_concepts": ["pre-primer sight words", "beginner reading"],
+        "recommended_lesson": [111]
+      },
+      {
+        "title": "Primer Sight Words Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=Au6I-t-VYyA",
+        "embed_id": "Au6I-t-VYyA",
+        "duration": "4:20",
+        "description": "52 primer-level sight words set to music",
+        "phonics_concepts": ["primer sight words", "word recognition"],
+        "recommended_lesson": [111, 112]
+      },
+      {
+        "title": "See It, Say It, Sign It | Sight Words",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=j-D9I_5hNwI",
+        "embed_id": "j-D9I_5hNwI",
+        "duration": "3:55",
+        "description": "Multisensory approach with ASL signs for common sight words",
+        "phonics_concepts": ["sight words", "multisensory learning", "ASL"],
+        "recommended_lesson": [111, 112]
+      }
+    ]
+  },
+  {
+    "category": "Reading Fluency & Comprehension",
+    "description": "Building reading speed and understanding",
+    "videos": [
+      {
+        "title": "Reading Fluency - Read with Expression",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=Fn5qOcB8ORI",
+        "embed_id": "Fn5qOcB8ORI",
+        "duration": "3:10",
+        "description": "Teaches how to read smoothly with appropriate expression",
+        "phonics_concepts": ["reading fluency", "expression", "phrasing"],
+        "recommended_lesson": [113]
+      },
+      {
+        "title": "Reading Comprehension Strategies",
+        "creator": "Homeschool Pop",
+        "url": "https://www.youtube.com/watch?v=ydIV3P9MVXA",
+        "embed_id": "ydIV3P9MVXA",
+        "duration": "6:45",
+        "description": "Introduces key strategies for understanding what you read",
+        "phonics_concepts": ["reading comprehension", "strategies", "understanding"],
+        "recommended_lesson": [114]
+      },
+      {
+        "title": "Asking Questions While Reading",
+        "creator": "Teaching Without Frills",
+        "url": "https://www.youtube.com/watch?v=nQ0Jk4qYKDQ",
+        "embed_id": "nQ0Jk4qYKDQ",
+        "duration": "4:30",
+        "description": "Teaches who, what, where, when, why question strategies",
+        "phonics_concepts": ["comprehension questions", "active reading"],
+        "recommended_lesson": [114]
+      }
+    ]
+  },
+  {
+    "category": "Phonemic Awareness",
+    "description": "Sound manipulation and awareness activities",
+    "videos": [
+      {
+        "title": "Rhyming Words Song",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=jn1ojWXDWvU",
+        "embed_id": "jn1ojWXDWvU",
+        "duration": "2:45",
+        "description": "Fun practice identifying and creating rhyming words",
+        "phonics_concepts": ["rhyming", "phonological awareness", "word families"],
+        "recommended_lesson": [5, 7, 10, 14, 19, 26]
+      },
+      {
+        "title": "Segmenting and Blending Sounds",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=gLbpb-bFp2A",
+        "embed_id": "gLbpb-bFp2A",
+        "duration": "3:20",
+        "description": "Practice breaking words into sounds and putting them back together",
+        "phonics_concepts": ["segmenting", "blending", "phoneme manipulation"],
+        "recommended_lesson": [5, 7, 10, 14, 19, 26, 116]
+      },
+      {
+        "title": "Beginning, Middle, and Ending Sounds",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=k5cNkHPcTT0",
+        "embed_id": "k5cNkHPcTT0",
+        "duration": "3:00",
+        "description": "Identifying sounds in different positions within words",
+        "phonics_concepts": ["sound position", "phoneme awareness"],
+        "recommended_lesson": [5, 7, 10, 14, 19, 26]
+      }
+    ]
+  },
+  {
+    "category": "Fun & Engagement",
+    "description": "Entertaining phonics content to maintain motivation",
+    "videos": [
+      {
+        "title": "Alphablocks - Full Episodes Marathon",
+        "creator": "Alphablocks",
+        "url": "https://www.youtube.com/watch?v=gNZ5y2LXmgY",
+        "embed_id": "gNZ5y2LXmgY",
+        "duration": "45:00",
+        "description": "Extended Alphablocks adventures covering multiple phonics concepts",
+        "phonics_concepts": ["comprehensive phonics", "entertainment", "all concepts"],
+        "recommended_lesson": [1, 2, 3, 4, 5, 10, 14, 20, 26, 34, 65, 71, 72, 77, 86]
+      },
+      {
+        "title": "Nessy Reading Strategy | Tricky Words",
+        "creator": "Nessy",
+        "url": "https://www.youtube.com/watch?v=TvMyssfAUx0",
+        "embed_id": "TvMyssfAUx0",
+        "duration": "5:30",
+        "description": "Animated strategies for remembering irregular words",
+        "phonics_concepts": ["sight words", "irregular words", "memory strategies"],
+        "recommended_lesson": [111, 112]
+      },
+      {
+        "title": "Storybots - ABC Jamboree",
+        "creator": "StoryBots",
+        "url": "https://www.youtube.com/watch?v=36n93jvjkDs",
+        "embed_id": "36n93jvjkDs",
+        "duration": "3:45",
+        "description": "Energetic alphabet song with memorable characters",
+        "phonics_concepts": ["alphabet", "letter recognition", "entertainment"],
+        "recommended_lesson": [1, 2, 3, 4, 34]
+      },
+      {
+        "title": "Brain Breaks - Phonics Dance",
+        "creator": "Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=rSJDvEDGO9w",
+        "embed_id": "rSJDvEDGO9w",
+        "duration": "4:00",
+        "description": "Movement-based phonics practice for active learning",
+        "phonics_concepts": ["kinesthetic learning", "letter sounds", "movement"],
+        "recommended_lesson": [1, 2, 3, 4, 34]
+      }
+    ]
+  }
+]

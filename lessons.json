@@ -1,0 +1,4322 @@
+[
+  {
+    "lesson_number": 1,
+    "title": "Letter Sound: M",
+    "phonics_concept": "Consonant sound /m/",
+    "practice_words": ["m", "mmm", "mat", "mom"],
+    "video_links": [
+      {
+        "title": "Letter M Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter M sound"
+      },
+      {
+        "title": "Alphablocks - Letter M",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Alphablocks Red Level - Letter M introduction"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Starting with M sounds",
+        "source": "Reading Doctor Decodables",
+        "level": "CVC - Level 1A",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: M M M m m m\nTrace and say the sound: /m/ /m/ /m/",
+      "practice": "Circle the pictures that start with /m/: moon, mouse, map, milk",
+      "writing": "Write the letter: M m M m M m"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /m/ sound like in 'mom' and 'mouse'. Put your lips together and hum.",
+      "how_to_guide": "Show how lips come together. Have child feel vibration on lips. Practice sustained /mmm/ sound before short /m/.",
+      "common_mistakes": "Children may say the letter name instead of the sound. Remind them it's /m/ not 'em'."
+    }
+  },
+  {
+    "lesson_number": 2,
+    "title": "Letter Sound: S",
+    "phonics_concept": "Consonant sound /s/",
+    "practice_words": ["s", "sss", "sun", "sit"],
+    "video_links": [
+      {
+        "title": "Letter S Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter S sound"
+      },
+      {
+        "title": "Alphablocks - Letter S",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Alphablocks introduces S"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ant nap (satpine)",
+        "source": "Reading Doctor - Part I Book 1",
+        "level": "CVC Words - satpine",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: S S S s s s\nTrace and say the sound: /s/ /s/ /s/",
+      "practice": "Circle the pictures that start with /s/: sun, snake, sock, sandwich",
+      "writing": "Write the letter: S s S s S s"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /s/ sound like a snake hissing. Put your tongue behind your top teeth and blow air.",
+      "how_to_guide": "Demonstrate tongue position. Have child make hissing sound. Practice continuous /sss/ before short /s/.",
+      "common_mistakes": "May confuse with /z/ sound. Emphasize voiceless quality - no vibration in throat."
+    }
+  },
+  {
+    "lesson_number": 3,
+    "title": "Letter Sound: A",
+    "phonics_concept": "Short vowel /a/ as in 'cat'",
+    "practice_words": ["a", "at", "an", "am"],
+    "video_links": [
+      {
+        "title": "Short A Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn short vowel A"
+      },
+      {
+        "title": "Alphablocks - Letter A",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Short A sound introduction"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ant nap",
+        "source": "Reading Doctor - Part I Book 1",
+        "level": "CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: A A A a a a\nTrace and say the sound: /a/ /a/ /a/ (as in 'apple')",
+      "practice": "Circle the pictures with short /a/: cat, bat, hat, pan",
+      "writing": "Write the letter: A a A a A a"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /a/ sound like in 'apple' and 'cat'. Open your mouth wide.",
+      "how_to_guide": "Show wide open mouth. Not 'ay' (letter name) but /a/ (short sound). Exaggerate the short sound.",
+      "common_mistakes": "Confusion between short /a/ and long 'a'. Emphasize this is the short sound heard in 'cat', not 'cake'."
+    }
+  },
+  {
+    "lesson_number": 4,
+    "title": "Letter Sound: T",
+    "phonics_concept": "Consonant sound /t/",
+    "practice_words": ["t", "tap", "top", "at"],
+    "video_links": [
+      {
+        "title": "Letter T Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter T sound"
+      },
+      {
+        "title": "Alphablocks - Letter T",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "T sound with Alphablocks"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ant nap",
+        "source": "Reading Doctor - Part I Book 1",
+        "level": "CVC Words - satpine",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: T T T t t t\nTrace and say the sound: /t/ /t/ /t/",
+      "practice": "Circle the pictures that start with /t/: tent, turtle, table, tiger",
+      "writing": "Write the letter: T t T t T t"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /t/ sound. Put your tongue behind your top teeth and pop it away.",
+      "how_to_guide": "Show tongue position. Practice explosive /t/ sound with puff of air. Feel the burst of air on hand.",
+      "common_mistakes": "May say 'tuh' instead of clean /t/. Emphasize no added vowel sound after the /t/."
+    }
+  },
+  {
+    "lesson_number": 5,
+    "title": "Blending: SAT",
+    "phonics_concept": "Blending CVC word S-A-T",
+    "practice_words": ["sat", "s-a-t", "at", "as"],
+    "video_links": [
+      {
+        "title": "Blending CVC Words - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "How to blend letter sounds together"
+      },
+      {
+        "title": "Alphablocks - SAT Word Building",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "Watch letters blend to make 'sat'"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ant nap",
+        "source": "Reading Doctor - Part I Book 1",
+        "level": "CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace the word: sat sat sat",
+      "practice": "Sound it out: /s/ /a/ /t/ = sat\nCircle the word 'sat' in sentences:\nThe cat sat. I sat down.",
+      "writing": "Write the word three times: sat ___ ___ ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Let's blend these sounds together smoothly. Start with /sss/ then add /aaa/ then /t/. Don't stop between sounds - blend them together: sssaaattt = sat!",
+      "how_to_guide": "Point to each letter as you say its sound. Slide your finger smoothly under the word. Model continuous blending, not choppy sounds.",
+      "common_mistakes": "Choppy blending (s-a-t instead of sat). Encourage continuous sound blending without pauses between phonemes."
+    }
+  },
+  {
+    "lesson_number": 6,
+    "title": "Letter Sound: P",
+    "phonics_concept": "Consonant sound /p/",
+    "practice_words": ["p", "pop", "pat", "sap"],
+    "video_links": [
+      {
+        "title": "Letter P Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter P sound"
+      },
+      {
+        "title": "Alphablocks - Letter P",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "P sound introduction"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ant nap",
+        "source": "Reading Doctor - Part I Book 1",
+        "level": "CVC Words - satpine",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: P P P p p p\nTrace and say the sound: /p/ /p/ /p/",
+      "practice": "Circle pictures starting with /p/: pig, pan, pizza, penguin",
+      "writing": "Write the letter: P p P p P p"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /p/ sound. Press your lips together and pop them open.",
+      "how_to_guide": "Show lip closure. Practice popping sound with air puff. Compare to /b/ but without voice.",
+      "common_mistakes": "May confuse with /b/. Emphasize /p/ is voiceless - no throat vibration. Use hand to feel puff of air."
+    }
+  },
+  {
+    "lesson_number": 7,
+    "title": "Blending: PAT, TAP, SAP",
+    "phonics_concept": "Blending multiple CVC words",
+    "practice_words": ["pat", "tap", "sap", "sat", "at", "as"],
+    "video_links": [
+      {
+        "title": "CVC Word Family - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Practice blending word families"
+      },
+      {
+        "title": "Alphablocks - CVC Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "Letter blocks make words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ant nap",
+        "source": "Reading Doctor - Part I Book 1",
+        "level": "CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: pat tap sap",
+      "practice": "Sound out each word:\n/p/ /a/ /t/ = pat\n/t/ /a/ /p/ = tap\n/s/ /a/ /p/ = sap",
+      "writing": "Write: pat ___ tap ___ sap ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Notice how changing the first or last letter makes a completely different word! Let's sound out each one carefully.",
+      "how_to_guide": "Point out letter position changes. Practice blending each word smoothly. Show how same letters make different words.",
+      "common_mistakes": "Rushing through without careful blending. Remind child to touch each letter and say its sound before blending."
+    }
+  },
+  {
+    "lesson_number": 8,
+    "title": "Letter Sound: I",
+    "phonics_concept": "Short vowel /i/ as in 'sit'",
+    "practice_words": ["i", "it", "in", "is"],
+    "video_links": [
+      {
+        "title": "Short I Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn short vowel I"
+      },
+      {
+        "title": "Alphablocks - Letter I",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Short I sound"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ant nap",
+        "source": "Reading Doctor - Part I Book 1",
+        "level": "CVC Words - satpine",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: I I I i i i\nTrace and say: /i/ /i/ /i/ (as in 'igloo')",
+      "practice": "Circle pictures with short /i/: pig, fish, dig, bit",
+      "writing": "Write the letter: I i I i I i"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /i/ sound like in 'igloo' and 'sit'. Your mouth is slightly open and relaxed.",
+      "how_to_guide": "Demonstrate relaxed mouth position. This is NOT 'eye' (letter name) but /i/ (short sound). Practice with familiar words: sit, hit, kit.",
+      "common_mistakes": "Saying long 'i' sound (like 'ice'). Emphasize short, quick /i/ as in 'sit' not 'site'."
+    }
+  },
+  {
+    "lesson_number": 9,
+    "title": "Letter Sound: N",
+    "phonics_concept": "Consonant sound /n/",
+    "practice_words": ["n", "nnn", "not", "nap"],
+    "video_links": [
+      {
+        "title": "Letter N Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter N sound"
+      },
+      {
+        "title": "Alphablocks - Letter N",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "N sound with Alphablocks"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ant nap",
+        "source": "Reading Doctor - Part I Book 1",
+        "level": "CVC Words - satpine",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: N N N n n n\nTrace and say: /n/ /n/ /n/",
+      "practice": "Circle pictures starting with /n/: nose, nest, net, nut",
+      "writing": "Write the letter: N n N n N n"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /n/ sound. Put your tongue on the roof of your mouth and hum through your nose.",
+      "how_to_guide": "Show tongue position touching alveolar ridge. Have child feel nose vibration while making /nnn/ sound.",
+      "common_mistakes": "May confuse with /m/. Show difference - /n/ has tongue up, /m/ has lips together."
+    }
+  },
+  {
+    "lesson_number": 10,
+    "title": "Blending: SIT, PIN, TIN",
+    "phonics_concept": "CVC words with short i",
+    "practice_words": ["sit", "pin", "tin", "nip", "pit", "tip"],
+    "video_links": [
+      {
+        "title": "Short I Word Families - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Practice -it and -in families"
+      },
+      {
+        "title": "Alphablocks - Short I Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "CVC words with I"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ant nap",
+        "source": "Reading Doctor - Part I Book 1",
+        "level": "CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-1"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: sit pin tin",
+      "practice": "Blend these words:\n/s/ /i/ /t/ = sit\n/p/ /i/ /n/ = pin\n/t/ /i/ /n/ = tin",
+      "writing": "Write each word twice: sit ___ pin ___ tin ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Let's read these short i words. Remember to blend smoothly from one sound to the next.",
+      "how_to_guide": "Emphasize short /i/ sound. Practice word families (-it, -in, -ip). Point to each letter while blending.",
+      "common_mistakes": "Substituting long 'i' sound. Reinforce short /i/ by comparing: 'sit' not 'site', 'pin' not 'pine'."
+    }
+  },
+  {
+    "lesson_number": 11,
+    "title": "Letter Sound: C (hard)",
+    "phonics_concept": "Consonant sound /k/ (as in 'cat')",
+    "practice_words": ["c", "cat", "cap", "can"],
+    "video_links": [
+      {
+        "title": "Letter C Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn hard C sound"
+      },
+      {
+        "title": "Alphablocks - Letter C",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "C makes /k/ sound"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "The cat and cod run",
+        "source": "Reading Doctor - Part I Book 2",
+        "level": "CVC Words - chordlu",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: C C C c c c\nTrace and say: /k/ /k/ /k/",
+      "practice": "Circle pictures with hard C: cat, car, cup, corn",
+      "writing": "Write the letter: C c C c C c"
+    },
+    "teaching_notes": {
+      "what_to_say": "The letter C can make different sounds. Right now we're learning the /k/ sound like in 'cat' and 'cup'.",
+      "how_to_guide": "Demonstrate back-of-throat /k/ sound. Explain C also makes /s/ sound (in 'city') but we'll learn that later.",
+      "common_mistakes": "May try to use soft C (/s/) sound. For now, stick with hard C before a, o, u."
+    }
+  },
+  {
+    "lesson_number": 12,
+    "title": "Letter Sound: H",
+    "phonics_concept": "Consonant sound /h/",
+    "practice_words": ["h", "hat", "hit", "hop"],
+    "video_links": [
+      {
+        "title": "Letter H Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter H sound"
+      },
+      {
+        "title": "Alphablocks - Letter H",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "H sound introduction"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "The cat and cod run",
+        "source": "Reading Doctor - Part I Book 2",
+        "level": "CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: H H H h h h\nTrace and say: /h/ /h/ /h/",
+      "practice": "Circle pictures starting with /h/: house, horse, hand, heart",
+      "writing": "Write the letter: H h H h H h"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /h/ sound like you're breathing out or panting. It's a whisper sound.",
+      "how_to_guide": "Show open mouth with breath. Practice panting like a dog: /h/ /h/ /h/. Very light sound, no harsh scraping.",
+      "common_mistakes": "Making sound too harsh. Should be gentle breath, not forced from throat."
+    }
+  },
+  {
+    "lesson_number": 13,
+    "title": "Letter Sound: O",
+    "phonics_concept": "Short vowel /o/ as in 'hot'",
+    "practice_words": ["o", "on", "pot", "hot"],
+    "video_links": [
+      {
+        "title": "Short O Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn short vowel O"
+      },
+      {
+        "title": "Alphablocks - Letter O",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Short O sound"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "The cat and cod run",
+        "source": "Reading Doctor - Part I Book 2",
+        "level": "CVC Words - chordlu",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: O O O o o o\nTrace and say: /o/ /o/ /o/ (as in 'octopus')",
+      "practice": "Circle pictures with short /o/: dog, sock, pot, mop",
+      "writing": "Write the letter: O o O o O o"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /o/ sound like in 'octopus' and 'hot'. Open your mouth in a circle and say /o/.",
+      "how_to_guide": "Show rounded, open mouth. NOT 'oh' (letter name) but /o/ (short sound). Practice: hot, pot, dot.",
+      "common_mistakes": "Using long O sound ('oh'). Emphasize short /o/ as in 'hot' not 'hose'."
+    }
+  },
+  {
+    "lesson_number": 14,
+    "title": "Blending: CAT, COT, HOT",
+    "phonics_concept": "CVC words with short a and o",
+    "practice_words": ["cat", "cap", "cot", "hot", "hop", "hat"],
+    "video_links": [
+      {
+        "title": "Word Families -at -ot - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Practice -at and -ot families"
+      },
+      {
+        "title": "Alphablocks - Short Vowel Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "Building CVC words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "The cat and cod run",
+        "source": "Reading Doctor - Part I Book 2",
+        "level": "CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: cat cot hot",
+      "practice": "Sound out:\n/k/ /a/ /t/ = cat\n/k/ /o/ /t/ = cot\n/h/ /o/ /t/ = hot",
+      "writing": "Write: cat ___ cot ___ hot ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Watch how changing the vowel changes the word! Cat has /a/ but cot has /o/. Listen carefully to the middle sound.",
+      "how_to_guide": "Emphasize vowel differences. Have child feel mouth position change between /a/ and /o/. Practice minimal pairs.",
+      "common_mistakes": "Confusing short a and short o sounds. Use exaggerated articulation to show difference."
+    }
+  },
+  {
+    "lesson_number": 15,
+    "title": "Letter Sound: R",
+    "phonics_concept": "Consonant sound /r/",
+    "practice_words": ["r", "ran", "rat", "rip"],
+    "video_links": [
+      {
+        "title": "Letter R Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter R sound"
+      },
+      {
+        "title": "Alphablocks - Letter R",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "R sound with Alphablocks"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "The cat and cod run",
+        "source": "Reading Doctor - Part I Book 2",
+        "level": "CVC Words - chordlu",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: R R R r r r\nTrace and say: /r/ /r/ /r/",
+      "practice": "Circle pictures starting with /r/: rabbit, ring, rose, rocket",
+      "writing": "Write the letter: R r R r R r"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /r/ sound like a growling dog. Curl your tongue back a little.",
+      "how_to_guide": "Show tongue position - slightly curled or bunched. Practice /rrr/ sound. May be challenging - be patient.",
+      "common_mistakes": "R is often difficult for young learners. Some may say /w/ instead. Model frequently and accept approximations initially."
+    }
+  },
+  {
+    "lesson_number": 16,
+    "title": "Letter Sound: D",
+    "phonics_concept": "Consonant sound /d/",
+    "practice_words": ["d", "dad", "dot", "dip"],
+    "video_links": [
+      {
+        "title": "Letter D Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter D sound"
+      },
+      {
+        "title": "Alphablocks - Letter D",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "D sound introduction"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "The cat and cod run",
+        "source": "Reading Doctor - Part I Book 2",
+        "level": "CVC Words - chordlu",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: D D D d d d\nTrace and say: /d/ /d/ /d/",
+      "practice": "Circle pictures starting with /d/: dog, door, duck, drum",
+      "writing": "Write the letter: D d D d D d"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /d/ sound. Put your tongue behind your top teeth like /t/ but add your voice.",
+      "how_to_guide": "Compare to /t/ - same position but voiced. Have child feel throat vibration for /d/ vs. none for /t/.",
+      "common_mistakes": "Confusing /d/ and /t/. Use hand on throat to feel vibration difference. Practice: 'duh' has buzz, 'tuh' doesn't."
+    }
+  },
+  {
+    "lesson_number": 17,
+    "title": "Letter Sound: L",
+    "phonics_concept": "Consonant sound /l/",
+    "practice_words": ["l", "lap", "let", "lip"],
+    "video_links": [
+      {
+        "title": "Letter L Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter L sound"
+      },
+      {
+        "title": "Alphablocks - Letter L",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "L sound with Alphablocks"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "The cat and cod run",
+        "source": "Reading Doctor - Part I Book 2",
+        "level": "CVC Words - chordlu",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: L L L l l l\nTrace and say: /l/ /l/ /l/",
+      "practice": "Circle pictures starting with /l/: lion, lamp, leaf, ladder",
+      "writing": "Write the letter: L l L l L l"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /l/ sound. Put your tongue tip on the roof of your mouth and let the sound flow out the sides.",
+      "how_to_guide": "Show tongue touching alveolar ridge. Practice sustained /lll/ sound. Air flows around sides of tongue.",
+      "common_mistakes": "May confuse with /r/ or /w/. Emphasize tongue-up position. Practice: 'luh' has tongue on roof, 'ruh' and 'wuh' don't."
+    }
+  },
+  {
+    "lesson_number": 18,
+    "title": "Letter Sound: U",
+    "phonics_concept": "Short vowel /u/ as in 'cup'",
+    "practice_words": ["u", "up", "us", "sun"],
+    "video_links": [
+      {
+        "title": "Short U Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn short vowel U"
+      },
+      {
+        "title": "Alphablocks - Letter U",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Short U sound"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "The cat and cod run",
+        "source": "Reading Doctor - Part I Book 2",
+        "level": "CVC Words - chordlu",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: U U U u u u\nTrace and say: /u/ /u/ /u/ (as in 'umbrella')",
+      "practice": "Circle pictures with short /u/: cup, sun, rug, bug",
+      "writing": "Write the letter: U u U u U u"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /u/ sound like in 'umbrella' and 'cup'. Your mouth is relaxed and slightly open.",
+      "how_to_guide": "Show relaxed, neutral mouth. NOT 'you' (letter name) but /u/ (short sound). Practice: cup, bug, run.",
+      "common_mistakes": "Saying long U ('you' sound). Emphasize short, quick /u/ as in 'cup' not 'cube'."
+    }
+  },
+  {
+    "lesson_number": 19,
+    "title": "Blending: RUN, SUN, FUN",
+    "phonics_concept": "CVC words with short u",
+    "practice_words": ["run", "sun", "fun", "cup", "pup", "cut"],
+    "video_links": [
+      {
+        "title": "Short U Word Families - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Practice -un and -up families"
+      },
+      {
+        "title": "Alphablocks - Short U Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "CVC words with U"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "The cat and cod run",
+        "source": "Reading Doctor - Part I Book 2",
+        "level": "CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-2"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: run sun fun",
+      "practice": "Blend these words:\n/r/ /u/ /n/ = run\n/s/ /u/ /n/ = sun\n/f/ /u/ /n/ = fun",
+      "writing": "Write each word: run ___ sun ___ fun ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Let's practice our short u words! Remember, /u/ sounds like 'uh' in 'cup'.",
+      "how_to_guide": "Emphasize consistent short /u/ sound. Practice -un family words. Point and blend smoothly.",
+      "common_mistakes": "Using long U sound. Reinforce: 'run' not 'ruin', 'fun' not 'fewn'. Model correct short u repeatedly."
+    }
+  },
+  {
+    "lesson_number": 20,
+    "title": "Review: All Short Vowels",
+    "phonics_concept": "Comparing a, i, o, u sounds",
+    "practice_words": ["cat", "sit", "hot", "run", "mat", "pin", "pot", "sun"],
+    "video_links": [
+      {
+        "title": "Short Vowel Review - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Review all 5 short vowels"
+      },
+      {
+        "title": "Alphablocks - Vowel Sounds",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "Short vowel comparison"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A wet dog and a fat hog",
+        "source": "Reading Doctor - Part I Book 5a",
+        "level": "All CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-5"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: a i o u",
+      "practice": "Match vowels to words:\n/a/ - cat, mat, hat\n/i/ - sit, pin, lip\n/o/ - hot, pot, dot\n/u/ - run, sun, cup",
+      "writing": "Write one word for each vowel: a___ i___ o___ u___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Let's review our vowel sounds! Each vowel makes its own special sound. Listen carefully to tell them apart.",
+      "how_to_guide": "Compare all four vowels learned so far. Use minimal pairs to highlight differences. Practice identifying vowel sounds in CVC words.",
+      "common_mistakes": "Mixing up vowel sounds. Use hand gestures or physical cues for each vowel to help differentiate."
+    }
+  },
+  {
+    "lesson_number": 21,
+    "title": "Letter Sound: B",
+    "phonics_concept": "Consonant sound /b/",
+    "practice_words": ["b", "bat", "bit", "bun"],
+    "video_links": [
+      {
+        "title": "Letter B Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter B sound"
+      },
+      {
+        "title": "Alphablocks - Letter B",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "B sound introduction"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A fin is on the man",
+        "source": "Reading Doctor - Part I Book 3",
+        "level": "CVC Words - bmwfg",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-3"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: B B B b b b\nTrace and say: /b/ /b/ /b/",
+      "practice": "Circle pictures starting with /b/: ball, bear, book, banana",
+      "writing": "Write the letter: B b B b B b"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /b/ sound. Press your lips together and let them pop open with your voice.",
+      "how_to_guide": "Compare to /p/ - same lip position but /b/ uses voice. Have child feel throat vibration.",
+      "common_mistakes": "Confusing /b/ and /p/. Emphasize: /b/ has voice (buzzing in throat), /p/ doesn't. Practice alternating: /b/ /p/ /b/ /p/."
+    }
+  },
+  {
+    "lesson_number": 22,
+    "title": "Letter Sound: F",
+    "phonics_concept": "Consonant sound /f/",
+    "practice_words": ["f", "fan", "fat", "fin"],
+    "video_links": [
+      {
+        "title": "Letter F Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter F sound"
+      },
+      {
+        "title": "Alphablocks - Letter F",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "F sound with Alphablocks"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A fin is on the man",
+        "source": "Reading Doctor - Part I Book 3",
+        "level": "CVC Words - bmwfg",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-3"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: F F F f f f\nTrace and say: /f/ /f/ /f/",
+      "practice": "Circle pictures starting with /f/: fish, fork, foot, fire",
+      "writing": "Write the letter: F f F f F f"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /f/ sound. Bite your bottom lip gently with your top teeth and blow air.",
+      "how_to_guide": "Show teeth-on-lip position. Practice continuous /fff/ sound like air escaping.",
+      "common_mistakes": "May confuse with /v/. Emphasize /f/ is voiceless - no throat vibration, just air."
+    }
+  },
+  {
+    "lesson_number": 23,
+    "title": "Letter Sound: G (hard)",
+    "phonics_concept": "Consonant sound /g/ (as in 'got')",
+    "practice_words": ["g", "got", "gap", "gum"],
+    "video_links": [
+      {
+        "title": "Letter G Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn hard G sound"
+      },
+      {
+        "title": "Alphablocks - Letter G",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "G makes /g/ sound"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A fin is on the man",
+        "source": "Reading Doctor - Part I Book 3",
+        "level": "CVC Words - bmwfg",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-3"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: G G G g g g\nTrace and say: /g/ /g/ /g/",
+      "practice": "Circle pictures with hard G: goat, girl, game, gas",
+      "writing": "Write the letter: G g G g G g"
+    },
+    "teaching_notes": {
+      "what_to_say": "The letter G makes the /g/ sound like in 'goat' and 'game'. It's a sound from the back of your throat.",
+      "how_to_guide": "Show back-of-throat position. Compare to /k/ but with voice. Have child feel throat vibration.",
+      "common_mistakes": "May try soft G (/j/ sound). For now, stick with hard G before a, o, u. Explain soft G comes later."
+    }
+  },
+  {
+    "lesson_number": 24,
+    "title": "Letter Sound: W",
+    "phonics_concept": "Consonant sound /w/",
+    "practice_words": ["w", "was", "win", "wag"],
+    "video_links": [
+      {
+        "title": "Letter W Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter W sound"
+      },
+      {
+        "title": "Alphablocks - Letter W",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "W sound introduction"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A fin is on the man",
+        "source": "Reading Doctor - Part I Book 3",
+        "level": "CVC Words - bmwfg",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-3"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: W W W w w w\nTrace and say: /w/ /w/ /w/",
+      "practice": "Circle pictures starting with /w/: wagon, watch, water, window",
+      "writing": "Write the letter: W w W w W w"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /w/ sound. Round your lips like you're going to whistle, then open them quickly.",
+      "how_to_guide": "Show rounded lips then quick release. Practice /w/ /w/ /w/ sound. Lips start together then move apart.",
+      "common_mistakes": "May confuse with /v/. Show difference: /w/ starts with rounded lips, /v/ uses teeth on bottom lip."
+    }
+  },
+  {
+    "lesson_number": 25,
+    "title": "Letter Sound: E",
+    "phonics_concept": "Short vowel /e/ as in 'bed'",
+    "practice_words": ["e", "ed", "pet", "red"],
+    "video_links": [
+      {
+        "title": "Short E Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn short vowel E"
+      },
+      {
+        "title": "Alphablocks - Letter E",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Short E sound"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ted was fed in his red bed",
+        "source": "Reading Doctor - Part I Book 5b",
+        "level": "All CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-5b"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: E E E e e e\nTrace and say: /e/ /e/ /e/ (as in 'egg')",
+      "practice": "Circle pictures with short /e/: bed, red, pen, nest",
+      "writing": "Write the letter: E e E e E e"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /e/ sound like in 'egg' and 'bed'. Your mouth is slightly open with your tongue relaxed.",
+      "how_to_guide": "Show mid-open mouth position. NOT 'ee' (letter name) but /e/ (short sound). Practice: bed, red, pet.",
+      "common_mistakes": "Using long E ('ee' sound). Emphasize short /e/ as in 'bed' not 'bead'. Model exaggerated short e."
+    }
+  },
+  {
+    "lesson_number": 26,
+    "title": "Blending: BED, PET, WET",
+    "phonics_concept": "CVC words with short e",
+    "practice_words": ["bed", "red", "pet", "wet", "get", "met"],
+    "video_links": [
+      {
+        "title": "Short E Word Families - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Practice -ed and -et families"
+      },
+      {
+        "title": "Alphablocks - Short E Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "CVC words with E"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Ted was fed in his red bed",
+        "source": "Reading Doctor - Part I Book 5b",
+        "level": "All CVC Words",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-5b"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: bed pet wet",
+      "practice": "Blend these words:\n/b/ /e/ /d/ = bed\n/p/ /e/ /t/ = pet\n/w/ /e/ /t/ = wet",
+      "writing": "Write each word: bed ___ pet ___ wet ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now we have all 5 short vowels! Let's practice our short e words. Remember /e/ like in 'egg'.",
+      "how_to_guide": "Emphasize short /e/ sound. Practice -ed and -et families. Compare to other short vowels to reinforce differences.",
+      "common_mistakes": "Confusing short e with short i or short a. Use exaggerated articulation: 'bed' not 'bid' or 'bad'."
+    }
+  },
+  {
+    "lesson_number": 27,
+    "title": "Letter Sound: J",
+    "phonics_concept": "Consonant sound /j/",
+    "practice_words": ["j", "jam", "jet", "jog"],
+    "video_links": [
+      {
+        "title": "Letter J Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter J sound"
+      },
+      {
+        "title": "Alphablocks - Letter J",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "J sound with Alphablocks"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A yak is in the jet",
+        "source": "Reading Doctor - Part I Book 4",
+        "level": "CVC Words - vkxjyz",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-4"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: J J J j j j\nTrace and say: /j/ /j/ /j/",
+      "practice": "Circle pictures starting with /j/: jar, jump, jelly, jacket",
+      "writing": "Write the letter: J j J j J j"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /j/ sound like in 'jump' and 'jam'. It's similar to /ch/ but with your voice.",
+      "how_to_guide": "Compare to soft G sound (same sound, different spelling). Practice /j/ /j/ /j/. Voiced sound.",
+      "common_mistakes": "May confuse with /ch/. Emphasize /j/ uses voice (buzzing), /ch/ doesn't. Practice: jump vs. chump."
+    }
+  },
+  {
+    "lesson_number": 28,
+    "title": "Letter Sound: K",
+    "phonics_concept": "Consonant sound /k/ (letter k)",
+    "practice_words": ["k", "kit", "kid", "kiss"],
+    "video_links": [
+      {
+        "title": "Letter K Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter K sound"
+      },
+      {
+        "title": "Alphablocks - Letter K",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "K sound introduction"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A yak is in the jet",
+        "source": "Reading Doctor - Part I Book 4",
+        "level": "CVC Words - vkxjyz",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-4"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: K K K k k k\nTrace and say: /k/ /k/ /k/",
+      "practice": "Circle pictures starting with /k/: kite, key, king, kangaroo",
+      "writing": "Write the letter: K k K k K k"
+    },
+    "teaching_notes": {
+      "what_to_say": "The letter K makes the /k/ sound, just like hard C! Sometimes we use C, sometimes we use K for the same sound.",
+      "how_to_guide": "Explain K and C both make /k/. Generally K before i or e, C before a, o, u (simplified rule).",
+      "common_mistakes": "Confusion about when to use K vs. C. For now, just recognize both make /k/ sound. Spelling rules come later."
+    }
+  },
+  {
+    "lesson_number": 29,
+    "title": "Letter Sound: V",
+    "phonics_concept": "Consonant sound /v/",
+    "practice_words": ["v", "van", "vet", "vest"],
+    "video_links": [
+      {
+        "title": "Letter V Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter V sound"
+      },
+      {
+        "title": "Alphablocks - Letter V",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "V sound with Alphablocks"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A yak is in the jet",
+        "source": "Reading Doctor - Part I Book 4",
+        "level": "CVC Words - vkxjyz",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-4"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: V V V v v v\nTrace and say: /v/ /v/ /v/",
+      "practice": "Circle pictures starting with /v/: violin, vase, vacuum, vine",
+      "writing": "Write the letter: V v V v V v"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /v/ sound. It's like /f/ but with your voice buzzing.",
+      "how_to_guide": "Show teeth-on-lip position (same as F). But /v/ is voiced - add throat vibration. Compare: /f/ /v/ /f/ /v/.",
+      "common_mistakes": "Confusing /v/ and /f/. Use hand on throat to feel vibration for /v/, none for /f/. Practice: van vs. fan."
+    }
+  },
+  {
+    "lesson_number": 30,
+    "title": "Letter Sound: Y",
+    "phonics_concept": "Consonant sound /y/ (as in 'yes')",
+    "practice_words": ["y", "yes", "yet", "yell"],
+    "video_links": [
+      {
+        "title": "Letter Y Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn consonant Y sound"
+      },
+      {
+        "title": "Alphablocks - Letter Y",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Y as consonant"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A yak is in the jet",
+        "source": "Reading Doctor - Part I Book 4",
+        "level": "CVC Words - vkxjyz",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-4"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: Y Y Y y y y\nTrace and say: /y/ /y/ /y/",
+      "practice": "Circle pictures starting with /y/: yak, yarn, yo-yo, yawn",
+      "writing": "Write the letter: Y y Y y Y y"
+    },
+    "teaching_notes": {
+      "what_to_say": "Y can be tricky! At the start of words, it makes the /y/ sound like in 'yes'. (Later we'll learn Y as a vowel.)",
+      "how_to_guide": "Focus on consonant Y at word beginnings for now. Quick /y/ sound with tongue near roof of mouth.",
+      "common_mistakes": "Y is complex - can be consonant or vowel. For now, teach only initial Y as in 'yes, yellow, yell'."
+    }
+  },
+  {
+    "lesson_number": 31,
+    "title": "Letter Sound: Z",
+    "phonics_concept": "Consonant sound /z/",
+    "practice_words": ["z", "zip", "zoo", "zap"],
+    "video_links": [
+      {
+        "title": "Letter Z Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter Z sound"
+      },
+      {
+        "title": "Alphablocks - Letter Z",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Z sound introduction"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A yak is in the jet",
+        "source": "Reading Doctor - Part I Book 4",
+        "level": "CVC Words - vkxjyz",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-4"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: Z Z Z z z z\nTrace and say: /z/ /z/ /z/",
+      "practice": "Circle pictures starting with /z/: zebra, zipper, zero, zigzag",
+      "writing": "Write the letter: Z z Z z Z z"
+    },
+    "teaching_notes": {
+      "what_to_say": "This letter makes the /z/ sound like a buzzing bee. It's like /s/ but with your voice.",
+      "how_to_guide": "Compare to /s/ - same tongue position but /z/ is voiced. Have child feel throat vibration. Practice: /sss/ /zzz/ /sss/ /zzz/.",
+      "common_mistakes": "Confusing /z/ and /s/. Use hand on throat: /z/ buzzes, /s/ doesn't. Practice: zip vs. sip."
+    }
+  },
+  {
+    "lesson_number": 32,
+    "title": "Letter Sound: X",
+    "phonics_concept": "Consonant sound /ks/ (as in 'box')",
+    "practice_words": ["x", "fox", "box", "six"],
+    "video_links": [
+      {
+        "title": "Letter X Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn the letter X sound"
+      },
+      {
+        "title": "Alphablocks - Letter X",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "X sound with Alphablocks"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A yak is in the jet",
+        "source": "Reading Doctor - Part I Book 4",
+        "level": "CVC Words - vkxjyz",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-4"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: X X X x x x\nTrace and say: /ks/ /ks/ /ks/",
+      "practice": "Circle pictures with X sound: box, fox, six, mix",
+      "writing": "Write the letter: X x X x X x"
+    },
+    "teaching_notes": {
+      "what_to_say": "X is special! It usually makes two sounds together: /k/ and /s/ = /ks/. Listen: bo/ks/, fo/ks/, si/ks/.",
+      "how_to_guide": "Explain X represents blend of /k/ + /s/. Usually at end of words. Practice saying /ks/ quickly together.",
+      "common_mistakes": "X rarely starts words in English (except xylophone). Focus on X at word endings. X makes /ks/ not 'eks'."
+    }
+  },
+  {
+    "lesson_number": 33,
+    "title": "Letter Sound: Q (qu)",
+    "phonics_concept": "Qu digraph /kw/",
+    "practice_words": ["qu", "quit", "quiz", "quick"],
+    "video_links": [
+      {
+        "title": "Qu Sound Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn QU together"
+      },
+      {
+        "title": "Alphablocks - QU",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Q and U are always together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "All CVC decodable readers",
+        "source": "Reading Doctor",
+        "level": "All single-letter graphemes",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-5"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Practice tracing: qu qu qu\nTrace and say: /kw/ /kw/ /kw/",
+      "practice": "Circle QU words: queen, quilt, question, quick",
+      "writing": "Write: qu qu qu (always together!)"
+    },
+    "teaching_notes": {
+      "what_to_say": "Q is a special letter - it's ALWAYS followed by U! Together they make the /kw/ sound like in 'queen' and 'quick'.",
+      "how_to_guide": "Teach Q and U as inseparable team. Sound is /k/ + /w/ = /kw/. Never use Q alone in English words.",
+      "common_mistakes": "Trying to use Q without U. Establish rule firmly: Q needs U, always. They're best friends!"
+    }
+  },
+  {
+    "lesson_number": 34,
+    "title": "Review: All 26 Letter Sounds",
+    "phonics_concept": "Complete alphabet sound review",
+    "practice_words": ["cat", "dog", "fox", "pig", "sun", "van", "web", "box", "yes", "zip"],
+    "video_links": [
+      {
+        "title": "Alphabet Song with Sounds - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "All letter sounds A-Z"
+      },
+      {
+        "title": "Alphablocks - Full Alphabet",
+        "url": "https://www.youtube.com/watch?v=B8Wf1EadpqE",
+        "description": "Complete alphabet review"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "All basic CVC books",
+        "source": "Reading Doctor - Books 1-5",
+        "level": "All single-letter graphemes",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Write the alphabet: a-z",
+      "practice": "Match each letter to its sound. Write one word for each letter of the alphabet.",
+      "writing": "Practice writing CVC words using all letters learned."
+    },
+    "teaching_notes": {
+      "what_to_say": "Congratulations! You've learned all 26 letter sounds! Now you can read lots of words by blending sounds together.",
+      "how_to_guide": "Quick review of all consonants and 5 short vowels. Celebrate this milestone! Practice alphabet fluency.",
+      "common_mistakes": "Some letters may still be confused (b/d, p/q, m/n). Continue reinforcing through practice and multisensory activities."
+    }
+  },
+  {
+    "lesson_number": 35,
+    "title": "Consonant Blend: ST",
+    "phonics_concept": "Initial blend /st/ (2 sounds together)",
+    "practice_words": ["st", "stop", "step", "stem"],
+    "video_links": [
+      {
+        "title": "S Blends Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Learn ST, SP, SN blends"
+      },
+      {
+        "title": "Alphablocks - Blends",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "Letters work together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Stan will spin the spud",
+        "source": "Reading Doctor - Part I Book 6",
+        "level": "CCVC - st, sp, sn, pl",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-6"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: st st st",
+      "practice": "Sound it out: /s/ /t/ together = /st/\nBlend: st-o-p = stop, st-e-p = step",
+      "writing": "Write ST words: stop ___ stem ___ step ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now we're blending TWO consonants at the start! Say /s/ then quickly add /t/ - /ssstt/. Then add the rest of the word.",
+      "how_to_guide": "Demonstrate smooth blending of both consonants before vowel. This is CCVC pattern. Point to each letter while blending.",
+      "common_mistakes": "Adding vowel between consonants ('suh-tuh-op'). Emphasize: blend /s/ and /t/ smoothly together BEFORE the vowel."
+    }
+  },
+  {
+    "lesson_number": 36,
+    "title": "Consonant Blend: SP",
+    "phonics_concept": "Initial blend /sp/",
+    "practice_words": ["sp", "spin", "spot", "spell"],
+    "video_links": [
+      {
+        "title": "S Blends Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "SP blend practice"
+      },
+      {
+        "title": "Alphablocks - SP Blend",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "S and P work together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Stan will spin the spud",
+        "source": "Reading Doctor - Part I Book 6",
+        "level": "CCVC - st, sp, sn, pl",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-6"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: sp sp sp",
+      "practice": "Blend: /s/ /p/ = /sp/\nsp-i-n = spin, sp-o-t = spot",
+      "writing": "Write: spin ___ spot ___ spell ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Another S blend! /s/ and /p/ together make /sp/ like in 'spin' and 'spot'. Blend them smoothly!",
+      "how_to_guide": "Practice /sssppp/ smoothly before adding vowel. Compare ST and SP blends to show pattern.",
+      "common_mistakes": "Separating the consonants. Encourage continuous blending: 'ssspp-i-n' not 's-p-i-n'."
+    }
+  },
+  {
+    "lesson_number": 37,
+    "title": "Consonant Blend: SN",
+    "phonics_concept": "Initial blend /sn/",
+    "practice_words": ["sn", "snap", "snip", "snug"],
+    "video_links": [
+      {
+        "title": "S Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "SN blend song"
+      },
+      {
+        "title": "Alphablocks - SN",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "SN blend examples"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Stan will spin the spud",
+        "source": "Reading Doctor - Part I Book 6",
+        "level": "CCVC - st, sp, sn, pl",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-6"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: sn sn sn",
+      "practice": "Blend: /s/ /n/ = /sn/\nsn-a-p = snap, sn-u-g = snug",
+      "writing": "Write: snap ___ snip ___ snug ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Here's another S blend! /s/ and /n/ = /sn/ like in 'snap' and 'snack'. Say them together smoothly.",
+      "how_to_guide": "Show smooth transition from /sss/ to /nnn/. Practice SN family: snap, snack, snip, snug.",
+      "common_mistakes": "Difficulty blending /s/ and /n/. Use continuous sounds: /sssnnn-a-p/. Model slowly, then speed up."
+    }
+  },
+  {
+    "lesson_number": 38,
+    "title": "Consonant Blend: PL",
+    "phonics_concept": "Initial blend /pl/",
+    "practice_words": ["pl", "plan", "plum", "plot"],
+    "video_links": [
+      {
+        "title": "L Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "PL, BL, CL blends"
+      },
+      {
+        "title": "Alphablocks - PL Blend",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "P and L together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Stan will spin the spud",
+        "source": "Reading Doctor - Part I Book 6",
+        "level": "CCVC - st, sp, sn, pl",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-6"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: pl pl pl",
+      "practice": "Blend: /p/ /l/ = /pl/\npl-a-n = plan, pl-u-m = plum",
+      "writing": "Write: plan ___ plot ___ plum ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now we have L blends! /p/ and /l/ make /pl/ like in 'plan' and 'play'. Blend the two consonants together first.",
+      "how_to_guide": "Demonstrate /p/ flowing into /l/. L blends can be trickier - practice the blend separately before adding vowel.",
+      "common_mistakes": "Adding schwa between consonants ('puh-lan'). Emphasize: /pl/ is one smooth sound at the beginning."
+    }
+  },
+  {
+    "lesson_number": 39,
+    "title": "Consonant Blend: BL",
+    "phonics_concept": "Initial blend /bl/",
+    "practice_words": ["bl", "blob", "bled", "black"],
+    "video_links": [
+      {
+        "title": "L Blends Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "BL blend practice"
+      },
+      {
+        "title": "Alphablocks - BL",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "BL blend words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A crab is in the pram",
+        "source": "Reading Doctor - Part I Book 7",
+        "level": "CCVC - tr, bl, pr, cr, cl",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-7"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: bl bl bl",
+      "practice": "Blend: /b/ /l/ = /bl/\nbl-o-b = blob, bl-e-d = bled",
+      "writing": "Write: blob ___ bled ___ black ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Another L blend! /b/ and /l/ together make /bl/ like in 'block' and 'blue'. Blend smoothly!",
+      "how_to_guide": "Practice /b/ flowing into /l/. Compare to PL blend. Both use /l/ but different first consonant.",
+      "common_mistakes": "Inserting vowel: 'buh-lob'. Model correct blending: /bl/ as one unit at start of word."
+    }
+  },
+  {
+    "lesson_number": 40,
+    "title": "Consonant Blend: CL",
+    "phonics_concept": "Initial blend /kl/",
+    "practice_words": ["cl", "clap", "clip", "club"],
+    "video_links": [
+      {
+        "title": "L Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "CL blend song"
+      },
+      {
+        "title": "Alphablocks - CL",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "C and L blend"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A crab is in the pram",
+        "source": "Reading Doctor - Part I Book 7",
+        "level": "CCVC - tr, bl, pr, cr, cl",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-7"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: cl cl cl",
+      "practice": "Blend: /k/ /l/ = /kl/\ncl-a-p = clap, cl-i-p = clip",
+      "writing": "Write: clap ___ clip ___ club ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "One more L blend! C and L make /kl/ like in 'clap' and 'clock'. Remember, C makes the /k/ sound here.",
+      "how_to_guide": "Emphasize hard C sound /k/ blended with /l/. Practice /kl/ family words.",
+      "common_mistakes": "Some children struggle with /kl/ blend. Practice in isolation, then in words. Model clearly."
+    }
+  },
+  {
+    "lesson_number": 41,
+    "title": "Consonant Blend: FL",
+    "phonics_concept": "Initial blend /fl/",
+    "practice_words": ["fl", "flag", "flat", "flip"],
+    "video_links": [
+      {
+        "title": "L Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "FL blend practice"
+      },
+      {
+        "title": "Alphablocks - FL",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "FL blend examples"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "This frog gran will drum",
+        "source": "Reading Doctor - Part I Book 8",
+        "level": "CCVC - fl, gr, dr, fr, sk, sw, br",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: fl fl fl",
+      "practice": "Blend: /f/ /l/ = /fl/\nfl-a-g = flag, fl-i-p = flip",
+      "writing": "Write: flag ___ flat ___ flip ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "F and L together make /fl/ like in 'flag' and 'flower'. Blend /f/ and /l/ smoothly together.",
+      "how_to_guide": "Show /fff/ flowing into /lll/. FL blend is common in English. Practice FL family.",
+      "common_mistakes": "Separating /f/ and /l/. Reinforce continuous blending from /f/ to /l/ to vowel."
+    }
+  },
+  {
+    "lesson_number": 42,
+    "title": "Consonant Blend: GL",
+    "phonics_concept": "Initial blend /gl/",
+    "practice_words": ["gl", "glad", "glen", "glum"],
+    "video_links": [
+      {
+        "title": "L Blends Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "GL blend"
+      },
+      {
+        "title": "Alphablocks - GL",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "G and L together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "This frog gran will drum",
+        "source": "Reading Doctor - Part I Book 8",
+        "level": "CCVC blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: gl gl gl",
+      "practice": "Blend: /g/ /l/ = /gl/\ngl-a-d = glad, gl-e-n = glen",
+      "writing": "Write: glad ___ glen ___ glum ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "G and L make /gl/ like in 'glad' and 'glow'. Remember, G makes the /g/ sound here, then blend with /l/.",
+      "how_to_guide": "Hard G /g/ plus /l/. Practice /gl/ blend. Less common but important to know.",
+      "common_mistakes": "Using soft G sound. Reinforce hard G /g/ in GL blends. Model: /gl/ not /jl/."
+    }
+  },
+  {
+    "lesson_number": 43,
+    "title": "Consonant Blend: SL",
+    "phonics_concept": "Initial blend /sl/",
+    "practice_words": ["sl", "slip", "sled", "slim"],
+    "video_links": [
+      {
+        "title": "L Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "SL blend song"
+      },
+      {
+        "title": "Alphablocks - SL",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "S and L blend"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CCVC blend readers",
+        "source": "Reading Doctor",
+        "level": "Consonant blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: sl sl sl",
+      "practice": "Blend: /s/ /l/ = /sl/\nsl-i-p = slip, sl-e-d = sled",
+      "writing": "Write: slip ___ sled ___ slim ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "S and L together make /sl/ like in 'slip' and 'sleep'. Blend /sss/ and /lll/ smoothly!",
+      "how_to_guide": "Continuous /sss/ flowing into /lll/. Both are continuants so easy to blend smoothly.",
+      "common_mistakes": "Choppy blending. Emphasize smooth transition: /sssllll-i-p/."
+    }
+  },
+  {
+    "lesson_number": 44,
+    "title": "Consonant Blend: CR",
+    "phonics_concept": "Initial blend /kr/",
+    "practice_words": ["cr", "crab", "crop", "crib"],
+    "video_links": [
+      {
+        "title": "R Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "CR, BR, TR, GR blends"
+      },
+      {
+        "title": "Alphablocks - CR",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "C and R together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A crab is in the pram",
+        "source": "Reading Doctor - Part I Book 7",
+        "level": "CCVC - tr, bl, pr, cr, cl",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-7"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: cr cr cr",
+      "practice": "Blend: /k/ /r/ = /kr/\ncr-a-b = crab, cr-o-p = crop",
+      "writing": "Write: crab ___ crop ___ crib ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now we're learning R blends! C and R make /kr/ like in 'crab' and 'crown'. C makes /k/ sound, then add /r/.",
+      "how_to_guide": "Hard C /k/ plus /r/. R blends can be challenging. Practice /kr/ before adding to words.",
+      "common_mistakes": "R blends are difficult for many children. Accept approximations initially. Model frequently: /kr/ not 'kur'."
+    }
+  },
+  {
+    "lesson_number": 45,
+    "title": "Consonant Blend: BR",
+    "phonics_concept": "Initial blend /br/",
+    "practice_words": ["br", "brag", "brim", "bred"],
+    "video_links": [
+      {
+        "title": "R Blends Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "BR blend practice"
+      },
+      {
+        "title": "Alphablocks - BR",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "B and R blend"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "This frog gran will drum",
+        "source": "Reading Doctor - Part I Book 8",
+        "level": "CCVC - fl, gr, dr, fr, sk, sw, br",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: br br br",
+      "practice": "Blend: /b/ /r/ = /br/\nbr-a-g = brag, br-e-d = bred",
+      "writing": "Write: brag ___ brim ___ bred ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "B and R together make /br/ like in 'brush' and 'bread'. Blend /b/ and /r/ together smoothly!",
+      "how_to_guide": "/b/ flowing into /r/. Practice BR family. Common R blend in English.",
+      "common_mistakes": "Adding vowel between: 'buh-rag'. Reinforce: /br/ is one smooth blend at the start."
+    }
+  },
+  {
+    "lesson_number": 46,
+    "title": "Consonant Blend: TR",
+    "phonics_concept": "Initial blend /tr/",
+    "practice_words": ["tr", "trap", "trim", "trip"],
+    "video_links": [
+      {
+        "title": "R Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "TR blend song"
+      },
+      {
+        "title": "Alphablocks - TR",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "T and R together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A crab is in the pram",
+        "source": "Reading Doctor - Part I Book 7",
+        "level": "CCVC - tr, bl, pr, cr, cl",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-7"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: tr tr tr",
+      "practice": "Blend: /t/ /r/ = /tr/\ntr-a-p = trap, tr-i-p = trip",
+      "writing": "Write: trap ___ trim ___ trip ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "T and R make /tr/ like in 'tree' and 'truck'. /t/ then quickly /r/ - blend them together!",
+      "how_to_guide": "/t/ flowing into /r/. Very common blend. Practice TR family words.",
+      "common_mistakes": "Some children say 'chr' instead of /tr/. Model carefully: /tr/ not 'chur'."
+    }
+  },
+  {
+    "lesson_number": 47,
+    "title": "Consonant Blend: DR",
+    "phonics_concept": "Initial blend /dr/",
+    "practice_words": ["dr", "drip", "drag", "drum"],
+    "video_links": [
+      {
+        "title": "R Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "DR blend practice"
+      },
+      {
+        "title": "Alphablocks - DR",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "D and R blend"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "This frog gran will drum",
+        "source": "Reading Doctor - Part I Book 8",
+        "level": "CCVC - fl, gr, dr, fr, sk, sw, br",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: dr dr dr",
+      "practice": "Blend: /d/ /r/ = /dr/\ndr-i-p = drip, dr-u-m = drum",
+      "writing": "Write: drip ___ drag ___ drum ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "D and R together make /dr/ like in 'drum' and 'drop'. Blend /d/ and /r/ smoothly!",
+      "how_to_guide": "/d/ flowing into /r/. Compare to TR blend - similar but DR is voiced.",
+      "common_mistakes": "May say /jr/ instead of /dr/. Model clearly: /dr/ not 'jr'."
+    }
+  },
+  {
+    "lesson_number": 48,
+    "title": "Consonant Blend: FR",
+    "phonics_concept": "Initial blend /fr/",
+    "practice_words": ["fr", "frog", "from", "Fred"],
+    "video_links": [
+      {
+        "title": "R Blends Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "FR blend"
+      },
+      {
+        "title": "Alphablocks - FR",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "F and R together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "This frog gran will drum",
+        "source": "Reading Doctor - Part I Book 8",
+        "level": "CCVC - fl, gr, dr, fr, sk, sw, br",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: fr fr fr",
+      "practice": "Blend: /f/ /r/ = /fr/\nfr-o-g = frog, fr-o-m = from",
+      "writing": "Write: frog ___ from ___ Fred ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "F and R make /fr/ like in 'frog' and 'fruit'. Blend /fff/ and /rrr/ together smoothly!",
+      "how_to_guide": "/f/ flowing into /r/. Both continuous sounds make this easier to blend.",
+      "common_mistakes": "Adding schwa: 'fuh-rog'. Model continuous blending: /ffrrr-o-g/."
+    }
+  },
+  {
+    "lesson_number": 49,
+    "title": "Consonant Blend: GR",
+    "phonics_concept": "Initial blend /gr/",
+    "practice_words": ["gr", "grin", "grab", "grim"],
+    "video_links": [
+      {
+        "title": "R Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "GR blend practice"
+      },
+      {
+        "title": "Alphablocks - GR",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "G and R blend"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "This frog gran will drum",
+        "source": "Reading Doctor - Part I Book 8",
+        "level": "CCVC - fl, gr, dr, fr, sk, sw, br",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: gr gr gr",
+      "practice": "Blend: /g/ /r/ = /gr/\ngr-i-n = grin, gr-a-b = grab",
+      "writing": "Write: grin ___ grab ___ grim ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "G and R together make /gr/ like in 'grass' and 'green'. Hard G /g/ plus /r/!",
+      "how_to_guide": "Hard G /g/ blended with /r/. Practice /gr/ family words.",
+      "common_mistakes": "Using soft G. Reinforce hard G /g/ in GR blends."
+    }
+  },
+  {
+    "lesson_number": 50,
+    "title": "Consonant Blend: PR",
+    "phonics_concept": "Initial blend /pr/",
+    "practice_words": ["pr", "prep", "prim", "prod"],
+    "video_links": [
+      {
+        "title": "R Blends Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "PR blend"
+      },
+      {
+        "title": "Alphablocks - PR",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "P and R together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A crab is in the pram",
+        "source": "Reading Doctor - Part I Book 7",
+        "level": "CCVC - tr, bl, pr, cr, cl",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-7"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: pr pr pr",
+      "practice": "Blend: /p/ /r/ = /pr/\npr-e-p = prep, pr-o-d = prod",
+      "writing": "Write: prep ___ prim ___ prod ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "P and R make /pr/ like in 'present' and 'prize'. Blend /p/ and /r/ together!",
+      "how_to_guide": "/p/ flowing into /r/. Less common than other R blends but still important.",
+      "common_mistakes": "R blends can all be challenging. Practice PR in isolation before words."
+    }
+  },
+  {
+    "lesson_number": 51,
+    "title": "Review: All R Blends",
+    "phonics_concept": "CR, BR, TR, DR, FR, GR, PR review",
+    "practice_words": ["crab", "brag", "trap", "drip", "frog", "grin", "prep"],
+    "video_links": [
+      {
+        "title": "R Blends Review - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "All R blends together"
+      },
+      {
+        "title": "Alphablocks - R Blend Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "Practice R blend families"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A crab is in the pram",
+        "source": "Reading Doctor - Part I Book 7",
+        "level": "Multiple R blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-7"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Write R blends: cr br tr dr fr gr pr",
+      "practice": "Match blend to word:\ncr-crab, br-brag, tr-trap, dr-drip, fr-frog, gr-grin",
+      "writing": "Write one word for each R blend"
+    },
+    "teaching_notes": {
+      "what_to_say": "Great job learning all the R blends! These are some of the trickiest blends. Let's practice reading them in words.",
+      "how_to_guide": "Review each R blend family. Compare and contrast. Celebrate progress on difficult skill!",
+      "common_mistakes": "R blends remain challenging. Continued practice and patience needed. Multisensory activities help."
+    }
+  },
+  {
+    "lesson_number": 52,
+    "title": "Consonant Blend: SK",
+    "phonics_concept": "Initial blend /sk/",
+    "practice_words": ["sk", "skip", "skin", "skid"],
+    "video_links": [
+      {
+        "title": "SK Blend - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "SK blend song"
+      },
+      {
+        "title": "Alphablocks - SK",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "S and K together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "This frog gran will drum",
+        "source": "Reading Doctor - Part I Book 8",
+        "level": "CCVC - fl, gr, dr, fr, sk, sw, br",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: sk sk sk",
+      "practice": "Blend: /s/ /k/ = /sk/\nsk-i-p = skip, sk-i-n = skin",
+      "writing": "Write: skip ___ skin ___ skid ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "S and K together make /sk/ like in 'skip' and 'sky'. Blend /s/ and /k/ smoothly!",
+      "how_to_guide": "/s/ flowing into /k/. SK blend is common. Practice SK family words.",
+      "common_mistakes": "May add vowel between: 'suh-kip'. Model smooth /sk/ blend."
+    }
+  },
+  {
+    "lesson_number": 53,
+    "title": "Consonant Blend: SW",
+    "phonics_concept": "Initial blend /sw/",
+    "practice_words": ["sw", "swim", "swig", "swept"],
+    "video_links": [
+      {
+        "title": "SW Blend - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "SW blend practice"
+      },
+      {
+        "title": "Alphablocks - SW",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "S and W blend"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "This frog gran will drum",
+        "source": "Reading Doctor - Part I Book 8",
+        "level": "CCVC - fl, gr, dr, fr, sk, sw, br",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: sw sw sw",
+      "practice": "Blend: /s/ /w/ = /sw/\nsw-i-m = swim, sw-e-pt = swept",
+      "writing": "Write: swim ___ swig ___ swept ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "S and W make /sw/ like in 'swim' and 'swing'. Start with /s/ then add /w/ with rounded lips!",
+      "how_to_guide": "/s/ flowing into /w/. Show lip rounding for W while continuing /s/ sound.",
+      "common_mistakes": "Difficulty transitioning from /s/ to /w/. Practice in isolation, then in words."
+    }
+  },
+  {
+    "lesson_number": 54,
+    "title": "Consonant Blend: SM",
+    "phonics_concept": "Initial blend /sm/",
+    "practice_words": ["sm", "smog", "smell", "smug"],
+    "video_links": [
+      {
+        "title": "SM Blend Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "SM blend"
+      },
+      {
+        "title": "Alphablocks - SM",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "S and M together"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CCVC blend readers",
+        "source": "Reading Doctor",
+        "level": "Consonant blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-8"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: sm sm sm",
+      "practice": "Blend: /s/ /m/ = /sm/\nsm-o-g = smog, sm-u-g = smug",
+      "writing": "Write: smog ___ smell ___ smug ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "S and M together make /sm/ like in 'smell' and 'smile'. Blend /sss/ into /mmm/ smoothly!",
+      "how_to_guide": "Both are continuous sounds. /sss/ flows easily into /mmm/. Practice SM family.",
+      "common_mistakes": "Usually easier blend due to continuous sounds. Still model smooth blending."
+    }
+  },
+  {
+    "lesson_number": 55,
+    "title": "Consonant Blend: SC",
+    "phonics_concept": "Initial blend /sk/ (SC spelling)",
+    "practice_words": ["sc", "scan", "scat", "scum"],
+    "video_links": [
+      {
+        "title": "SC Blend - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "SC makes /sk/ sound"
+      },
+      {
+        "title": "Alphablocks - SC",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "SC blend examples"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CCVC decodables",
+        "source": "Reading Doctor",
+        "level": "Consonant blends",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: sc sc sc",
+      "practice": "Blend: SC makes /sk/ sound\nsc-a-n = scan, sc-a-t = scat",
+      "writing": "Write: scan ___ scat ___ scum ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "SC is a special spelling! Sometimes SC makes the /sk/ sound like in 'scan'. (Sometimes it makes /s/ sound but we'll learn that later.)",
+      "how_to_guide": "Explain SC = /sk/ before a, o, u. Same sound as SK, different spelling.",
+      "common_mistakes": "Confusion between SK and SC spellings. For now, just recognize both can make /sk/ sound."
+    }
+  },
+  {
+    "lesson_number": 56,
+    "title": "Review: All S Blends",
+    "phonics_concept": "ST, SP, SN, SL, SM, SK, SW, SC review",
+    "practice_words": ["stop", "spin", "snap", "slip", "smell", "skip", "swim", "scan"],
+    "video_links": [
+      {
+        "title": "S Blends Review - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "All S blends"
+      },
+      {
+        "title": "Alphablocks - S Blend Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "S blend practice"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Stan will spin the spud",
+        "source": "Reading Doctor - Part I Book 6",
+        "level": "S blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-6"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Write S blends: st sp sn sl sm sk sw sc",
+      "practice": "Match blend to word:\nst-stop, sp-spin, sn-snap, sl-slip, sm-smell, sk-skip, sw-swim",
+      "writing": "Write one word for each S blend"
+    },
+    "teaching_notes": {
+      "what_to_say": "Excellent work on S blends! S can partner with many different consonants. Let's review them all.",
+      "how_to_guide": "Compare all S blends. Practice reading words with various S blends. Reinforce smooth blending.",
+      "common_mistakes": "S blends are generally easier than R blends. Continue emphasizing no added vowel between consonants."
+    }
+  },
+  {
+    "lesson_number": 57,
+    "title": "Review: All L Blends",
+    "phonics_concept": "PL, BL, CL, FL, GL, SL review",
+    "practice_words": ["plan", "blob", "clap", "flag", "glad", "slip"],
+    "video_links": [
+      {
+        "title": "L Blends Review - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "All L blends"
+      },
+      {
+        "title": "Alphablocks - L Blend Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "L blend families"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "A crab is in the pram",
+        "source": "Reading Doctor - Part I Book 7",
+        "level": "L blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-7"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Write L blends: pl bl cl fl gl sl",
+      "practice": "Match blend to word:\npl-plan, bl-blob, cl-clap, fl-flag, gl-glad, sl-slip",
+      "writing": "Write one word for each L blend"
+    },
+    "teaching_notes": {
+      "what_to_say": "Great job with L blends! L can partner with several consonants. Let's review all the L blend families.",
+      "how_to_guide": "Review each L blend. Compare and practice. L blends can be tricky - celebrate progress!",
+      "common_mistakes": "L blends challenging for many. Continue multisensory practice. Be patient with approximations."
+    }
+  },
+  {
+    "lesson_number": 58,
+    "title": "Ending Blend: -ND",
+    "phonics_concept": "Final blend /nd/",
+    "practice_words": ["and", "end", "send", "band"],
+    "video_links": [
+      {
+        "title": "Ending Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Final blends -nd, -nt, -mp"
+      },
+      {
+        "title": "Alphablocks - Ending Blends",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "Blends at the end"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCC readers",
+        "source": "Reading Doctor - Level 1C",
+        "level": "CVCC ending blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-9"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -nd -nd -nd",
+      "practice": "Blend: a-nd = and, e-nd = end, se-nd = send",
+      "writing": "Write: and ___ end ___ send ___ band ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now we're learning blends at the END of words! -ND is /n/ and /d/ together at the end, like in 'and' and 'send'.",
+      "how_to_guide": "Show CVCC pattern. Blend beginning, then blend final consonants together. Point to each part while blending.",
+      "common_mistakes": "May separate final blend. Emphasize smooth blending: 'se-nnd' not 'se-n-d'."
+    }
+  },
+  {
+    "lesson_number": 59,
+    "title": "Ending Blend: -NT",
+    "phonics_concept": "Final blend /nt/",
+    "practice_words": ["ant", "ent", "sent", "bent"],
+    "video_links": [
+      {
+        "title": "Ending Blends Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Final -nt blend"
+      },
+      {
+        "title": "Alphablocks - NT Ending",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "-nt words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCC decodables",
+        "source": "Reading Doctor - Level 1C",
+        "level": "Ending blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-9"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -nt -nt -nt",
+      "practice": "Blend: a-nt = ant, se-nt = sent, be-nt = bent",
+      "writing": "Write: ant ___ sent ___ bent ___ tent ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "-NT is /n/ and /t/ at the end, like in 'ant' and 'sent'. Blend them together smoothly!",
+      "how_to_guide": "CVCC pattern with -nt ending. Very common ending blend. Practice -nt family words.",
+      "common_mistakes": "Separating final consonants. Model continuous blending to the end."
+    }
+  },
+  {
+    "lesson_number": 60,
+    "title": "Ending Blend: -MP",
+    "phonics_concept": "Final blend /mp/",
+    "practice_words": ["amp", "camp", "bump", "jump"],
+    "video_links": [
+      {
+        "title": "Ending Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Final -mp blend"
+      },
+      {
+        "title": "Alphablocks - MP Ending",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "-mp words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCC blend readers",
+        "source": "Reading Doctor",
+        "level": "Ending blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-9"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -mp -mp -mp",
+      "practice": "Blend: ca-mp = camp, bu-mp = bump, ju-mp = jump",
+      "writing": "Write: camp ___ bump ___ jump ___ lamp ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "-MP is /m/ and /p/ at the end, like in 'jump' and 'camp'. Put them together at the end!",
+      "how_to_guide": "CVCC with -mp ending. Common ending. Practice -mp family.",
+      "common_mistakes": "May omit final /p/. Emphasize both sounds: /m/ flowing into /p/."
+    }
+  },
+  {
+    "lesson_number": 61,
+    "title": "Ending Blend: -ST",
+    "phonics_concept": "Final blend /st/",
+    "practice_words": ["ast", "best", "dust", "fast"],
+    "video_links": [
+      {
+        "title": "Ending ST - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Final -st blend"
+      },
+      {
+        "title": "Alphablocks - ST Ending",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "-st words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCC decodables",
+        "source": "Reading Doctor",
+        "level": "Ending blends",
+        "url": "https://decodable-readers.readingdoctor.com.au/book-9"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -st -st -st",
+      "practice": "Blend: be-st = best, du-st = dust, fa-st = fast",
+      "writing": "Write: best ___ dust ___ fast ___ last ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "-ST at the end is /s/ and /t/ together, like in 'fast' and 'best'. Very common ending!",
+      "how_to_guide": "/s/ flowing into /t/ at word end. Very common. Practice -st family.",
+      "common_mistakes": "May add extra syllable. 'Fast' is one syllable, not 'fas-tuh'."
+    }
+  },
+  {
+    "lesson_number": 62,
+    "title": "Ending Blend: -LT",
+    "phonics_concept": "Final blend /lt/",
+    "practice_words": ["alt", "belt", "melt", "tilt"],
+    "video_links": [
+      {
+        "title": "Ending Blends - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Final -lt blend"
+      },
+      {
+        "title": "Alphablocks - LT Ending",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "-lt words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCC readers",
+        "source": "Reading Doctor",
+        "level": "Ending blends",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -lt -lt -lt",
+      "practice": "Blend: be-lt = belt, me-lt = melt, ti-lt = tilt",
+      "writing": "Write: belt ___ melt ___ tilt ___ salt ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "-LT is /l/ and /t/ at the end, like in 'belt' and 'melt'. Blend them together!",
+      "how_to_guide": "/l/ flowing into /t/. Practice -lt family words.",
+      "common_mistakes": "May drop the /t/. Emphasize both final sounds clearly."
+    }
+  },
+  {
+    "lesson_number": 63,
+    "title": "Ending Blend: -NK",
+    "phonics_concept": "Final blend /nk/ (nasal + /k/)",
+    "practice_words": ["ink", "bank", "sink", "tank"],
+    "video_links": [
+      {
+        "title": "NK Ending - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Final -nk blend"
+      },
+      {
+        "title": "Alphablocks - NK Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "-nk ending pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Glued sounds readers",
+        "source": "Reading Doctor / Reading Universe",
+        "level": "-ank, -ink, -unk glued sounds",
+        "url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -nk -nk -nk",
+      "practice": "Blend: i-nk = ink, ba-nk = bank, si-nk = sink",
+      "writing": "Write: ink ___ bank ___ sink ___ tank ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "-NK is /n/ and /k/ together at the end. It's called a 'glued sound' because /n/ and /k/ stick together! Like in 'think' and 'bank'.",
+      "how_to_guide": "Teach as 'glued sound' or 'welded sound'. /ng/ sound (velar nasal) before /k/. Very common pattern.",
+      "common_mistakes": "The /n/ in -nk sounds different than regular /n/ - it's actually /ng/. Model carefully: 'think' not 'thin-k'."
+    }
+  },
+  {
+    "lesson_number": 64,
+    "title": "Ending Blend: -NG",
+    "phonics_concept": "Final digraph /ng/ (single sound)",
+    "practice_words": ["ang", "ring", "song", "lung"],
+    "video_links": [
+      {
+        "title": "NG Ending Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "NG ending sound"
+      },
+      {
+        "title": "Alphablocks - NG",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "-ng words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Digraph decodables",
+        "source": "Reading Doctor / Starfall",
+        "level": "Consonant digraphs",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -ng -ng -ng",
+      "practice": "Sound: NG makes one sound /ng/ (like the end of 'sing')\nri-ng = ring, so-ng = song, lu-ng = lung",
+      "writing": "Write: ring ___ song ___ lung ___ king ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "NG is special! Two letters but ONE sound: /ng/ like in 'sing' and 'ring'. It's actually a digraph, not a blend.",
+      "how_to_guide": "Emphasize NG = one sound (digraph), not two sounds blended. Nasal /ng/ sound from back of throat.",
+      "common_mistakes": "May try to say /n/ + /g/ separately. Teach as single /ng/ sound. Model: 'sing' has /ng/ at end, not 'sin-g'."
+    }
+  },
+  {
+    "lesson_number": 65,
+    "title": "Digraph: SH",
+    "phonics_concept": "Consonant digraph /sh/ (one sound)",
+    "practice_words": ["sh", "shop", "ship", "shut", "fish"],
+    "video_links": [
+      {
+        "title": "SH Digraph Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn SH sound"
+      },
+      {
+        "title": "Alphablocks - SH",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "SH digraph words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Digraph readers",
+        "source": "Reading Doctor - Level 2A",
+        "level": "sh, ch, th digraphs",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: sh sh sh",
+      "practice": "Sound: SH makes one sound /sh/ (like 'shh, be quiet!')\nsh-o-p = shop, sh-i-p = ship, fi-sh = fish",
+      "writing": "Write: shop ___ ship ___ fish ___ wish ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "SH is our first digraph! Two letters that make ONE new sound: /sh/ like when you say 'shhh'. Not /s/ and /h/ - just /sh/!",
+      "how_to_guide": "Emphasize digraph = two letters, one sound. /sh/ at beginning (shop) or end (fish). Model /sh/ sound.",
+      "common_mistakes": "Trying to blend /s/ and /h/. Teach SH as single unit making /sh/ sound. Use 'shh, be quiet' as memory aid."
+    }
+  },
+  {
+    "lesson_number": 66,
+    "title": "Digraph: CH",
+    "phonics_concept": "Consonant digraph /ch/ (one sound)",
+    "practice_words": ["ch", "chat", "chip", "chin", "much"],
+    "video_links": [
+      {
+        "title": "CH Digraph Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn CH sound"
+      },
+      {
+        "title": "Alphablocks - CH",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "CH digraph examples"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CH digraph readers",
+        "source": "Reading Doctor - Level 2A",
+        "level": "Consonant digraphs",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ch ch ch",
+      "practice": "Sound: CH makes /ch/ (like a train: choo-choo!)\nch-a-t = chat, ch-i-p = chip, mu-ch = much",
+      "writing": "Write: chat ___ chip ___ much ___ chop ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "CH is another digraph! Two letters making one sound: /ch/ like a train going 'choo-choo!' or when you sneeze 'achoo!'",
+      "how_to_guide": "Digraph /ch/ at beginning (chip) or end (much). Not /k/ or /s/ - /ch/ sound. Use train sound as memory aid.",
+      "common_mistakes": "Confusing with /sh/ or hard C. Model clear /ch/ sound. Compare: 'chip' vs 'ship', 'chat' vs 'cat'."
+    }
+  },
+  {
+    "lesson_number": 67,
+    "title": "Digraph: TH (voiced)",
+    "phonics_concept": "Consonant digraph /th/ (voiced - as in 'this')",
+    "practice_words": ["th", "this", "that", "them", "then"],
+    "video_links": [
+      {
+        "title": "TH Digraph Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Learn TH sounds"
+      },
+      {
+        "title": "Alphablocks - TH",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "TH digraph words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "TH digraph decodables",
+        "source": "Reading Doctor - Level 2A",
+        "level": "th words",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: th th th",
+      "practice": "Sound: TH makes /th/ (stick tongue between teeth, add voice)\nth-i-s = this, th-a-t = that, th-e-m = them",
+      "writing": "Write: this ___ that ___ them ___ then ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "TH is a special digraph with TWO sounds! First we'll learn the one with your voice buzzing: /th/ in 'this' and 'that'. Stick your tongue between your teeth and hum.",
+      "how_to_guide": "Show tongue between teeth. This TH is VOICED - throat vibrates. Teach common words: this, that, the, them.",
+      "common_mistakes": "May substitute /d/ or /v/ for /th/. Model tongue placement carefully. Have child feel tongue between teeth."
+    }
+  },
+  {
+    "lesson_number": 68,
+    "title": "Digraph: TH (unvoiced)",
+    "phonics_concept": "Consonant digraph /th/ (unvoiced - as in 'think')",
+    "practice_words": ["th", "thin", "think", "path", "bath"],
+    "video_links": [
+      {
+        "title": "TH Sounds - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Both TH sounds"
+      },
+      {
+        "title": "Alphablocks - TH Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "TH digraph practice"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "TH decodables",
+        "source": "Reading Doctor",
+        "level": "th digraph",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: th th th",
+      "practice": "Sound: TH also makes /th/ (tongue between teeth, NO voice - just air)\nth-i-n = thin, th-i-nk = think, pa-th = path",
+      "writing": "Write: thin ___ think ___ path ___ bath ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now the other TH sound! Same tongue position but NO voice this time - just air: /th/ in 'think' and 'bath'. It's like a whisper.",
+      "how_to_guide": "Show tongue between teeth. This TH is UNVOICED - no throat vibration, just air. Compare: 'this' (voiced) vs 'think' (unvoiced).",
+      "common_mistakes": "May substitute /f/ or /t/ for unvoiced TH. Emphasize tongue must be BETWEEN teeth, not behind them."
+    }
+  },
+  {
+    "lesson_number": 69,
+    "title": "Digraph: WH",
+    "phonics_concept": "Consonant digraph /wh/ (hw sound)",
+    "practice_words": ["wh", "when", "whip", "which", "what"],
+    "video_links": [
+      {
+        "title": "WH Digraph - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "WH question words"
+      },
+      {
+        "title": "Alphablocks - WH",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "WH words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Digraph decodables",
+        "source": "Reading Doctor / Starfall",
+        "level": "Consonant digraphs",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: wh wh wh",
+      "practice": "Sound: WH makes /wh/ or /w/ (often sounds like /w/ in modern English)\nwh-e-n = when, wh-a-t = what, wh-i-ch = which",
+      "writing": "Write: when ___ what ___ which ___ why ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "WH is a digraph found in question words! It usually sounds like /w/ in modern English: when, what, why, where. (Some people say /hw/ with a little /h/ first.)",
+      "how_to_guide": "In most dialects, WH = /w/ sound. Teach common WH question words. Historical /hw/ distinction rarely maintained.",
+      "common_mistakes": "Trying to say /w/ and /h/ separately. Teach WH words as sight words or /w/ sound for simplicity."
+    }
+  },
+  {
+    "lesson_number": 70,
+    "title": "Digraph: CK",
+    "phonics_concept": "Consonant digraph /k/ (after short vowel)",
+    "practice_words": ["ck", "back", "duck", "sock", "pick"],
+    "video_links": [
+      {
+        "title": "CK Ending - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "CK makes /k/"
+      },
+      {
+        "title": "Alphablocks - CK Words",
+        "url": "https://www.youtube.com/watch?v=hhxltYxHlQ0",
+        "description": "CK ending pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CK ending decodables",
+        "source": "Reading Doctor / Reading Universe",
+        "level": "-ck spelling rule",
+        "url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ck ck ck",
+      "practice": "Sound: CK makes /k/ at the END of words after short vowels\nba-ck = back, du-ck = duck, so-ck = sock",
+      "writing": "Write: back ___ duck ___ sock ___ pick ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "CK is a special digraph! It only comes at the END of short vowel words and makes the /k/ sound. Like in 'duck', 'sock', 'back'. We use CK instead of just K after short vowels.",
+      "how_to_guide": "Spelling rule: use CK after short vowel, K after other patterns. CK = /k/ at word end. Very common pattern.",
+      "common_mistakes": "May confuse CK, K, and C spellings of /k/. For now, learn CK pattern after short vowels."
+    }
+  },
+  {
+    "lesson_number": 71,
+    "title": "Review: All Digraphs",
+    "phonics_concept": "SH, CH, TH, WH, CK, NG review",
+    "practice_words": ["shop", "chip", "this", "thin", "when", "duck", "ring"],
+    "video_links": [
+      {
+        "title": "Digraph Review - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "All digraphs together"
+      },
+      {
+        "title": "Alphablocks - Digraphs",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "Digraph practice"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Digraph decodable books",
+        "source": "Reading Doctor - Level 2A",
+        "level": "All basic digraphs",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Write digraphs: sh ch th wh ck ng",
+      "practice": "Match digraph to word:\nsh-shop, ch-chip, th-this, th-thin, wh-when, ck-duck, ng-ring",
+      "writing": "Write one word for each digraph"
+    },
+    "teaching_notes": {
+      "what_to_say": "Excellent work learning digraphs! Remember: digraphs are two letters that make ONE sound. Let's review them all.",
+      "how_to_guide": "Compare all digraphs. Practice reading words with each. Emphasize two letters = one sound concept.",
+      "common_mistakes": "May still try to blend digraph letters separately. Reinforce: digraphs are single sounds, not blends."
+    }
+  },
+  {
+    "lesson_number": 72,
+    "title": "Silent E: A_E",
+    "phonics_concept": "Long A with silent e (CVCe pattern)",
+    "practice_words": ["make", "cake", "lake", "take", "name"],
+    "video_links": [
+      {
+        "title": "Silent E Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=7zzhOcUpDv4",
+        "description": "Magic E makes vowels say their name"
+      },
+      {
+        "title": "Super E - Mark D. Pencil",
+        "url": "https://www.youtube.com/watch?v=7zzhOcUpDv4",
+        "description": "Silent E superhero"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCe decodables",
+        "source": "Reading Doctor / Reading Universe",
+        "level": "Magic E / Silent E",
+        "url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: a_e words: make cake lake",
+      "practice": "Silent E rule: E at the end makes the vowel say its NAME!\nmat → mate, cap → cape, mad → made",
+      "writing": "Write: make ___ cake ___ lake ___ name ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Magic E! When E comes at the end, it makes the vowel say its NAME instead of its sound. The E is silent. So 'cap' becomes 'cape', 'mat' becomes 'mate'!",
+      "how_to_guide": "Teach CVCe pattern. Compare CVC (short vowel) to CVCe (long vowel). Use 'magic' or 'bossy' E terminology. Show transformations.",
+      "common_mistakes": "May read long vowel as short. Emphasize: silent E makes the vowel 'say its name' - long sound. Practice minimal pairs."
+    }
+  },
+  {
+    "lesson_number": 73,
+    "title": "Silent E: I_E",
+    "phonics_concept": "Long I with silent e (CVCe pattern)",
+    "practice_words": ["bike", "like", "time", "five", "nine"],
+    "video_links": [
+      {
+        "title": "Silent E - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=7zzhOcUpDv4",
+        "description": "Long I with magic E"
+      },
+      {
+        "title": "Bossy E - Alphablocks",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "Silent E changes words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCe - long I decodables",
+        "source": "Reading Doctor / Starfall",
+        "level": "Silent E patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: i_e words: bike like time",
+      "practice": "Silent E makes I say its name: 'eye'\nbit → bite, kit → kite, dim → dime",
+      "writing": "Write: bike ___ like ___ time ___ five ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Magic E works with I too! When E is at the end, I says its name 'eye' instead of /i/. So 'bit' becomes 'bite', 'kit' becomes 'kite'!",
+      "how_to_guide": "CVCe with long I. Compare minimal pairs: bit/bite, kit/kite, dim/dime. Silent E pattern consistent across vowels.",
+      "common_mistakes": "Confusing long I ('eye') with short /i/. Emphasize the transformation: silent E makes it say 'eye'."
+    }
+  },
+  {
+    "lesson_number": 74,
+    "title": "Silent E: O_E",
+    "phonics_concept": "Long O with silent e (CVCe pattern)",
+    "practice_words": ["bone", "home", "hope", "note", "cone"],
+    "video_links": [
+      {
+        "title": "Magic E - Long O - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=7zzhOcUpDv4",
+        "description": "Silent E with O"
+      },
+      {
+        "title": "Alphablocks - CVCe Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "Long O with silent E"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCe - long O readers",
+        "source": "Reading Doctor",
+        "level": "Silent E",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: o_e words: bone home hope",
+      "practice": "Silent E makes O say its name: 'oh'\nhop → hope, not → note, rob → robe",
+      "writing": "Write: bone ___ home ___ hope ___ note ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Magic E with O! When E is at the end, O says its name 'oh' instead of /o/. So 'hop' becomes 'hope', 'not' becomes 'note'!",
+      "how_to_guide": "CVCe with long O. Compare CVC to CVCe. Practice minimal pairs: hop/hope, not/note, rob/robe.",
+      "common_mistakes": "Using short O sound. Remind: silent E makes O say 'oh', its letter name."
+    }
+  },
+  {
+    "lesson_number": 75,
+    "title": "Silent E: U_E",
+    "phonics_concept": "Long U with silent e (CVCe pattern)",
+    "practice_words": ["cube", "cute", "mute", "tube", "use"],
+    "video_links": [
+      {
+        "title": "Silent E - Long U - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=7zzhOcUpDv4",
+        "description": "Magic E with U"
+      },
+      {
+        "title": "Alphablocks - Long U",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "U with silent E"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCe - long U decodables",
+        "source": "Reading Doctor / Starfall",
+        "level": "Silent E patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: u_e words: cube cute tube",
+      "practice": "Silent E makes U say its name: 'you'\ncub → cube, cut → cute, tub → tube",
+      "writing": "Write: cube ___ cute ___ tube ___ use ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Magic E with U! When E is at the end, U says its name 'you' instead of /u/. So 'cub' becomes 'cube', 'cut' becomes 'cute'!",
+      "how_to_guide": "CVCe with long U ('you' sound or sometimes 'oo'). Compare minimal pairs: cub/cube, cut/cute, tub/tube.",
+      "common_mistakes": "Long U can sound like 'you' or 'oo' depending on word. Both are acceptable - context determines."
+    }
+  },
+  {
+    "lesson_number": 76,
+    "title": "Silent E: E_E",
+    "phonics_concept": "Long E with silent e (rare CVCe pattern)",
+    "practice_words": ["these", "theme", "Pete"],
+    "video_links": [
+      {
+        "title": "Silent E Patterns - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=7zzhOcUpDv4",
+        "description": "All CVCe patterns"
+      },
+      {
+        "title": "Alphablocks - Silent E Review",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "CVCe words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCe decodables",
+        "source": "Reading Doctor",
+        "level": "All silent E patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: e_e words: these theme Pete",
+      "practice": "Silent E makes E say its name: 'ee'\nthese, theme (less common pattern)",
+      "writing": "Write: these ___ theme ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Sometimes we see E_E pattern too! The second E is silent and makes the first E say 'ee'. This is less common than the other silent E patterns.",
+      "how_to_guide": "E_E is rarer than other CVCe patterns. Teach a few common words: these, theme. Often found in names: Pete, Steve.",
+      "common_mistakes": "E_E pattern is infrequent. Focus on other CVCe patterns primarily. Teach these words as examples."
+    }
+  },
+  {
+    "lesson_number": 77,
+    "title": "Review: All Silent E Patterns",
+    "phonics_concept": "CVCe with all five vowels",
+    "practice_words": ["make", "bike", "bone", "cube", "these", "cake", "time", "home", "cute"],
+    "video_links": [
+      {
+        "title": "Silent E Review - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=7zzhOcUpDv4",
+        "description": "All magic E patterns"
+      },
+      {
+        "title": "Alphablocks - CVCe Complete",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "Silent E with all vowels"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "CVCe mixed vowel decodables",
+        "source": "Reading Doctor / Reading Universe",
+        "level": "All silent E",
+        "url": "https://readinguniverse.org/article/explore-teaching-topics/word-recognition/phonics/decodable-texts-for-each-phonics-skill"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Write CVCe patterns: a_e i_e o_e u_e e_e",
+      "practice": "Transform words with silent E:\nmat→mate, bit→bite, hop→hope, cub→cube",
+      "writing": "Write one CVCe word for each vowel"
+    },
+    "teaching_notes": {
+      "what_to_say": "Fantastic! You've learned all the silent E patterns! Remember: the E at the end is silent and makes the vowel say its name. This is a BIG reading skill!",
+      "how_to_guide": "Review all CVCe patterns. Practice identifying long vs short vowels. Use minimal pairs. Celebrate this major milestone!",
+      "common_mistakes": "May still confuse short and long vowels. Continue practice with minimal pairs. Reinforce CVCe pattern recognition."
+    }
+  },
+  {
+    "lesson_number": 78,
+    "title": "Vowel Team: AI",
+    "phonics_concept": "Long A spelled AI (vowel digraph)",
+    "practice_words": ["rain", "wait", "pain", "train", "tail"],
+    "video_links": [
+      {
+        "title": "AI Vowel Team - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "AI makes long A"
+      },
+      {
+        "title": "When Two Vowels Go Walking - Between the Lions",
+        "url": "https://www.youtube.com/watch?v=Ijc8PgSnvho",
+        "description": "Vowel teams song"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Vowel team decodables",
+        "source": "Reading Doctor - Level 2B",
+        "level": "ai, ay vowel teams",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ai ai ai",
+      "practice": "AI makes long A sound: 'ay'\nrain, wait, pain, train, tail",
+      "writing": "Write: rain ___ wait ___ train ___ tail ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now we're learning vowel teams! When A and I are together, they make the long A sound 'ay' like in 'rain' and 'train'. Remember: 'When two vowels go walking, the first one does the talking!'",
+      "how_to_guide": "Vowel digraph AI = long A. Usually in middle of words. Teach 'two vowels walking' rule as helpful memory aid (though not 100% reliable).",
+      "common_mistakes": "May try to say both vowel sounds. Emphasize: AI together makes one sound - long A."
+    }
+  },
+  {
+    "lesson_number": 79,
+    "title": "Vowel Team: AY",
+    "phonics_concept": "Long A spelled AY (vowel digraph)",
+    "practice_words": ["day", "say", "play", "may", "way"],
+    "video_links": [
+      {
+        "title": "AY Vowel Team - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "AY makes long A"
+      },
+      {
+        "title": "Alphablocks - AY Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "AY pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "AY vowel team readers",
+        "source": "Reading Doctor",
+        "level": "ay pattern",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ay ay ay",
+      "practice": "AY makes long A sound: 'ay'\nday, say, play, may, way",
+      "writing": "Write: day ___ say ___ play ___ way ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "AY is another way to spell long A! AY usually comes at the END of words, while AI is usually in the middle. Both say 'ay': rain, day.",
+      "how_to_guide": "Spelling pattern: AI in middle (rain, wait), AY at end (day, play). Both = long A sound.",
+      "common_mistakes": "Confusing AI and AY placement. Teach general rule: AI middle, AY end. Practice reading both patterns."
+    }
+  },
+  {
+    "lesson_number": 80,
+    "title": "Vowel Team: EE",
+    "phonics_concept": "Long E spelled EE (vowel digraph)",
+    "practice_words": ["bee", "see", "feet", "tree", "green"],
+    "video_links": [
+      {
+        "title": "EE Vowel Team - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "EE makes long E"
+      },
+      {
+        "title": "Alphablocks - EE Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "EE pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "EE vowel team decodables",
+        "source": "Reading Doctor - Level 2B",
+        "level": "ee, ea teams",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ee ee ee",
+      "practice": "EE makes long E sound: 'ee'\nbee, see, feet, tree, green",
+      "writing": "Write: bee ___ see ___ feet ___ tree ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "When two E's are together, they make the long E sound 'ee' like in 'bee' and 'tree'. Two E's work together to say 'eee'!",
+      "how_to_guide": "Vowel team EE = long E. Very consistent pattern. Can appear in middle or end of words.",
+      "common_mistakes": "Usually straightforward. EE is one of most reliable vowel teams. Emphasize two letters, one sound."
+    }
+  },
+  {
+    "lesson_number": 81,
+    "title": "Vowel Team: EA",
+    "phonics_concept": "Long E spelled EA (vowel digraph)",
+    "practice_words": ["eat", "sea", "read", "teach", "seat"],
+    "video_links": [
+      {
+        "title": "EA Vowel Team - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "EA makes long E (usually)"
+      },
+      {
+        "title": "Alphablocks - EA",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "EA pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "EA vowel team readers",
+        "source": "Reading Doctor",
+        "level": "ea pattern",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ea ea ea",
+      "practice": "EA usually makes long E sound: 'ee'\neat, sea, read, teach, seat",
+      "writing": "Write: eat ___ sea ___ read ___ teach ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "EA is another way to spell long E! Usually EA says 'ee' like in 'eat' and 'teach'. (Sometimes EA makes other sounds, but we'll learn those later.)",
+      "how_to_guide": "EA most commonly = long E. Note: EA can also make short E (bread) or long A (great), but teach long E first as most common.",
+      "common_mistakes": "EA is less consistent than EE. Start with long E words. Introduce exceptions later (bread, head, great, steak)."
+    }
+  },
+  {
+    "lesson_number": 82,
+    "title": "Vowel Team: OA",
+    "phonics_concept": "Long O spelled OA (vowel digraph)",
+    "practice_words": ["boat", "coat", "road", "soap", "goat"],
+    "video_links": [
+      {
+        "title": "OA Vowel Team - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "OA makes long O"
+      },
+      {
+        "title": "Alphablocks - OA Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "OA pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "OA vowel team decodables",
+        "source": "Reading Doctor - Level 2B",
+        "level": "oa, ow teams",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: oa oa oa",
+      "practice": "OA makes long O sound: 'oh'\nboat, coat, road, soap, goat",
+      "writing": "Write: boat ___ coat ___ road ___ soap ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "When O and A are together, they usually make the long O sound 'oh' like in 'boat' and 'road'. OA works as a team!",
+      "how_to_guide": "Vowel team OA = long O. Very consistent pattern. Usually in middle of words.",
+      "common_mistakes": "OA is quite reliable. Emphasize two vowels making one sound - long O."
+    }
+  },
+  {
+    "lesson_number": 83,
+    "title": "Vowel Team: OW (long O)",
+    "phonics_concept": "Long O spelled OW (vowel digraph)",
+    "practice_words": ["low", "snow", "show", "grow", "yellow"],
+    "video_links": [
+      {
+        "title": "OW Vowel Team - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "OW can make long O or /ow/"
+      },
+      {
+        "title": "Alphablocks - OW",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "OW patterns"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "OW vowel team readers",
+        "source": "Reading Doctor",
+        "level": "ow patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ow ow ow",
+      "practice": "OW can make long O: 'oh'\nlow, snow, show, grow, yellow",
+      "writing": "Write: low ___ snow ___ show ___ grow ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "OW is tricky! Sometimes it makes long O like in 'snow' and 'yellow'. (Other times it makes the /ow/ sound like in 'cow' - we'll learn that later.)",
+      "how_to_guide": "OW has two sounds: long O (snow, show) and /ow/ diphthong (cow, now). Teach long O first. Generally: long O at end, /ow/ in middle (not absolute).",
+      "common_mistakes": "OW ambiguity is challenging. Students must try both sounds to determine correct pronunciation. Context helps."
+    }
+  },
+  {
+    "lesson_number": 84,
+    "title": "Vowel Team: OO (long)",
+    "phonics_concept": "Long OO as in 'moon' (vowel digraph)",
+    "practice_words": ["moon", "soon", "food", "cool", "zoo"],
+    "video_links": [
+      {
+        "title": "OO Vowel Team - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "OO makes two sounds"
+      },
+      {
+        "title": "Alphablocks - OO Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "Long OO pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "OO vowel team decodables",
+        "source": "Reading Doctor - Level 2B",
+        "level": "oo teams",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: oo oo oo",
+      "practice": "OO makes /oo/ sound (like 'moon')\nmoon, soon, food, cool, zoo",
+      "writing": "Write: moon ___ soon ___ food ___ zoo ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "OO can make two sounds! First let's learn the long /oo/ sound like in 'moon' and 'food'. Your lips make a circle shape: /oo/.",
+      "how_to_guide": "OO has two pronunciations: long /oo/ (moon, food) and short /oo/ (book, good). Teach long /oo/ first as it's more common.",
+      "common_mistakes": "OO ambiguity challenging. Students must try both sounds. No reliable rule for which OO sound to use."
+    }
+  },
+  {
+    "lesson_number": 85,
+    "title": "Vowel Team: OO (short)",
+    "phonics_concept": "Short OO as in 'book' (vowel digraph)",
+    "practice_words": ["book", "look", "good", "wood", "foot"],
+    "video_links": [
+      {
+        "title": "OO Sounds - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Both OO sounds"
+      },
+      {
+        "title": "Alphablocks - OO Book vs Moon",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "Short OO pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "OO decodables - both sounds",
+        "source": "Reading Doctor",
+        "level": "oo vowel teams",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: oo oo oo",
+      "practice": "OO also makes /oo/ sound (like 'book' - shorter)\nbook, look, good, wood, foot",
+      "writing": "Write: book ___ look ___ good ___ foot ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now the other OO sound! This one is shorter, like in 'book' and 'look'. Still round your lips but the sound is different from 'moon'.",
+      "how_to_guide": "Short /oo/ (book, took, good). Compare to long /oo/ (moon, food). Both use OO spelling. Context and familiarity help determine which.",
+      "common_mistakes": "Distinguishing OO sounds requires practice. Teach common words in each pattern. Students learn through exposure."
+    }
+  },
+  {
+    "lesson_number": 86,
+    "title": "Review: All Long Vowel Teams",
+    "phonics_concept": "AI, AY, EE, EA, OA, OW, OO review",
+    "practice_words": ["rain", "day", "tree", "sea", "boat", "snow", "moon"],
+    "video_links": [
+      {
+        "title": "Vowel Teams Review - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "All vowel teams"
+      },
+      {
+        "title": "When Two Vowels Go Walking",
+        "url": "https://www.youtube.com/watch?v=Ijc8PgSnvho",
+        "description": "Vowel team song"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Mixed vowel team decodables",
+        "source": "Reading Doctor - Level 2B",
+        "level": "All vowel teams",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Write vowel teams: ai ay ee ea oa ow oo",
+      "practice": "Match team to word:\nai-rain, ay-day, ee-tree, ea-sea, oa-boat, ow-snow, oo-moon",
+      "writing": "Write one word for each vowel team"
+    },
+    "teaching_notes": {
+      "what_to_say": "Wonderful work on vowel teams! When two vowels work together, they usually make one long vowel sound. Let's review all the teams we've learned.",
+      "how_to_guide": "Review all vowel teams. Practice identifying them in words. Reinforce 'two vowels walking' concept while noting exceptions.",
+      "common_mistakes": "Vowel teams have exceptions and ambiguities. Focus on most common patterns. Build familiarity through reading practice."
+    }
+  },
+  {
+    "lesson_number": 87,
+    "title": "Diphthong: OI",
+    "phonics_concept": "OI diphthong (gliding vowel sound)",
+    "practice_words": ["oil", "coin", "boil", "join", "point"],
+    "video_links": [
+      {
+        "title": "OI/OY Diphthong - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "OI and OY sounds"
+      },
+      {
+        "title": "Alphablocks - OI Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "OI pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Diphthong decodables",
+        "source": "Reading Doctor - Level 2C",
+        "level": "oi, oy, ou, ow",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: oi oi oi",
+      "practice": "OI makes /oi/ sound (like 'oil')\noil, coin, boil, join, point",
+      "writing": "Write: oil ___ coin ___ boil ___ point ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now we're learning diphthongs! OI makes the /oi/ sound - your mouth moves as you say it: /oi/. Like in 'oil' and 'coin'.",
+      "how_to_guide": "Diphthong = two vowel sounds gliding together. OI usually in middle/end of syllable. Consistent sound.",
+      "common_mistakes": "Diphthongs are generally easier than variable vowel teams. OI is very consistent - always /oi/ sound."
+    }
+  },
+  {
+    "lesson_number": 88,
+    "title": "Diphthong: OY",
+    "phonics_concept": "OY diphthong (same sound as OI)",
+    "practice_words": ["boy", "toy", "joy", "Roy", "enjoy"],
+    "video_links": [
+      {
+        "title": "OY Diphthong - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "OY sound"
+      },
+      {
+        "title": "Alphablocks - OY",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "OY pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "OY diphthong readers",
+        "source": "Reading Doctor",
+        "level": "oi, oy patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: oy oy oy",
+      "practice": "OY makes /oi/ sound (same as OI)\nboy, toy, joy, Roy, enjoy",
+      "writing": "Write: boy ___ toy ___ joy ___ enjoy ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "OY is another spelling for the /oi/ sound! Same sound as OI, but OY usually comes at the END of words. Both say /oi/: coin, boy.",
+      "how_to_guide": "Spelling pattern: OI in middle (coin, boil), OY at end (boy, joy). Both = /oi/ sound. Similar to AI/AY pattern.",
+      "common_mistakes": "Confusing OI and OY placement. Teach general rule: OI middle, OY end. Same sound, different positions."
+    }
+  },
+  {
+    "lesson_number": 89,
+    "title": "Diphthong: OU",
+    "phonics_concept": "OU diphthong as in 'out'",
+    "practice_words": ["out", "loud", "house", "mouse", "shout"],
+    "video_links": [
+      {
+        "title": "OU/OW Diphthong - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "OU and OW /ow/ sound"
+      },
+      {
+        "title": "Alphablocks - OU Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "OU pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "OU/OW diphthong decodables",
+        "source": "Reading Doctor - Level 2C",
+        "level": "ou, ow diphthongs",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ou ou ou",
+      "practice": "OU makes /ow/ sound (like 'ouch!')\nout, loud, house, mouse, shout",
+      "writing": "Write: out ___ loud ___ house ___ mouse ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "OU makes the /ow/ sound like when you say 'ouch!' or 'out'. Your mouth opens wide: /ow/.",
+      "how_to_guide": "Diphthong /ow/ as in 'out, house, loud'. Note: OU can make other sounds too (soup, country), but /ow/ is most common.",
+      "common_mistakes": "OU has multiple sounds. Start with /ow/ (out, house). Teach exceptions later (soup, through, country, cough)."
+    }
+  },
+  {
+    "lesson_number": 90,
+    "title": "Diphthong: OW (as in 'cow')",
+    "phonics_concept": "OW diphthong /ow/ (same as OU)",
+    "practice_words": ["cow", "now", "down", "town", "brown"],
+    "video_links": [
+      {
+        "title": "OW Diphthong - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "OW /ow/ sound"
+      },
+      {
+        "title": "Alphablocks - OW Cow",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "OW as /ow/"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "OW diphthong readers",
+        "source": "Reading Doctor",
+        "level": "ow patterns - both sounds",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ow ow ow",
+      "practice": "OW can also make /ow/ sound (like 'cow')\ncow, now, down, town, brown",
+      "writing": "Write: cow ___ now ___ down ___ town ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Remember OW can make TWO sounds! We learned long O (snow). Now here's the /ow/ sound like in 'cow' and 'down'. Same sound as OU!",
+      "how_to_guide": "OW diphthong /ow/ (cow, now) vs. OW long O (snow, show). Context helps determine which. Often /ow/ in middle, long O at end (not absolute).",
+      "common_mistakes": "OW ambiguity very challenging. Students must try both sounds. Frequent exposure to common words helps build pattern recognition."
+    }
+  },
+  {
+    "lesson_number": 91,
+    "title": "R-Controlled: AR",
+    "phonics_concept": "AR makes /ar/ sound (bossy R)",
+    "practice_words": ["car", "star", "park", "barn", "card"],
+    "video_links": [
+      {
+        "title": "AR Sound - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "AR bossy R pattern"
+      },
+      {
+        "title": "Alphablocks - AR Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "AR pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "R-controlled vowel decodables",
+        "source": "Reading Doctor - Level 2D",
+        "level": "ar, or, er, ir, ur",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: ar ar ar",
+      "practice": "AR makes /ar/ sound (R controls the A)\ncar, star, park, barn, card",
+      "writing": "Write: car ___ star ___ park ___ barn ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now we're learning about Bossy R! When R comes after a vowel, it changes the vowel sound. AR makes /ar/ like in 'car' and 'star'. The R is bossy - it controls the A!",
+      "how_to_guide": "R-controlled vowels: R changes preceding vowel sound. AR = /ar/ (not short A or long A). Very consistent pattern.",
+      "common_mistakes": "May try to say short A then /r/ separately. Teach AR as one sound unit: /ar/. Use 'Bossy R' terminology."
+    }
+  },
+  {
+    "lesson_number": 92,
+    "title": "R-Controlled: OR",
+    "phonics_concept": "OR makes /or/ sound (bossy R)",
+    "practice_words": ["for", "or", "corn", "fork", "storm"],
+    "video_links": [
+      {
+        "title": "OR Sound - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "OR bossy R"
+      },
+      {
+        "title": "Alphablocks - OR",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "OR pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "OR pattern decodables",
+        "source": "Reading Doctor",
+        "level": "R-controlled vowels",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: or or or",
+      "practice": "OR makes /or/ sound (R controls the O)\nfor, corn, fork, storm, short",
+      "writing": "Write: for ___ corn ___ fork ___ storm ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Another Bossy R! OR makes /or/ like in 'for' and 'corn'. The R controls the O sound.",
+      "how_to_guide": "R-controlled OR = /or/. Very consistent. Teach as single sound unit.",
+      "common_mistakes": "Fairly straightforward. OR consistently makes /or/. Reinforce Bossy R concept."
+    }
+  },
+  {
+    "lesson_number": 93,
+    "title": "R-Controlled: ER, IR, UR",
+    "phonics_concept": "ER, IR, UR all make /er/ sound",
+    "practice_words": ["her", "bird", "turn", "fern", "girl", "burn"],
+    "video_links": [
+      {
+        "title": "ER IR UR - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "All three R-controlled patterns"
+      },
+      {
+        "title": "Alphablocks - Bossy R",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "ER, IR, UR sounds"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "ER/IR/UR decodables",
+        "source": "Reading Doctor - Level 2D",
+        "level": "R-controlled vowels",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: er ir ur",
+      "practice": "ER, IR, UR all make the same /er/ sound!\nher, bird, turn, fern, girl, burn",
+      "writing": "Write: her ___ bird ___ turn ___ girl ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Here's something special! ER, IR, and UR all make the SAME sound: /er/! They all sound alike but are spelled differently. Like 'her', 'bird', and 'turn' - all say /er/!",
+      "how_to_guide": "All three spell /er/ sound. ER most common, IR and UR less so. Spelling must be memorized - sound doesn't distinguish them.",
+      "common_mistakes": "Since all three sound identical, spelling is challenging. Students must memorize which spelling for each word. Reading is easier than spelling."
+    }
+  },
+  {
+    "lesson_number": 94,
+    "title": "Review: All R-Controlled Vowels",
+    "phonics_concept": "AR, OR, ER, IR, UR review",
+    "practice_words": ["car", "for", "her", "bird", "turn", "star", "corn"],
+    "video_links": [
+      {
+        "title": "Bossy R Review - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "All R-controlled vowels"
+      },
+      {
+        "title": "Alphablocks - R-Controlled Complete",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "All Bossy R patterns"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Mixed R-controlled decodables",
+        "source": "Reading Doctor - Level 2D",
+        "level": "All R-controlled",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Write R-controlled: ar or er ir ur",
+      "practice": "Match pattern to word:\nar-car, or-for, er-her, ir-bird, ur-turn",
+      "writing": "Write one word for each R-controlled pattern"
+    },
+    "teaching_notes": {
+      "what_to_say": "Great job with Bossy R! When R comes after a vowel, it changes how the vowel sounds. Let's review all the R-controlled vowel patterns.",
+      "how_to_guide": "Review AR (/ar/), OR (/or/), and ER/IR/UR (all /er/). Reinforce that R 'bosses' the vowel. Practice identifying patterns.",
+      "common_mistakes": "R-controlled vowels change familiar vowel sounds, which can be confusing initially. Continued practice builds mastery."
+    }
+  },
+  {
+    "lesson_number": 95,
+    "title": "Advanced: -IGH Pattern",
+    "phonics_concept": "IGH makes long I sound",
+    "practice_words": ["high", "night", "right", "light", "fight"],
+    "video_links": [
+      {
+        "title": "IGH Pattern - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "IGH makes long I"
+      },
+      {
+        "title": "Alphablocks - IGH Words",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "IGH pattern"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Advanced pattern decodables",
+        "source": "Reading Doctor - Level 3",
+        "level": "igh, eigh, ough patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: igh igh igh",
+      "practice": "IGH makes long I sound (GH is silent)\nhigh, night, right, light, fight",
+      "writing": "Write: high ___ night ___ right ___ light ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "IGH is a special pattern! Three letters that make the long I sound. The GH is completely silent. Like in 'night' and 'light'.",
+      "how_to_guide": "Advanced pattern. I makes long I sound, GH is silent. Common in English. Teach as unit to memorize.",
+      "common_mistakes": "Trying to pronounce the GH. Emphasize: GH is SILENT in -IGH pattern. Only the I sound (long I) is heard."
+    }
+  },
+  {
+    "lesson_number": 96,
+    "title": "Advanced: -TION Suffix",
+    "phonics_concept": "-TION makes /shun/ sound",
+    "practice_words": ["action", "nation", "station", "fraction", "lotion"],
+    "video_links": [
+      {
+        "title": "TION Suffix - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "TION makes /shun/"
+      },
+      {
+        "title": "Suffixes Song",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Common suffixes"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Multisyllabic decodables",
+        "source": "Reading Doctor - Level 3",
+        "level": "Common suffixes",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -tion -tion -tion",
+      "practice": "TION makes /shun/ sound\nac-tion, na-tion, sta-tion, frac-tion",
+      "writing": "Write: action ___ nation ___ station ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "-TION is a common ending! Four letters that make /shun/ sound like in 'action' and 'nation'. It's a suffix that makes words into nouns.",
+      "how_to_guide": "Advanced pattern. -TION = /shun/. Very common suffix. Helps decode multisyllabic words. Break into syllables: ac-tion.",
+      "common_mistakes": "May try to sound out each letter. Teach -TION as chunk making /shun/. Practice syllable division."
+    }
+  },
+  {
+    "lesson_number": 97,
+    "title": "Advanced: -SION Suffix",
+    "phonics_concept": "-SION makes /shun/ or /zhun/ sound",
+    "practice_words": ["mission", "vision", "mansion", "tension", "version"],
+    "video_links": [
+      {
+        "title": "SION Suffix - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "SION suffix patterns"
+      },
+      {
+        "title": "Suffixes",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Common endings"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Suffix decodables",
+        "source": "Reading Doctor - Level 3",
+        "level": "Advanced suffixes",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -sion -sion -sion",
+      "practice": "SION usually makes /shun/ or /zhun/\nmis-sion (/shun/), vi-sion (/zhun/)",
+      "writing": "Write: mission ___ vision ___ mansion ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "-SION is like -TION! It usually makes /shun/ like 'mission', but sometimes /zhun/ like 'vision'. Both are common endings.",
+      "how_to_guide": "-SION after consonant usually /shun/ (mission, mansion). After vowel often /zhun/ (vision, division). Advanced pattern.",
+      "common_mistakes": "Distinguishing /shun/ vs /zhun/ can be subtle. Context and word familiarity help. Focus on recognition in reading."
+    }
+  },
+  {
+    "lesson_number": 98,
+    "title": "Advanced: Soft C",
+    "phonics_concept": "C makes /s/ before E, I, Y",
+    "practice_words": ["cent", "city", "ice", "race", "cycle"],
+    "video_links": [
+      {
+        "title": "Hard and Soft C - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "C rules"
+      },
+      {
+        "title": "Alphablocks - Soft C",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "C makes /s/ sound"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Soft C/G decodables",
+        "source": "Reading Doctor - Level 3",
+        "level": "Advanced consonant patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace soft C words: cent city ice",
+      "practice": "C makes /s/ before E, I, Y:\ncent, city, ice, race, cycle",
+      "writing": "Write: cent ___ city ___ ice ___ race ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Remember C can make two sounds! We learned /k/ like 'cat'. Now C makes /s/ before E, I, or Y. Like 'cent', 'city', 'cycle'. This is called 'soft C'.",
+      "how_to_guide": "Soft C rule: C = /s/ before e, i, y. Hard C = /k/ before a, o, u. Important spelling/reading pattern.",
+      "common_mistakes": "Forgetting soft C rule and using /k/ sound. Teach rule explicitly: C before e/i/y says /s/."
+    }
+  },
+  {
+    "lesson_number": 99,
+    "title": "Advanced: Soft G",
+    "phonics_concept": "G makes /j/ before E, I, Y",
+    "practice_words": ["gem", "giraffe", "giant", "cage", "gym"],
+    "video_links": [
+      {
+        "title": "Hard and Soft G - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "G rules"
+      },
+      {
+        "title": "Alphablocks - Soft G",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "G makes /j/ sound"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Soft G decodables",
+        "source": "Reading Doctor - Level 3",
+        "level": "Advanced patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace soft G words: gem giant gym",
+      "practice": "G makes /j/ before E, I, Y:\ngem, giraffe, giant, cage, gym",
+      "writing": "Write: gem ___ giant ___ cage ___ gym ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "G can also make two sounds! We learned /g/ like 'goat'. Now G makes /j/ before E, I, or Y. Like 'gem', 'giraffe', 'gym'. This is 'soft G'.",
+      "how_to_guide": "Soft G rule: G = /j/ before e, i, y (usually). Hard G = /g/ before a, o, u. Less consistent than soft C (exceptions: get, give, girl).",
+      "common_mistakes": "Soft G has more exceptions than soft C. Teach as general pattern with exceptions to memorize."
+    }
+  },
+  {
+    "lesson_number": 100,
+    "title": "Advanced: -LE Ending",
+    "phonics_concept": "Consonant + LE final syllable",
+    "practice_words": ["table", "apple", "purple", "little", "bubble"],
+    "video_links": [
+      {
+        "title": "LE Ending - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Consonant + LE pattern"
+      },
+      {
+        "title": "Syllable Types",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Final stable syllables"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Multisyllabic decodables",
+        "source": "Reading Doctor - Level 3",
+        "level": "C+LE syllables",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace -LE words: table apple purple",
+      "practice": "Consonant+LE makes final syllable:\nta-ble, ap-ple, pur-ple, lit-tle",
+      "writing": "Write: table ___ apple ___ purple ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Words ending in consonant + LE divide before the consonant. The LE makes the /ul/ sound. Like 'table' = ta-ble, 'apple' = ap-ple.",
+      "how_to_guide": "C+LE final stable syllable. Divide before consonant: ta/ble, pur/ple. -LE sounds like /ul/. Helps decode multisyllabic words.",
+      "common_mistakes": "Syllable division can be confusing. Practice dividing: consonant goes with -LE to make final syllable."
+    }
+  },
+  {
+    "lesson_number": 101,
+    "title": "Review: Multisyllabic Words",
+    "phonics_concept": "Putting it all together - longer words",
+    "practice_words": ["rainbow", "something", "butterfly", "elephant", "important"],
+    "video_links": [
+      {
+        "title": "Syllable Counting - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Breaking words into syllables"
+      },
+      {
+        "title": "Reading Longer Words",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Chunking strategies"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Chapter books for early readers",
+        "source": "Project Gutenberg / ICDL",
+        "level": "Transitional readers",
+        "url": "https://www.gutenberg.org/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Divide into syllables: rain-bow some-thing but-ter-fly",
+      "practice": "Break down longer words:\nrain-bow (2), some-thing (2), but-ter-fly (3), el-e-phant (3)",
+      "writing": "Write: rainbow ___ butterfly ___ elephant ___"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now you know SO many phonics patterns! When you see a long word, break it into smaller chunks or syllables. Sound out each part, then blend them together!",
+      "how_to_guide": "Teach syllable division strategies. Use all learned patterns to decode longer words. Chunk into manageable parts.",
+      "common_mistakes": "Longer words can feel overwhelming. Break down systematically. Identify known patterns within the word."
+    }
+  },
+  {
+    "lesson_number": 102,
+    "title": "Compound Words",
+    "phonics_concept": "Two words combined into one",
+    "practice_words": ["sun + shine = sunshine", "rain + bow = rainbow", "bed + room = bedroom"],
+    "video_links": [
+      {
+        "title": "Compound Words Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Learning compound words"
+      },
+      {
+        "title": "What is a Compound Word",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Compound word examples"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Compound word readers",
+        "source": "Reading Doctor / Starfall",
+        "level": "Multisyllabic",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace compound words: sunshine rainbow bedroom",
+      "practice": "Make compound words:\nsun + shine = ?, rain + bow = ?, bed + room = ?",
+      "writing": "Write 3 compound words you know"
+    },
+    "teaching_notes": {
+      "what_to_say": "Compound words are two small words put together to make one bigger word! Like 'sun' + 'shine' = 'sunshine'. If you can read each small word, you can read the compound word!",
+      "how_to_guide": "Teach to identify two separate words within compound. Sound out each part, then put together. Makes longer words easier.",
+      "common_mistakes": "Students may not recognize the two separate words. Explicitly show the division and meaning of each part."
+    }
+  },
+  {
+    "lesson_number": 103,
+    "title": "Contractions",
+    "phonics_concept": "Two words shortened with apostrophe",
+    "practice_words": ["can't", "don't", "I'm", "it's", "didn't"],
+    "video_links": [
+      {
+        "title": "Contractions Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Common contractions"
+      },
+      {
+        "title": "Apostrophe Contractions",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "How contractions work"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Books with contractions",
+        "source": "Starfall / free online readers",
+        "level": "Transitional",
+        "url": "https://www.starfall.com/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: can't don't I'm",
+      "practice": "Match contractions to full words:\ncan't = can not, don't = do not, I'm = I am",
+      "writing": "Write 3 contractions you see often"
+    },
+    "teaching_notes": {
+      "what_to_say": "Contractions are shortcuts! Two words squeezed together with some letters left out. The apostrophe shows where letters are missing. 'Can not' becomes 'can't'.",
+      "how_to_guide": "Teach common contractions. Show original two words. Explain apostrophe replaces missing letters. Important for reading fluency.",
+      "common_mistakes": "May not understand apostrophe's function. Explicitly show which letters are removed and where apostrophe goes."
+    }
+  },
+  {
+    "lesson_number": 104,
+    "title": "Prefixes: UN-, RE-",
+    "phonics_concept": "Word beginnings that change meaning",
+    "practice_words": ["undo", "unhappy", "redo", "remake", "return"],
+    "video_links": [
+      {
+        "title": "Prefixes Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Common prefixes"
+      },
+      {
+        "title": "UN and RE Prefixes",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Prefix meanings"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Morphology readers",
+        "source": "Reading Doctor - Level 4",
+        "level": "Prefixes and suffixes",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: un- re-",
+      "practice": "Add prefixes:\ndo → undo, happy → unhappy, make → remake",
+      "writing": "Write 3 words with UN or RE prefix"
+    },
+    "teaching_notes": {
+      "what_to_say": "Prefixes are word parts added to the BEGINNING that change the meaning. UN- means 'not' or 'opposite' (unhappy = not happy). RE- means 'again' (redo = do again).",
+      "how_to_guide": "Teach prefix meanings. Show base word + prefix. Helps decode and understand longer words. Builds vocabulary.",
+      "common_mistakes": "May not understand how prefix changes meaning. Explicitly teach meaning of each prefix and how it modifies base word."
+    }
+  },
+  {
+    "lesson_number": 105,
+    "title": "Suffixes: -ED, -ING",
+    "phonics_concept": "Word endings that change meaning/tense",
+    "practice_words": ["jumped", "played", "jumping", "playing", "looked"],
+    "video_links": [
+      {
+        "title": "Suffixes ED and ING - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Common verb endings"
+      },
+      {
+        "title": "Adding ED and ING",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Suffix rules"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Suffix decodables",
+        "source": "Reading Doctor - Level 4",
+        "level": "Inflectional endings",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -ed -ing",
+      "practice": "Add suffixes:\njump → jumped, jumping\nplay → played, playing",
+      "writing": "Write 2 words with -ED and 2 with -ING"
+    },
+    "teaching_notes": {
+      "what_to_say": "Suffixes are word parts added to the END. -ED shows past tense (jumped = already happened). -ING shows happening now (jumping = right now).",
+      "how_to_guide": "Teach suffix meanings and sounds. -ED can sound like /ed/, /d/, or /t/. -ING always /ing/. Important for reading verbs.",
+      "common_mistakes": "-ED has three sounds (jumped /t/, played /d/, wanted /ed/). Teach students to try all three to find real word."
+    }
+  },
+  {
+    "lesson_number": 106,
+    "title": "Suffixes: -S, -ES",
+    "phonics_concept": "Plural and verb endings",
+    "practice_words": ["cats", "dogs", "boxes", "wishes", "plays"],
+    "video_links": [
+      {
+        "title": "Plural S and ES - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Making plurals"
+      },
+      {
+        "title": "Adding S and ES",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Plural rules"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Plural endings decodables",
+        "source": "Reading Doctor",
+        "level": "Inflectional suffixes",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: -s -es",
+      "practice": "Make plurals:\ncat → cats, dog → dogs, box → boxes, wish → wishes",
+      "writing": "Write 3 plural words"
+    },
+    "teaching_notes": {
+      "what_to_say": "To make more than one (plural), we usually add -S (cats, dogs). But after S, X, Z, CH, SH, we add -ES (boxes, wishes, buzzes).",
+      "how_to_guide": "Teach plural rules. -S for most words, -ES after sibilants (s, x, z, ch, sh). Important reading and spelling pattern.",
+      "common_mistakes": "Knowing when to use -S vs -ES. Teach the rule: -ES after hissing/buzzing sounds."
+    }
+  },
+  {
+    "lesson_number": 107,
+    "title": "Silent Letters: K in KN-",
+    "phonics_concept": "K is silent before N",
+    "practice_words": ["knee", "knife", "know", "knock", "knight"],
+    "video_links": [
+      {
+        "title": "Silent K - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "KN words"
+      },
+      {
+        "title": "Silent Letters Song",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Common silent letters"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Silent letter decodables",
+        "source": "Reading Doctor - Level 4",
+        "level": "Unusual patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace KN words: knee knife know",
+      "practice": "Silent K before N:\nknee, knife, know, knock (sound like: nee, nife, no, nock)",
+      "writing": "Write 3 KN words"
+    },
+    "teaching_notes": {
+      "what_to_say": "English has some sneaky silent letters! When K comes before N at the start of a word, the K is SILENT. 'Knee' sounds like 'nee', 'knife' like 'nife'.",
+      "how_to_guide": "Teach KN- pattern: K silent. Limited number of KN words - can be memorized. Historically K was pronounced.",
+      "common_mistakes": "Trying to pronounce the K. Emphasize K is completely silent in KN- words. Just say /n/ sound."
+    }
+  },
+  {
+    "lesson_number": 108,
+    "title": "Silent Letters: W in WR-",
+    "phonics_concept": "W is silent before R",
+    "practice_words": ["write", "wrong", "wrap", "wrist", "wreck"],
+    "video_links": [
+      {
+        "title": "Silent W - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "WR words"
+      },
+      {
+        "title": "Silent Letters",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "W before R"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Silent W decodables",
+        "source": "Reading Doctor",
+        "level": "Unusual spellings",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace WR words: write wrong wrap",
+      "practice": "Silent W before R:\nwrite, wrong, wrap, wrist (sound like: rite, rong, rap, rist)",
+      "writing": "Write 3 WR words"
+    },
+    "teaching_notes": {
+      "what_to_say": "Another silent letter pattern! When W comes before R at the start of a word, the W is SILENT. 'Write' sounds like 'rite', 'wrong' like 'rong'.",
+      "how_to_guide": "Teach WR- pattern: W silent. Limited WR words. Useful to know for reading and spelling.",
+      "common_mistakes": "Trying to say /w/ before /r/. Emphasize W is silent - just say /r/ sound."
+    }
+  },
+  {
+    "lesson_number": 109,
+    "title": "Silent Letters: GH in -IGHT",
+    "phonics_concept": "GH is silent in -IGHT pattern",
+    "practice_words": ["night", "light", "fight", "right", "bright"],
+    "video_links": [
+      {
+        "title": "Silent GH - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "IGH pattern review"
+      },
+      {
+        "title": "Alphablocks - Silent Letters",
+        "url": "https://www.youtube.com/watch?v=IdIP3BGx11M",
+        "description": "GH patterns"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "IGH pattern readers",
+        "source": "Reading Doctor",
+        "level": "Advanced patterns",
+        "url": "https://www.readingdoctor.com.au/decodable-readers"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Review: -ight -ight -ight",
+      "practice": "GH is silent, I makes long I sound:\nnight, light, fight, right, bright",
+      "writing": "Write 3 -IGHT words"
+    },
+    "teaching_notes": {
+      "what_to_say": "We learned this before! In -IGHT words, the GH is completely silent. Only the long I sound is heard. Common pattern in English.",
+      "how_to_guide": "Review -IGHT pattern from earlier lesson. Reinforce GH silence. Very common, important to master.",
+      "common_mistakes": "Attempting to pronounce GH. Reiterate: GH is always silent in -IGHT pattern."
+    }
+  },
+  {
+    "lesson_number": 110,
+    "title": "Homophones",
+    "phonics_concept": "Words that sound the same but have different spellings",
+    "practice_words": ["to/two/too", "there/their", "hear/here", "write/right"],
+    "video_links": [
+      {
+        "title": "Homophones Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Common homophones"
+      },
+      {
+        "title": "Same Sound Different Spelling",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Homophone examples"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Books with common homophones",
+        "source": "Starfall / online readers",
+        "level": "Intermediate",
+        "url": "https://www.starfall.com/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace homophone pairs: to/two, hear/here",
+      "practice": "Match to meanings:\nto = toward, two = 2, too = also\nhear = with ears, here = this place",
+      "writing": "Use each word in a sentence"
+    },
+    "teaching_notes": {
+      "what_to_say": "Homophones are tricky! They SOUND exactly the same but are SPELLED differently and MEAN different things. You need to know the meaning to spell them correctly.",
+      "how_to_guide": "Teach common homophone sets. Emphasize meaning determines spelling. Important for reading comprehension and writing.",
+      "common_mistakes": "Homophones are confusing for all learners. Requires memorization and understanding of meanings. Use in context."
+    }
+  },
+  {
+    "lesson_number": 111,
+    "title": "Common Irregular Words 1",
+    "phonics_concept": "High-frequency words that don't follow rules",
+    "practice_words": ["said", "does", "were", "are", "one"],
+    "video_links": [
+      {
+        "title": "Sight Words Song - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Common irregular words"
+      },
+      {
+        "title": "Tricky Words",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Words to memorize"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Sight word readers",
+        "source": "Starfall / Dolch word books",
+        "level": "High-frequency",
+        "url": "https://www.starfall.com/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace irregular words: said does were",
+      "practice": "Memorize these tricky words:\nsaid (not 'sayd'), does (not 'doze'), were (not 'weer')",
+      "writing": "Write each word 3 times"
+    },
+    "teaching_notes": {
+      "what_to_say": "Some words in English don't follow the phonics rules - they're irregular or 'tricky words'. We have to memorize them. Like 'said' - it doesn't sound like it looks!",
+      "how_to_guide": "Teach high-frequency irregular words. These must be memorized as sight words. Essential for reading fluency.",
+      "common_mistakes": "Students will try to sound out irregularly. Explain these are exceptions - must be learned by sight/memory."
+    }
+  },
+  {
+    "lesson_number": 112,
+    "title": "Common Irregular Words 2",
+    "phonics_concept": "More high-frequency irregular words",
+    "practice_words": ["have", "come", "some", "who", "what"],
+    "video_links": [
+      {
+        "title": "Sight Words 2 - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "More tricky words"
+      },
+      {
+        "title": "Heart Words",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Words to know by heart"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "High-frequency word books",
+        "source": "Starfall decodables with sight words",
+        "level": "Sight words",
+        "url": "https://www.starfall.com/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "Trace: have come some who what",
+      "practice": "Learn by heart:\nhave, come, some, who, what",
+      "writing": "Write each word 3 times and use in a sentence"
+    },
+    "teaching_notes": {
+      "what_to_say": "More irregular words to learn! These are used ALL the time in reading, so knowing them by heart helps you read faster and smoother.",
+      "how_to_guide": "Continue building sight word vocabulary. Practice in context. Use flashcards, games for memorization.",
+      "common_mistakes": "Irregular words require repetition and practice. Use multisensory methods to aid memorization."
+    }
+  },
+  {
+    "lesson_number": 113,
+    "title": "Reading Fluency 1",
+    "phonics_concept": "Reading with expression and speed",
+    "practice_words": ["Practice reading sentences smoothly without pausing at each word"],
+    "video_links": [
+      {
+        "title": "Reading Fluency Tips",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "How to read smoothly"
+      },
+      {
+        "title": "Expression in Reading",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Reading with feeling"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Early readers for fluency practice",
+        "source": "Starfall / Project Gutenberg",
+        "level": "Fluency building",
+        "url": "https://www.gutenberg.org/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "No tracing - focus on reading practice",
+      "practice": "Read these sentences smoothly:\nThe cat sat on the mat.\nI like to play with my dog.\nWe went to the park.",
+      "writing": "Write your own sentence and read it fluently"
+    },
+    "teaching_notes": {
+      "what_to_say": "Now that you know phonics, let's practice reading SMOOTHLY! Good readers don't stop after every word - they read in phrases with expression, like they're talking.",
+      "how_to_guide": "Model fluent reading. Have child practice repeated reading of same text. Focus on phrasing, expression, and speed.",
+      "common_mistakes": "Choppy, word-by-word reading. Encourage reading in phrases. Use punctuation as guides for pausing."
+    }
+  },
+  {
+    "lesson_number": 114,
+    "title": "Reading Comprehension 1",
+    "phonics_concept": "Understanding what you read",
+    "practice_words": ["Read and answer questions about simple stories"],
+    "video_links": [
+      {
+        "title": "Reading Comprehension Strategies",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Understanding what you read"
+      },
+      {
+        "title": "Story Questions",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Answering who, what, where, when, why"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Simple stories with questions",
+        "source": "Starfall / ICDL",
+        "level": "Early readers",
+        "url": "https://en.childrenslibrary.org/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "No tracing - reading focus",
+      "practice": "Read the story, then answer:\nWho? What? Where? When? Why?",
+      "writing": "Retell the story in your own words"
+    },
+    "teaching_notes": {
+      "what_to_say": "Reading isn't just saying the words - it's UNDERSTANDING the story! After you read, think about what happened. Who was in the story? What did they do?",
+      "how_to_guide": "Teach basic comprehension strategies: visualizing, predicting, questioning, summarizing. Ask questions during and after reading.",
+      "common_mistakes": "Reading without comprehension. Stop frequently to check understanding. Encourage retelling and discussion."
+    }
+  },
+  {
+    "lesson_number": 115,
+    "title": "Reading Different Text Types",
+    "phonics_concept": "Stories vs. information books",
+    "practice_words": ["Fiction and nonfiction reading practice"],
+    "video_links": [
+      {
+        "title": "Fiction vs Nonfiction",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Different types of books"
+      },
+      {
+        "title": "Reading Information Books",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Nonfiction features"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Mix of fiction and nonfiction",
+        "source": "ICDL / Starfall",
+        "level": "Various",
+        "url": "https://en.childrenslibrary.org/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "No tracing",
+      "practice": "Read a story book and an information book.\nHow are they different?",
+      "writing": "Which type do you like better and why?"
+    },
+    "teaching_notes": {
+      "what_to_say": "There are different kinds of books! Fiction books are made-up stories. Nonfiction books teach us real information about the world. Both are fun to read!",
+      "how_to_guide": "Expose to both fiction and nonfiction. Teach text features (headings, captions, diagrams in nonfiction). Build diverse reading skills.",
+      "common_mistakes": "Focusing only on fiction. Balance both types to build well-rounded readers who can handle various texts."
+    }
+  },
+  {
+    "lesson_number": 116,
+    "title": "Review: Decoding Strategies",
+    "phonics_concept": "Tools for figuring out unknown words",
+    "practice_words": ["Sound it out, look for chunks, context clues, ask for help"],
+    "video_links": [
+      {
+        "title": "Decoding Strategies - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Ways to figure out words"
+      },
+      {
+        "title": "Word Attack Skills",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Strategies for unknown words"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Challenging readers for strategy practice",
+        "source": "Project Gutenberg",
+        "level": "Slightly above current level",
+        "url": "https://www.gutenberg.org/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "No tracing",
+      "practice": "When you see a hard word, try:\n1. Sound it out\n2. Look for chunks you know\n3. Read the sentence for clues\n4. Ask for help",
+      "writing": "Find 3 hard words in a book and use strategies"
+    },
+    "teaching_notes": {
+      "what_to_say": "You have so many tools now! When you see a word you don't know: try sounding it out, look for word parts you recognize, use the sentence to guess, or ask someone. Good readers use ALL these strategies!",
+      "how_to_guide": "Teach flexible strategy use. Model trying different approaches. Encourage independence while providing support.",
+      "common_mistakes": "Over-reliance on one strategy (e.g., only sounding out). Teach multiple approaches and when to use each."
+    }
+  },
+  {
+    "lesson_number": 117,
+    "title": "Building Reading Stamina",
+    "phonics_concept": "Reading longer books and sustained practice",
+    "practice_words": ["Practice reading for increasingly longer periods"],
+    "video_links": [
+      {
+        "title": "Reading Stamina Tips",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Building endurance for reading"
+      },
+      {
+        "title": "Love of Reading",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Making reading fun"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Early chapter books",
+        "source": "ICDL / Project Gutenberg",
+        "level": "Transitional readers",
+        "url": "https://en.childrenslibrary.org/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "No tracing",
+      "practice": "Reading time tracker:\nStart with 5 minutes, build to 15-20 minutes of independent reading",
+      "writing": "Reading log: What did you read today?"
+    },
+    "teaching_notes": {
+      "what_to_say": "Real readers read for a long time! Let's build up your reading muscles. Start with just a few minutes, then slowly read for longer and longer periods.",
+      "how_to_guide": "Set reading time goals. Start short, gradually increase. Make it enjoyable - let child choose books they love.",
+      "common_mistakes": "Expecting too much too soon. Build stamina gradually. Celebrate progress. Keep it positive and engaging."
+    }
+  },
+  {
+    "lesson_number": 118,
+    "title": "Reading for Pleasure",
+    "phonics_concept": "Choosing books you enjoy",
+    "practice_words": ["Explore different genres and topics"],
+    "video_links": [
+      {
+        "title": "Finding Books You Love",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "How to choose good books"
+      },
+      {
+        "title": "Different Book Genres",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Types of books to explore"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Variety of genres and topics",
+        "source": "ICDL / Project Gutenberg / Local library",
+        "level": "At child's reading level",
+        "url": "https://en.childrenslibrary.org/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "No tracing",
+      "practice": "Try reading:\n- Adventure stories\n- Animal books\n- Science books\n- Funny stories\nWhich do you like?",
+      "writing": "Make a list of books you want to read"
+    },
+    "teaching_notes": {
+      "what_to_say": "Reading is FUN when you read about things you love! Try lots of different kinds of books to find your favorites. Adventure? Animals? Space? There's a book for everyone!",
+      "how_to_guide": "Expose to variety of genres and topics. Help child develop preferences. Visit library. Make reading a joyful, lifelong habit.",
+      "common_mistakes": "Forcing books child doesn't enjoy. Let them choose (within appropriate level). Reading should be pleasurable!"
+    }
+  },
+  {
+    "lesson_number": 119,
+    "title": "Sharing Books with Others",
+    "phonics_concept": "Reading aloud and discussing books",
+    "practice_words": ["Read to family, friends, pets!"],
+    "video_links": [
+      {
+        "title": "Reading Aloud Tips",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "How to read to others"
+      },
+      {
+        "title": "Talking About Books",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Book discussions"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Books good for reading aloud",
+        "source": "Various",
+        "level": "At or below reading level for fluency",
+        "url": "https://www.starfall.com/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "No tracing",
+      "practice": "Read a book to someone:\n- Parent\n- Sibling\n- Pet\n- Stuffed animal\nTell them about the story!",
+      "writing": "Write about your favorite book to recommend to a friend"
+    },
+    "teaching_notes": {
+      "what_to_say": "Reading is even more fun when you share it! Read your favorite books to your family, friends, even your pet! Then talk about what you read. What did you like? What was your favorite part?",
+      "how_to_guide": "Encourage reading aloud to build fluency and confidence. Facilitate book discussions. Make reading a social, shared activity.",
+      "common_mistakes": "Reading as solitary activity only. Foster community around reading - share, discuss, recommend books."
+    }
+  },
+  {
+    "lesson_number": 120,
+    "title": "Celebration: You Are a Reader!",
+    "phonics_concept": "Reflecting on reading journey and next steps",
+    "practice_words": ["Celebrate all you've learned!"],
+    "video_links": [
+      {
+        "title": "You Can Read! - Jack Hartmann",
+        "url": "https://www.youtube.com/watch?v=FxeHkmHxw8Q",
+        "description": "Celebration song"
+      },
+      {
+        "title": "Reading Success",
+        "url": "https://www.youtube.com/watch?v=C2ERyOPDUPE",
+        "description": "Celebrating reading milestones"
+      }
+    ],
+    "book_recommendations": [
+      {
+        "title": "Any book the child chooses!",
+        "source": "Wherever books are found",
+        "level": "Child's choice",
+        "url": "https://www.gutenberg.org/"
+      }
+    ],
+    "worksheet_content": {
+      "tracing": "No tracing - celebration time!",
+      "practice": "Think about:\n- Your first reading lesson\n- Hard words you can now read\n- Favorite books you've read\n- What you want to read next",
+      "writing": "Write: I am a reader! I can read ___________!"
+    },
+    "teaching_notes": {
+      "what_to_say": "CONGRATULATIONS! You've completed your phonics journey! You started by learning letter sounds, and now you can read real books! You are officially a READER! Keep reading every day and you'll get even better. The world of books is open to you now!",
+      "how_to_guide": "Celebrate this major milestone! Review the journey from letter sounds to reading books. Set goals for continued reading growth. Emphasize this is the BEGINNING, not the end - reading is a lifelong skill and joy.",
+      "common_mistakes": "Thinking phonics instruction is 'done'. Continue supporting reading development, introduce more complex texts, build vocabulary, deepen comprehension. Reading instruction continues beyond phonics foundation."
+    }
+  }
+]

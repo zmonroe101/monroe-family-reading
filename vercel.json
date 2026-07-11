@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "monroe-family-reading",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
