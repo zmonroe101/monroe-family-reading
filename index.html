@@ -1344,7 +1344,7 @@
         // Kid PIN Entry
         function addKidPin(digit) {
             if (currentKidPin.length < 4) {
-                currentKidPin += digit;
+                currentKidPin += String(digit);  // Ensure string concatenation
                 updateKidPinDisplay();
             }
         }
