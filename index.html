@@ -1301,7 +1301,7 @@
         // PIN Entry (Family Passcode)
         function addPin(digit) {
             if (currentPin.length < 4) {
-                currentPin += digit;
+                currentPin += String(digit);  // Ensure string concatenation
                 updatePinDisplay();
             }
         }
