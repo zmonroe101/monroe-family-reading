@@ -1437,7 +1437,7 @@
             html += '<p>Set optional 4-digit PINs for each child profile:</p>';
             
             state.profiles.forEach(profile => {
-                const hasPintext = profile.pin ? '✅ Set' : '❌ Not set';
+                const hasPin = profile.pin ? '✅ Set' : '❌ Not set';  // Fixed typo
                 html += `
                     <div style="margin: 15px 0; padding: 15px; background: var(--bg-color); border-radius: var(--border-radius);">
                         <strong>${profile.avatar} ${profile.name}</strong><br>
