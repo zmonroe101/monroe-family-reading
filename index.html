@@ -520,10 +520,14 @@
             align-items: center;
             justify-content: center;
             border-radius: var(--border-radius);
+            border: none;
             cursor: pointer;
             transition: all 0.2s ease;
             touch-action: manipulation;
             padding: 10px;
+            font-family: inherit;
+            text-align: center;
+            width: 100%;
         }
 
         @media (min-width: 768px) {
@@ -537,8 +541,59 @@
             transform: scale(0.95);
         }
 
+        .word-card:disabled {
+            cursor: default;
+            opacity: 0.72;
+            transform: none;
+        }
+
+        .word-card.correct {
+            background: var(--primary-color);
+        }
+
+        .word-card.incorrect {
+            background: var(--danger-color);
+        }
+
+        .word-card.selected {
+            background: var(--secondary-color);
+            box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.55);
+        }
+
+        .game-meta {
+            text-align: center;
+            color: #555;
+            font-weight: bold;
+            margin: 5px 0 15px;
+        }
+
+        .game-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .game-spelling-panel {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .game-input {
+            font-size: 24px;
+            padding: 15px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            border: 3px solid var(--primary-color);
+            border-radius: var(--border-radius);
+            margin: 15px auto;
+            display: block;
+        }
+
         @media (hover: hover) {
-            .word-card:hover {
+            .word-card:hover:not(:disabled) {
                 transform: scale(1.05);
                 background: #1976D2;
             }
@@ -582,6 +637,11 @@
         .game-feedback.incorrect {
             background: #f8d7da;
             color: #721c24;
+        }
+
+        .game-feedback.info {
+            background: #d1ecf1;
+            color: #0c5460;
         }
 
         /* Progress Bars */
@@ -1254,7 +1314,9 @@
             currentLesson: null,
             currentBlend: [],
             gameScore: 0,
-            builtWord: []
+            builtWord: [],
+            currentGame: null,
+            usedTileIndexes: []
         };
 
         // PIN Management
@@ -1682,168 +1744,465 @@
         }
 
         // Games - Touch Optimized
+        const GAME_TOTAL_ROUNDS = 5;
+        const defaultGameWords = ['cat', 'dog', 'sun', 'bat', 'cup', 'pen', 'bed', 'pig'];
+        const sightWordBank = ['the', 'and', 'you', 'to', 'a', 'I', 'it', 'in', 'is', 'can'];
+        const phonicsQuestions = [
+            {q: 'What sound does "sh" make?', a: 'sh', options: ['sh', 'ch', 'th', 's']},
+            {q: 'What sound does "ch" make?', a: 'ch', options: ['sh', 'ch', 'th', 's']},
+            {q: 'What is a CVC word?', a: 'cat', options: ['cat', 'boat', 'tree', 'play']},
+            {q: 'Which is a long vowel word?', a: 'cake', options: ['cat', 'cake', 'cap', 'can']}
+        ];
+        const gameTitles = {
+            letterRecognition: '🔤 Letter Matching',
+            wordBuilding: '🏗️ Word Builder',
+            sightWords: '👀 Sight Word Flash',
+            spelling: '✍️ Spelling Practice',
+            phonicsQuiz: '📝 Phonics Quiz'
+        };
+
         function startGame(gameType) {
+            const title = gameTitles[gameType];
             state.gameScore = 0;
+            state.builtWord = [];
+            state.usedTileIndexes = [];
             document.getElementById('gameScore').textContent = '0';
             document.getElementById('gameFeedback').style.display = 'none';
-            
-            const games = {
-                letterRecognition: () => {
-                    document.getElementById('gameTitle').textContent = '🔤 Letter Recognition';
-                    const content = document.getElementById('gameContent');
-                    const randomLetter = String.fromCharCode(97 + Math.floor(Math.random() * 26));
-                    const options = generateLetterOptions(randomLetter);
-                    
-                    content.innerHTML = `
-                        <h2>Click the letter: ${randomLetter.toUpperCase()}</h2>
-                        <div class="word-cards">
-                            ${options.map(opt => 
-                                `<div class="word-card" onclick="checkAnswer('${opt}', '${randomLetter}', 'letter')">${opt.toUpperCase()}</div>`
-                            ).join('')}
-                        </div>
-                    `;
-                },
-                wordBuilding: () => {
-                    document.getElementById('gameTitle').textContent = '🏗️ Word Building';
-                    const content = document.getElementById('gameContent');
-                    const targetWord = ['cat', 'dog', 'sun', 'bat', 'cup'][Math.floor(Math.random() * 5)];
-                    state.builtWord = [];
-                    
-                    content.innerHTML = `
-                        <h2>Build the word: ${targetWord.toUpperCase()}</h2>
-                        <div class="blend-display" id="buildWord"></div>
-                        <div class="word-cards">
-                            ${targetWord.split('').sort(() => Math.random() - 0.5).map(letter => 
-                                `<div class="word-card" onclick="buildWord('${letter}')">${letter.toUpperCase()}</div>`
-                            ).join('')}
-                        </div>
-                        <button class="btn btn-secondary" onclick="clearBuildWord()">Clear</button>
-                        <button class="btn btn-primary" onclick="checkBuiltWord('${targetWord}')">Check</button>
-                    `;
-                },
-                sightWords: () => {
-                    document.getElementById('gameTitle').textContent = '👀 Sight Words';
-                    const content = document.getElementById('gameContent');
-                    const sightWords = ['the', 'and', 'you', 'to', 'a', 'I', 'it', 'in', 'is', 'can'];
-                    const targetWord = sightWords[Math.floor(Math.random() * sightWords.length)];
-                    const options = generateWordOptions(targetWord, sightWords);
-                    
-                    content.innerHTML = `
-                        <h2>Click the word: ${targetWord.toUpperCase()}</h2>
-                        <div class="word-cards">
-                            ${options.map(opt => 
-                                `<div class="word-card" onclick="checkAnswer('${opt}', '${targetWord}', 'word')">${opt}</div>`
-                            ).join('')}
-                        </div>
-                    `;
-                },
-                spelling: () => {
-                    document.getElementById('gameTitle').textContent = '✍️ Spelling';
-                    const content = document.getElementById('gameContent');
-                    const word = ['cat', 'dog', 'sun', 'bat', 'cup', 'pen', 'bed', 'pig'][Math.floor(Math.random() * 8)];
-                    
-                    content.innerHTML = `
-                        <h2>Spell the word</h2>
-                        <p style="font-size: 32px;">🔊 Listen and spell: <strong>${word}</strong></p>
-                        <input type="text" id="spellingInput" style="font-size: 24px; padding: 15px; width: 100%; max-width: 400px; text-align: center; border: 3px solid var(--primary-color); border-radius: var(--border-radius);" maxlength="10">
-                        <br><br>
-                        <button class="btn btn-primary" onclick="checkSpelling('${word}')">Check Spelling</button>
-                    `;
-                    
-                    if ('speechSynthesis' in window) {
-                        const utterance = new SpeechSynthesisUtterance(word);
-                        utterance.rate = 0.7;
-                        window.speechSynthesis.speak(utterance);
-                    }
-                },
-                phonicsQuiz: () => {
-                    document.getElementById('gameTitle').textContent = '📝 Phonics Quiz';
-                    const content = document.getElementById('gameContent');
-                    const questions = [
-                        {q: 'What sound does "sh" make?', a: 'sh', options: ['sh', 'ch', 'th', 's']},
-                        {q: 'What sound does "ch" make?', a: 'ch', options: ['sh', 'ch', 'th', 's']},
-                        {q: 'What is a CVC word?', a: 'cat', options: ['cat', 'boat', 'tree', 'play']},
-                        {q: 'Which is a long vowel word?', a: 'cake', options: ['cat', 'cake', 'cap', 'can']}
-                    ];
-                    const question = questions[Math.floor(Math.random() * questions.length)];
-                    
-                    content.innerHTML = `
-                        <h2>${question.q}</h2>
-                        <div class="word-cards">
-                            ${question.options.map(opt => 
-                                `<div class="word-card" onclick="checkAnswer('${opt}', '${question.a}', 'quiz')">${opt}</div>`
-                            ).join('')}
-                        </div>
-                    `;
-                }
+
+            if (!title) {
+                state.currentGame = null;
+                document.getElementById('gameTitle').textContent = 'Game Unavailable';
+                document.getElementById('gameContent').innerHTML = `
+                    <div class="game-feedback incorrect" style="display: block;">
+                        This game could not be found.
+                    </div>
+                `;
+                showScreen('gamePlay');
+                return;
+            }
+
+            state.currentGame = {
+                type: gameType,
+                title,
+                round: 1,
+                totalRounds: GAME_TOTAL_ROUNDS,
+                answered: false,
+                target: null,
+                tiles: []
             };
-            
-            games[gameType]();
+
+            document.getElementById('gameTitle').textContent = title;
+            renderCurrentGameRound();
             showScreen('gamePlay');
         }
 
-        function generateLetterOptions(correct) {
-            const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
-            const options = [correct];
-            while (options.length < 4) {
-                const random = letters[Math.floor(Math.random() * letters.length)];
-                if (!options.includes(random)) options.push(random);
+        function renderCurrentGameRound() {
+            if (!state.currentGame) return;
+
+            state.currentGame.answered = false;
+            state.currentGame.target = null;
+            state.currentGame.tiles = [];
+            state.builtWord = [];
+            state.usedTileIndexes = [];
+
+            const feedback = document.getElementById('gameFeedback');
+            feedback.style.display = 'none';
+            feedback.textContent = '';
+            feedback.className = 'game-feedback';
+
+            const content = document.getElementById('gameContent');
+            content.innerHTML = renderRoundHeader() + renderGameChallenge(state.currentGame.type);
+
+            if (state.currentGame.type === 'spelling') {
+                speakText(state.currentGame.target);
             }
-            return options.sort(() => Math.random() - 0.5);
+        }
+
+        function renderRoundHeader() {
+            const game = state.currentGame;
+            return `<div class="game-meta">Round ${game.round} of ${game.totalRounds}</div>`;
+        }
+
+        function renderGameChallenge(gameType) {
+            if (gameType === 'letterRecognition') {
+                const target = randomItem(getGameLetters());
+                state.currentGame.target = target;
+                const options = generateLetterOptions(target);
+
+                return `
+                    <h2>Tap the letter or sound: ${escapeHtml(target.toUpperCase())}</h2>
+                    ${renderAnswerOptions(options, target, 'letter', option => option.toUpperCase())}
+                    <div id="roundActions" class="game-actions"></div>
+                `;
+            }
+
+            if (gameType === 'wordBuilding') {
+                const targetWord = randomItem(getGameWords()).toLowerCase();
+                const tiles = shuffle(targetWord.split('').map((letter, index) => ({letter, index})));
+                state.currentGame.target = targetWord;
+                state.currentGame.tiles = tiles;
+
+                return `
+                    <h2>Build the word: ${escapeHtml(targetWord.toUpperCase())}</h2>
+                    <div class="blend-display" id="buildWord" aria-live="polite"></div>
+                    <div class="word-cards">
+                        ${tiles.map(tile => `
+                            <button type="button" class="word-card letter-tile" data-tile-index="${tile.index}" onclick="buildWord('${jsString(tile.letter)}', ${tile.index})">
+                                ${escapeHtml(tile.letter.toUpperCase())}
+                            </button>
+                        `).join('')}
+                    </div>
+                    <div class="game-actions">
+                        <button type="button" class="btn btn-secondary build-control" onclick="clearBuildWord()">Clear</button>
+                        <button type="button" class="btn btn-primary build-control" onclick="checkBuiltWord('${jsString(targetWord)}')">Check</button>
+                    </div>
+                    <div id="roundActions" class="game-actions"></div>
+                `;
+            }
+
+            if (gameType === 'sightWords') {
+                const targetWord = randomItem(sightWordBank);
+                state.currentGame.target = targetWord;
+                const options = generateWordOptions(targetWord, sightWordBank);
+
+                return `
+                    <h2>Tap the sight word: ${escapeHtml(targetWord.toUpperCase())}</h2>
+                    ${renderAnswerOptions(options, targetWord, 'word')}
+                    <div id="roundActions" class="game-actions"></div>
+                `;
+            }
+
+            if (gameType === 'spelling') {
+                const word = randomItem(getGameWords()).toLowerCase();
+                state.currentGame.target = word;
+
+                return `
+                    <div class="game-spelling-panel">
+                        <h2>Spell the word you hear</h2>
+                        <button type="button" id="playWordButton" class="btn btn-accent" onclick="speakText('${jsString(word)}')">🔊 Play Word</button>
+                        <input
+                            type="text"
+                            id="spellingInput"
+                            class="game-input"
+                            maxlength="20"
+                            autocomplete="off"
+                            autocorrect="off"
+                            autocapitalize="none"
+                            spellcheck="false"
+                            inputmode="text"
+                            aria-label="Type the spelling word"
+                            onkeydown="handleSpellingKey(event, '${jsString(word)}')"
+                        >
+                        <button type="button" id="checkSpellingButton" class="btn btn-primary" onclick="checkSpelling('${jsString(word)}')">Check Spelling</button>
+                    </div>
+                    <div id="roundActions" class="game-actions"></div>
+                `;
+            }
+
+            if (gameType === 'phonicsQuiz') {
+                const question = randomItem(phonicsQuestions);
+                state.currentGame.target = question.a;
+
+                return `
+                    <h2>${escapeHtml(question.q)}</h2>
+                    ${renderAnswerOptions(question.options, question.a, 'quiz')}
+                    <div id="roundActions" class="game-actions"></div>
+                `;
+            }
+
+            return '';
+        }
+
+        function renderAnswerOptions(options, correct, type, labelFormatter = option => option) {
+            return `
+                <div class="word-cards">
+                    ${options.map(option => `
+                        <button
+                            type="button"
+                            class="word-card game-option"
+                            data-answer="${escapeHtml(option)}"
+                            onclick="checkAnswer('${jsString(option)}', '${jsString(correct)}', '${jsString(type)}', this)"
+                        >
+                            ${escapeHtml(labelFormatter(option))}
+                        </button>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function generateLetterOptions(correct) {
+            return generateOptions(correct, getLetterOptionPool(correct));
         }
 
         function generateWordOptions(correct, wordList) {
-            const options = [correct];
-            while (options.length < 4) {
-                const random = wordList[Math.floor(Math.random() * wordList.length)];
-                if (!options.includes(random)) options.push(random);
-            }
-            return options.sort(() => Math.random() - 0.5);
+            return generateOptions(correct, wordList);
         }
 
-        function checkAnswer(answer, correct, type) {
-            const feedback = document.getElementById('gameFeedback');
-            feedback.style.display = 'block';
-            
-            if (answer === correct) {
+        function generateOptions(correct, optionPool) {
+            const options = [correct];
+            const pool = shuffle([...new Set(optionPool)]);
+
+            for (const item of pool) {
+                if (options.length >= 4) break;
+                if (normalizeAnswer(item) !== normalizeAnswer(correct) && !options.some(option => normalizeAnswer(option) === normalizeAnswer(item))) {
+                    options.push(item);
+                }
+            }
+
+            return shuffle(options);
+        }
+
+        function getGameLetters() {
+            if (state.currentLesson && Array.isArray(state.currentLesson.letters) && state.currentLesson.letters.length > 0) {
+                return state.currentLesson.letters;
+            }
+
+            return 'abcdefghijklmnopqrstuvwxyz'.split('');
+        }
+
+        function getLetterOptionPool(correct) {
+            const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+            const patterns = ['sh', 'ch', 'th', 'wh', 'ph', 'ai', 'ay', 'ee', 'ea', 'oa', 'ow', 'oo', 'ou', 'oi', 'oy', 'au', 'aw', 'ar', 'er', 'ir', 'or', 'ur'];
+
+            if (String(correct).length > 1) {
+                return [...getGameLetters(), ...patterns];
+            }
+
+            return [...getGameLetters(), ...alphabet];
+        }
+
+        function getGameWords() {
+            if (state.currentLesson && Array.isArray(state.currentLesson.words) && state.currentLesson.words.length > 0) {
+                return state.currentLesson.words;
+            }
+
+            return defaultGameWords;
+        }
+
+        function checkAnswer(answer, correct, type, sourceElement = null) {
+            if (!state.currentGame || state.currentGame.answered) return;
+
+            const isCorrect = normalizeAnswer(answer) === normalizeAnswer(correct);
+            state.currentGame.answered = true;
+
+            if (isCorrect) {
                 state.gameScore += 10;
                 document.getElementById('gameScore').textContent = state.gameScore;
-                feedback.className = 'game-feedback correct';
-                feedback.textContent = '✅ Correct! Great job!';
-                
-                // Haptic feedback
+                showGameFeedback('✅ Correct! Great job!', 'correct');
+
                 if (navigator.vibrate) {
                     navigator.vibrate([50, 50, 50]);
                 }
             } else {
-                feedback.className = 'game-feedback incorrect';
-                feedback.textContent = `❌ Oops! The correct answer is: ${correct}`;
-                
-                // Haptic feedback
+                showGameFeedback(`❌ Oops! The correct answer is: ${correct}`, 'incorrect');
+
                 if (navigator.vibrate) {
                     navigator.vibrate(200);
                 }
             }
+
+            markAnsweredOptions(correct, sourceElement, isCorrect);
+            disableRoundInputs();
+            renderRoundActions();
         }
 
-        function buildWord(letter) {
+        function showGameFeedback(message, status) {
+            const feedback = document.getElementById('gameFeedback');
+            feedback.style.display = 'block';
+            feedback.className = `game-feedback ${status}`;
+            feedback.textContent = message;
+        }
+
+        function markAnsweredOptions(correct, sourceElement, isCorrect) {
+            const options = document.querySelectorAll('#gameContent .game-option');
+
+            options.forEach(option => {
+                option.disabled = true;
+
+                if (normalizeAnswer(option.dataset.answer) === normalizeAnswer(correct)) {
+                    option.classList.add('correct');
+                } else if (option === sourceElement && !isCorrect) {
+                    option.classList.add('incorrect');
+                }
+            });
+        }
+
+        function disableRoundInputs() {
+            document.querySelectorAll('#gameContent button.letter-tile, #gameContent button.build-control, #spellingInput, #checkSpellingButton, #playWordButton').forEach(element => {
+                element.disabled = true;
+            });
+        }
+
+        function renderRoundActions() {
+            const actions = document.getElementById('roundActions');
+            if (!actions || !state.currentGame) return;
+
+            const isLastRound = state.currentGame.round >= state.currentGame.totalRounds;
+            actions.innerHTML = `
+                <button type="button" class="btn btn-primary" onclick="advanceGameRound()">
+                    ${isLastRound ? 'Finish Game' : 'Next Round'}
+                </button>
+            `;
+        }
+
+        function advanceGameRound() {
+            if (!state.currentGame) return;
+
+            if (!state.currentGame.answered) {
+                showGameFeedback('Answer this round first.', 'info');
+                return;
+            }
+
+            if (state.currentGame.round >= state.currentGame.totalRounds) {
+                showGameComplete();
+                return;
+            }
+
+            state.currentGame.round += 1;
+            renderCurrentGameRound();
+        }
+
+        function showGameComplete() {
+            if (!state.currentGame) return;
+
+            const maxScore = state.currentGame.totalRounds * 10;
+            document.getElementById('gameFeedback').style.display = 'none';
+            document.getElementById('gameContent').innerHTML = `
+                <div class="game-feedback correct" style="display: block;">
+                    🎉 Game complete! Score: ${state.gameScore}/${maxScore}
+                </div>
+                <div class="game-actions">
+                    <button type="button" class="btn btn-primary" onclick="startGame('${jsString(state.currentGame.type)}')">Play Again</button>
+                    <button type="button" class="btn btn-back" onclick="showScreen('lessonView')">Back to Lesson</button>
+                </div>
+            `;
+        }
+
+        function buildWord(letter, tileIndex) {
+            if (!state.currentGame || state.currentGame.answered) return;
+            if (state.builtWord.length >= state.currentGame.target.length) return;
+            if (state.usedTileIndexes.includes(tileIndex)) return;
+
             state.builtWord.push(letter);
-            document.getElementById('buildWord').textContent = state.builtWord.join('').toUpperCase();
+            state.usedTileIndexes.push(tileIndex);
+            updateBuildWordDisplay();
+
+            const tile = document.querySelector(`#gameContent .letter-tile[data-tile-index="${tileIndex}"]`);
+            if (tile) {
+                tile.classList.add('selected');
+                tile.disabled = true;
+            }
+
+            if (navigator.vibrate) {
+                navigator.vibrate(10);
+            }
+        }
+
+        function updateBuildWordDisplay() {
+            const display = document.getElementById('buildWord');
+            if (display) {
+                display.textContent = state.builtWord.join('').toUpperCase();
+            }
         }
 
         function clearBuildWord() {
+            if (state.currentGame && state.currentGame.answered) return;
+
             state.builtWord = [];
-            document.getElementById('buildWord').textContent = '';
+            state.usedTileIndexes = [];
+            updateBuildWordDisplay();
+            document.getElementById('gameFeedback').style.display = 'none';
+
+            document.querySelectorAll('#gameContent .letter-tile').forEach(tile => {
+                tile.disabled = false;
+                tile.classList.remove('selected');
+            });
         }
 
         function checkBuiltWord(correct) {
+            if (!state.currentGame || state.currentGame.answered) return;
+
             const built = state.builtWord.join('');
+            if (built.length < correct.length) {
+                const remaining = correct.length - built.length;
+                showGameFeedback(`Keep building. ${remaining} more ${remaining === 1 ? 'letter' : 'letters'} needed.`, 'info');
+                return;
+            }
+
             checkAnswer(built, correct, 'word');
         }
 
         function checkSpelling(correct) {
-            const input = document.getElementById('spellingInput').value.toLowerCase();
-            checkAnswer(input, correct, 'spelling');
+            if (!state.currentGame || state.currentGame.answered) return;
+
+            const input = document.getElementById('spellingInput');
+            const answer = input.value;
+
+            if (!normalizeAnswer(answer)) {
+                showGameFeedback('Type your spelling answer first.', 'info');
+                input.focus();
+                return;
+            }
+
+            checkAnswer(answer, correct, 'spelling');
+        }
+
+        function handleSpellingKey(event, correct) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                checkSpelling(correct);
+            }
+        }
+
+        function speakText(text) {
+            if (!text) return;
+
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 0.7;
+                utterance.pitch = 1.1;
+                window.speechSynthesis.speak(utterance);
+            } else {
+                alert('🔊 ' + text);
+            }
+        }
+
+        function normalizeAnswer(value) {
+            return String(value).trim().toLowerCase();
+        }
+
+        function randomItem(items) {
+            return items[Math.floor(Math.random() * items.length)];
+        }
+
+        function shuffle(items) {
+            const shuffled = [...items];
+
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+
+            return shuffled;
+        }
+
+        function escapeHtml(value) {
+            return String(value).replace(/[&<>"']/g, char => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#39;'
+            }[char]));
+        }
+
+        function jsString(value) {
+            return String(value)
+                .replace(/\\/g, '\\\\')
+                .replace(/'/g, "\\'")
+                .replace(/\n/g, '\\n')
+                .replace(/\r/g, '\\r');
         }
 
         // Videos
@@ -2038,12 +2397,18 @@
         // Prevent zoom on double-tap for iOS
         let lastTouchEnd = 0;
         document.addEventListener('touchend', (e) => {
+            const interactiveTarget = e.target.closest('button, input, textarea, select, [role="button"], .word-card, .letter-box, .lesson-card, .profile-card, .video-card, .book-card');
+            if (interactiveTarget) {
+                lastTouchEnd = Date.now();
+                return;
+            }
+
             const now = Date.now();
             if (now - lastTouchEnd <= 300) {
                 e.preventDefault();
             }
             lastTouchEnd = now;
-        }, false);
+        }, {passive: false});
     </script>
 </body>
 </html>
