@@ -1828,9 +1828,13 @@
                 const target = randomItem(getGameLetters());
                 state.currentGame.target = target;
                 const options = generateLetterOptions(target);
+                
+                // Auto-play sound on load
+                setTimeout(() => playSound(target), 300);
 
                 return `
-                    <h2>Tap the letter or sound: ${escapeHtml(target.toUpperCase())}</h2>
+                    <h2>Find the letter</h2>
+                    <button type="button" class="btn btn-secondary" onclick="playSound('${jsString(target)}')" style="margin: 15px 0; font-size: 20px;">🔊 PLAY SOUND</button>
                     ${renderAnswerOptions(options, target, 'letter', option => option.toUpperCase())}
                     <div id="roundActions" class="game-actions"></div>
                 `;
@@ -1841,9 +1845,13 @@
                 const tiles = shuffle(targetWord.split('').map((letter, index) => ({letter, index})));
                 state.currentGame.target = targetWord;
                 state.currentGame.tiles = tiles;
+                
+                // Auto-play sound on load
+                setTimeout(() => playSound(targetWord), 300);
 
                 return `
-                    <h2>Build the word: ${escapeHtml(targetWord.toUpperCase())}</h2>
+                    <h2>Build the word</h2>
+                    <button type="button" class="btn btn-secondary" onclick="playSound('${jsString(targetWord)}')" style="margin: 15px 0; font-size: 20px;">🔊 PLAY SOUND</button>
                     <div class="blend-display" id="buildWord" aria-live="polite"></div>
                     <div class="word-cards">
                         ${tiles.map(tile => `
@@ -1856,17 +1864,21 @@
                         <button type="button" class="btn btn-secondary build-control" onclick="clearBuildWord()">Clear</button>
                         <button type="button" class="btn btn-primary build-control" onclick="checkBuiltWord('${jsString(targetWord)}')">Check</button>
                     </div>
-                    <div id="roundActions" class="game-actions"></div>
                 `;
+            }
             }
 
             if (gameType === 'sightWords') {
                 const targetWord = randomItem(sightWordBank);
                 state.currentGame.target = targetWord;
                 const options = generateWordOptions(targetWord, sightWordBank);
+                
+                // Auto-play sound on load
+                setTimeout(() => playSound(targetWord), 300);
 
                 return `
-                    <h2>Tap the sight word: ${escapeHtml(targetWord.toUpperCase())}</h2>
+                    <h2>Find the word</h2>
+                    <button type="button" class="btn btn-secondary" onclick="playSound('${jsString(targetWord)}')" style="margin: 15px 0; font-size: 20px;">🔊 PLAY SOUND</button>
                     ${renderAnswerOptions(options, targetWord, 'word')}
                     <div id="roundActions" class="game-actions"></div>
                 `;
@@ -2130,6 +2142,17 @@
             }
 
             checkAnswer(built, correct, 'word');
+        }
+
+        // Speech synthesis helper
+        function playSound(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 0.7;
+                utterance.lang = 'en-US';
+                window.speechSynthesis.speak(utterance);
+            }
         }
 
         function checkSpelling(correct) {
