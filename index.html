@@ -1324,28 +1324,20 @@
                 return;
             }
 
-            // First time setup
-            if (!authState.familyPasscode) {
-                authState.familyPasscode = currentPin;
+            // DEBUG: Show what's being compared
+            console.log('Entered PIN:', currentPin);
+            console.log('Stored passcode:', authState.familyPasscode);
+
+            // Login (passcode is pre-configured)
+            if (currentPin === authState.familyPasscode) {
                 authState.isLoggedIn = true;
                 saveAuthState();
                 currentPin = '';
                 updatePinDisplay();
                 showProfileSelection();
-                alert('✅ Family passcode set! Remember this: ' + authState.familyPasscode);
-            } 
-            // Login
-            else {
-                if (currentPin === authState.familyPasscode) {
-                    authState.isLoggedIn = true;
-                    saveAuthState();
-                    currentPin = '';
-                    updatePinDisplay();
-                    showProfileSelection();
-                } else {
-                    alert('❌ Incorrect passcode. Try again.');
-                    clearPin();
-                }
+            } else {
+                alert('❌ Incorrect passcode. Try again.\nEntered: ' + currentPin + '\nExpected: 7240');
+                clearPin();
             }
         }
 
