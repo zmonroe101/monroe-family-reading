@@ -2415,14 +2415,19 @@
         window.addEventListener('DOMContentLoaded', () => {
             loadState();
             
-            // Check for auto-login URL parameter
+            // Check for auto-login URL parameter or auto-login by default for family use
             const urlParams = new URLSearchParams(window.location.search);
             const autoPin = urlParams.get('pin');
+            const skipLogin = urlParams.get('open');
             
-            if (autoPin === '7240') {
-                // Auto-login with master PIN
-                currentPin = '7240';
-                submitPin();
+            // Auto-login if pin parameter is present OR if open=true
+            if (autoPin === '7240' || skipLogin === 'true') {
+                // Bypass login - go straight to profile selection
+                authState.isLoggedIn = true;
+                authState.familyPasscode = '7240';
+                localStorage.setItem('familyAuth', '7240');
+                showScreen('profileSelection');
+                renderProfiles();
             } else {
                 checkAuth();
             }
