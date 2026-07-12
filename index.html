@@ -2413,6 +2413,7 @@
 
         // Initialize on page load
         window.addEventListener('DOMContentLoaded', () => {
+            loadAuthState();
             loadState();
             
             // Check for auto-login URL parameter or auto-login by default for family use
@@ -2425,11 +2426,12 @@
                 // Bypass login - go straight to profile selection
                 authState.isLoggedIn = true;
                 authState.familyPasscode = '7240';
-                localStorage.setItem('familyAuth', '7240');
-                showScreen('profileSelection');
-                renderProfiles();
+                saveAuthState();
+                showProfileSelection();
+            } else if (authState.isLoggedIn) {
+                showProfileSelection();
             } else {
-                checkAuth();
+                showScreen('loginScreen');
             }
         });
 
