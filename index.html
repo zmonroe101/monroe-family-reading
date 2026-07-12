@@ -2411,10 +2411,21 @@
             showScreen('worksheet');
         }
 
-        // Initialize on load
+        // Initialize on page load
         window.addEventListener('DOMContentLoaded', () => {
-            init();
-            renderDashboard();
+            loadState();
+            
+            // Check for auto-login URL parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const autoPin = urlParams.get('pin');
+            
+            if (autoPin === '7240') {
+                // Auto-login with master PIN
+                currentPin = '7240';
+                submitPin();
+            } else {
+                checkAuth();
+            }
         });
 
         // Prevent zoom on double-tap for iOS
