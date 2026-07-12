@@ -1005,35 +1005,59 @@
                 </div>
             </div>
 
-            <div class="slider-container">
-                <div class="blend-display" id="blendDisplay">👆 Click letters below</div>
-                <div class="letter-slider" id="letterSlider"></div>
-                <div class="slider-controls">
-                    <button class="btn btn-accent" onclick="playBlend()">🔊 Play Sound</button>
-                    <button class="btn btn-secondary" onclick="clearBlend()">🔄 Clear</button>
-                    <button class="btn btn-primary" onclick="completeLesson()">✅ Complete Lesson</button>
+            <!-- STEP 1: Letter Introduction -->
+            <div id="lessonStep1" class="lesson-step" style="background: #e8f5e9; padding: 20px; border-radius: 12px; margin: 20px 0;">
+                <h2>📖 Step 1: Learn the Letter Sound</h2>
+                <div id="letterIntro" style="text-align: center; margin: 20px 0;"></div>
+            </div>
+
+            <!-- STEP 2: Interactive Letter Practice -->
+            <div id="lessonStep2" class="lesson-step" style="background: #e3f2fd; padding: 20px; border-radius: 12px; margin: 20px 0;">
+                <h2>🎯 Step 2: Practice the Sound</h2>
+                <div class="slider-container">
+                    <div class="blend-display" id="blendDisplay">👆 Click letters below to hear sounds</div>
+                    <div class="letter-slider" id="letterSlider"></div>
+                    <div class="slider-controls">
+                        <button class="btn btn-accent" onclick="playBlend()">🔊 Play Blend</button>
+                        <button class="btn btn-secondary" onclick="clearBlend()">🔄 Clear</button>
+                    </div>
                 </div>
             </div>
 
-            <div style="margin: 30px 0;">
-                <h2>🎮 Practice Games</h2>
+            <!-- STEP 3: Blending Practice -->
+            <div id="lessonStep3" class="lesson-step" style="background: #fff3e0; padding: 20px; border-radius: 12px; margin: 20px 0;">
+                <h2>🔤 Step 3: Blend Sounds into Words</h2>
+                <div id="blendingPractice"></div>
+            </div>
+
+            <!-- STEP 4: Practice Words with Audio -->
+            <div id="lessonStep4" class="lesson-step" style="background: #f3e5f5; padding: 20px; border-radius: 12px; margin: 20px 0;">
+                <h2>📚 Step 4: Read Practice Words</h2>
+                <div id="practiceWords" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin: 20px 0;"></div>
+            </div>
+
+            <!-- STEP 5: Mastery Check -->
+            <div id="lessonStep5" class="lesson-step" style="background: #fce4ec; padding: 20px; border-radius: 12px; margin: 20px 0;">
+                <h2>✅ Step 5: Show What You Know</h2>
+                <div style="text-align: center; margin: 20px 0;">
+                    <p style="font-size: 18px; margin-bottom: 15px;">Complete these activities to master this lesson:</p>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: 15px;">
+                        <button class="btn btn-primary" onclick="startGame('letterRecognition')">🔤 Letter Match</button>
+                        <button class="btn btn-primary" onclick="startGame('wordBuilding')">🏗️ Build Words</button>
+                        <button class="btn btn-primary" onclick="startGame('spelling')">✍️ Spelling</button>
+                    </div>
+                    <button class="btn btn-accent" onclick="completeLesson()" style="margin-top: 20px; font-size: 20px;">🎉 Complete Lesson</button>
+                </div>
+            </div>
+
+            <!-- Additional Resources -->
+            <div style="margin: 30px 0; padding: 20px; background: #f5f5f5; border-radius: 12px;">
+                <h2>📚 Extra Resources</h2>
                 <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px;">
-                    <button class="btn btn-primary" onclick="startGame('letterRecognition')">🔤 Letters</button>
-                    <button class="btn btn-primary" onclick="startGame('wordBuilding')">🏗️ Words</button>
-                    <button class="btn btn-primary" onclick="startGame('sightWords')">👀 Sight Words</button>
-                    <button class="btn btn-primary" onclick="startGame('spelling')">✍️ Spelling</button>
-                    <button class="btn btn-primary" onclick="startGame('phonicsQuiz')">📝 Quiz</button>
+                    <button class="btn btn-secondary" onclick="showScreen('videos')">📺 Videos</button>
+                    <button class="btn btn-secondary" onclick="showScreen('books')">📖 Books</button>
+                    <button class="btn btn-secondary" onclick="generateWorksheet()">📄 Worksheet</button>
                 </div>
-            </div>
-
-            <div style="margin: 30px 0;">
-                <h2>🎥 Watch & Learn</h2>
-                <button class="btn btn-accent" onclick="showScreen('videos')">📺 Educational Videos</button>
-                <button class="btn btn-accent" onclick="showScreen('books')" style="margin-left: 10px;">📚 Reading Books</button>
-            </div>
-
-            <div style="margin: 30px 0;">
-                <button class="btn btn-secondary" onclick="generateWorksheet()">📄 Print Worksheet</button>
             </div>
         </div>
 
@@ -1627,10 +1651,137 @@
         function selectLesson(lessonId) {
             state.currentLesson = lessons.find(l => l.id === lessonId);
             document.getElementById('lessonTitle').textContent = `Lesson ${state.currentLesson.id}: ${state.currentLesson.title}`;
+            
+            // Render all lesson steps
+            renderLetterIntro();
             renderLetterSlider();
+            renderBlendingPractice();
+            renderPracticeWords();
             renderVideos();
             renderBooks();
+            
             showScreen('lessonView');
+        }
+        
+        // NEW: Render Step 1 - Letter Introduction with audio
+        function renderLetterIntro() {
+            const intro = document.getElementById('letterIntro');
+            const lesson = state.currentLesson;
+            const mainLetter = lesson.letters[0].toUpperCase();
+            
+            intro.innerHTML = `
+                <div style="font-size: 120px; color: #4CAF50; font-weight: bold; margin: 20px 0; cursor: pointer;" 
+                     onclick="playLetterSound('${lesson.letters[0]}')">
+                    ${mainLetter}
+                </div>
+                <p style="font-size: 24px; margin: 15px 0;">
+                    This is the letter <strong>${mainLetter}</strong>
+                </p>
+                <button class="btn btn-accent" onclick="playLetterSound('${lesson.letters[0]}')" 
+                        style="font-size: 22px; padding: 15px 30px; margin: 20px 0;">
+                    🔊 Hear the Sound
+                </button>
+                <p style="font-size: 18px; color: #666; margin: 15px 0; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    ${lesson.description || 'Click the letter to hear its sound. Listen carefully and try to repeat it!'}
+                </p>
+            `;
+            
+            // Auto-play on lesson load
+            setTimeout(() => {
+                playLetterSound(lesson.letters[0]);
+            }, 500);
+        }
+        
+        // NEW: Render Step 3 - Blending Practice with sound-by-sound breakdown
+        function renderBlendingPractice() {
+            const blending = document.getElementById('blendingPractice');
+            const lesson = state.currentLesson;
+            
+            // Get simple blending words based on lesson type
+            let blendWords = [];
+            if (lesson.type === 'letter') {
+                // For single letter lessons, show simple combinations
+                const letter = lesson.letters[0];
+                blendWords = [`${letter}at`, `${letter}og`, `${letter}it`];
+            } else if (lesson.type === 'cvc' || lesson.type === 'blend') {
+                // For CVC/blend lessons, use actual words from the lesson
+                blendWords = lesson.letters.slice(0, 3);
+            }
+            
+            blending.innerHTML = `
+                <div style="text-align: center;">
+                    <p style="font-size: 18px; margin-bottom: 20px;">
+                        Watch and listen as we blend sounds together to make words!
+                    </p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin: 20px 0;">
+                        ${blendWords.map(word => `
+                            <div style="background: white; padding: 20px; border-radius: 12px; border: 3px solid #FF9800; min-width: 200px;">
+                                <div style="font-size: 48px; font-weight: bold; color: #2196F3; margin-bottom: 10px;">
+                                    ${word.toUpperCase()}
+                                </div>
+                                <button class="btn btn-accent" onclick="blendWordSlowly('${word}')" style="width: 100%; margin: 5px 0;">
+                                    🐌 Slow Blend
+                                </button>
+                                <button class="btn btn-primary" onclick="playSound('${word}')" style="width: 100%; margin: 5px 0;">
+                                    🔊 Say Word
+                                </button>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        // NEW: Blend word sound-by-sound (critical for phonics learning)
+        function blendWordSlowly(word) {
+            if (!word || word.length === 0) return;
+            
+            const letters = word.split('');
+            let delay = 0;
+            
+            // Play each sound individually
+            letters.forEach((letter, index) => {
+                setTimeout(() => {
+                    playLetterSound(letter);
+                }, delay);
+                delay += 800; // 800ms between sounds
+            });
+            
+            // Then play the whole word
+            setTimeout(() => {
+                playSound(word);
+            }, delay + 400);
+        }
+        
+        // NEW: Render Step 4 - Practice Words with Audio
+        function renderPracticeWords() {
+            const container = document.getElementById('practiceWords');
+            const lesson = state.currentLesson;
+            
+            // Get practice words from lesson or generate simple ones
+            const practiceWords = lesson.words || lesson.letters.slice(0, 6);
+            
+            container.innerHTML = practiceWords.map(word => `
+                <div class="word-card" onclick="playSound('${word}')" 
+                     style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                            color: white; 
+                            padding: 25px; 
+                            border-radius: 12px; 
+                            cursor: pointer; 
+                            font-size: 36px; 
+                            font-weight: bold;
+                            min-width: 120px;
+                            text-align: center;
+                            transition: transform 0.2s;
+                            box-shadow: 0 4px 15px rgba(0,0,0,0.2);"
+                     onmouseover="this.style.transform='scale(1.1)'"
+                     onmouseout="this.style.transform='scale(1)'"
+                     ontouchstart="this.style.transform='scale(1.1)'"
+                     ontouchend="this.style.transform='scale(1)'">
+                    ${word.toUpperCase()}
+                    <div style="font-size: 14px; margin-top: 8px;">🔊 Click to hear</div>
+                </div>
+            `).join('');
         }
 
         // Letter Slider - Touch Optimized
@@ -1639,14 +1790,14 @@
             const letters = state.currentLesson.letters;
             
             slider.innerHTML = letters.map(letter => 
-                `<div class="letter-box" onclick="addToBlend('${letter}')">${letter.toUpperCase()}</div>`
+                `<div class="letter-box" onclick="addToBlend('${letter}'); playLetterSound('${letter}');">${letter.toUpperCase()}</div>`
             ).join('');
             
             // Add vowels for blending
             if (state.currentLesson.type === 'blend' || state.currentLesson.type === 'cvc') {
                 const vowels = ['a', 'e', 'i', 'o', 'u'];
                 slider.innerHTML += vowels.map(v => 
-                    `<div class="letter-box" onclick="addToBlend('${v}')">${v.toUpperCase()}</div>`
+                    `<div class="letter-box" onclick="addToBlend('${v}'); playLetterSound('${v}');">${v.toUpperCase()}</div>`
                 ).join('');
             }
         }
@@ -1658,6 +1809,33 @@
             // Haptic feedback for mobile
             if (navigator.vibrate) {
                 navigator.vibrate(10);
+            }
+        }
+        
+        // Play individual letter sound with phonics pronunciation
+        function playLetterSound(letter) {
+            const letterLower = letter.toLowerCase();
+            
+            // Phonics sound mappings (not letter names)
+            const phonicsSounds = {
+                // Consonants
+                'b': 'buh', 'c': 'kuh', 'd': 'duh', 'f': 'fff', 'g': 'guh',
+                'h': 'hhh', 'j': 'juh', 'k': 'kuh', 'l': 'lll', 'm': 'mmm',
+                'n': 'nnn', 'p': 'puh', 'q': 'kwuh', 'r': 'rrr', 's': 'sss',
+                't': 'tuh', 'v': 'vvv', 'w': 'wuh', 'x': 'ks', 'y': 'yuh', 'z': 'zzz',
+                // Short vowels
+                'a': 'aah', 'e': 'eh', 'i': 'ih', 'o': 'ah', 'u': 'uh'
+            };
+            
+            const soundText = phonicsSounds[letterLower] || letterLower;
+            
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(soundText);
+                utterance.rate = 0.6; // Slower for clarity
+                utterance.pitch = 1.2;
+                utterance.lang = 'en-US';
+                window.speechSynthesis.speak(utterance);
             }
         }
 
@@ -1688,9 +1866,20 @@
         function completeLesson() {
             if (!state.currentChild || !state.currentLesson) return;
             
+            // Check if child has completed enough practice
+            const lessonProgress = state.currentChild.progress[state.currentLesson.id] || {};
+            const gamesPlayed = lessonProgress.gamesPlayed || 0;
+            const minGamesRequired = 2; // Require at least 2 games completed
+            
+            if (gamesPlayed < minGamesRequired) {
+                alert(`⚠️ Practice More!\n\nYou need to complete at least ${minGamesRequired} practice games before finishing this lesson.\n\nGames completed: ${gamesPlayed}/${minGamesRequired}\n\nTry the Letter Match or Word Building games!`);
+                return;
+            }
+            
             state.currentChild.progress[state.currentLesson.id] = {
                 completedAt: new Date().toISOString(),
-                score: 100
+                score: 100,
+                gamesPlayed: gamesPlayed
             };
             
             saveState();
@@ -2076,11 +2265,23 @@
         function showGameComplete() {
             if (!state.currentGame) return;
 
+            // Track game completion for mastery requirements
+            if (state.currentChild && state.currentLesson) {
+                const lessonProgress = state.currentChild.progress[state.currentLesson.id] || { gamesPlayed: 0 };
+                lessonProgress.gamesPlayed = (lessonProgress.gamesPlayed || 0) + 1;
+                state.currentChild.progress[state.currentLesson.id] = lessonProgress;
+                saveState();
+            }
+
             const maxScore = state.currentGame.totalRounds * 10;
+            const gamesCompleted = state.currentChild && state.currentLesson ? 
+                (state.currentChild.progress[state.currentLesson.id]?.gamesPlayed || 0) : 0;
+            
             document.getElementById('gameFeedback').style.display = 'none';
             document.getElementById('gameContent').innerHTML = `
                 <div class="game-feedback correct" style="display: block;">
                     🎉 Game complete! Score: ${state.gameScore}/${maxScore}
+                    ${gamesCompleted > 0 ? `<div style="margin-top: 15px; font-size: 18px;">✅ Games completed: ${gamesCompleted}/2</div>` : ''}
                 </div>
                 <div class="game-actions">
                     <button type="button" class="btn btn-primary" onclick="startGame('${jsString(state.currentGame.type)}')">Play Again</button>
