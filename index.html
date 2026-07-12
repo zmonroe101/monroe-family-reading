@@ -1866,7 +1866,6 @@
                     </div>
                 `;
             }
-            }
 
             if (gameType === 'sightWords') {
                 const targetWord = randomItem(sightWordBank);
@@ -2422,6 +2421,7 @@
             const skipLogin = urlParams.get('open');
             
             // Auto-login if pin parameter is present OR if open=true
+            // Note: URLSearchParams.get() returns string, so '7240' comparison works
             if (autoPin === '7240' || skipLogin === 'true') {
                 // Bypass login - go straight to profile selection
                 authState.isLoggedIn = true;
