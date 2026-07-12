@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Test - Phonics System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .test-section {
+            background: #f0f0f0;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 12px;
+        }
+        button {
+            font-size: 24px;
+            padding: 20px 40px;
+            margin: 10px;
+            cursor: pointer;
+            border: 3px solid #4CAF50;
+            background: white;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        button:hover {
+            background: #4CAF50;
+            color: white;
+            transform: scale(1.05);
+        }
+        .letter-box {
+            display: inline-block;
+            font-size: 80px;
+            margin: 20px;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .letter-box:hover {
+            transform: scale(1.1);
+        }
+        .word-card {
+            display: inline-block;
+            font-size: 48px;
+            margin: 15px;
+            padding: 25px;
+            background: #2196F3;
+            color: white;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .word-card:hover {
+            transform: scale(1.1);
+        }
+        h1 { color: #4CAF50; }
+        h2 { color: #2196F3; }
+        .status {
+            font-size: 18px;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .info { background: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>🔊 Phonics Audio System Test</h1>
+    <p style="font-size: 18px; color: #666;">This page tests the audio functionality that powers the lesson system.</p>
+
+    <div class="test-section">
+        <h2>Test 1: Letter Sounds (Phonics)</h2>
+        <p>Click each letter to hear its SOUND (not name):</p>
+        <div>
+            <div class="letter-box" onclick="playLetterSound('m')">M</div>
+            <div class="letter-box" onclick="playLetterSound('a')">A</div>
+            <div class="letter-box" onclick="playLetterSound('t')">T</div>
+        </div>
+        <p style="color: #666; margin-top: 15px;">
+            Expected: "mmm" (not "em"), "aah" (not "ay"), "tuh" (not "tee")
+        </p>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 2: Sound-by-Sound Blending</h2>
+        <p>Click to hear the word blended slowly, then as a whole:</p>
+        <button onclick="blendWordSlowly('mat')">🐌 Blend "MAT" Slowly</button>
+        <p style="color: #666; margin-top: 15px;">
+            Expected: "mmm" → (pause) → "aah" → (pause) → "tuh" → (pause) → "mat"
+        </p>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 3: Practice Word Audio</h2>
+        <p>Click any word to hear it spoken:</p>
+        <div>
+            <div class="word-card" onclick="playSound('cat')">CAT</div>
+            <div class="word-card" onclick="playSound('dog')">DOG</div>
+            <div class="word-card" onclick="playSound('sun')">SUN</div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 4: Multiple Sounds</h2>
+        <p>Test the full phonics alphabet:</p>
+        <div id="alphabet-test"></div>
+        <button onclick="testAllSounds()" style="margin-top: 20px;">🎵 Play All Letter Sounds (A-Z)</button>
+    </div>
+
+    <div id="status" class="status info">
+        ✅ Audio system loaded. Click any element above to test sound playback.
+    </div>
+
+    <script>
+        // Phonics sound system (same as in main platform)
+        function playLetterSound(letter) {
+            const letterLower = letter.toLowerCase();
+            
+            // Phonics sound mappings (not letter names)
+            const phonicsSounds = {
+                // Consonants
+                'b': 'buh', 'c': 'kuh', 'd': 'duh', 'f': 'fff', 'g': 'guh',
+                'h': 'hhh', 'j': 'juh', 'k': 'kuh', 'l': 'lll', 'm': 'mmm',
+                'n': 'nnn', 'p': 'puh', 'q': 'kwuh', 'r': 'rrr', 's': 'sss',
+                't': 'tuh', 'v': 'vvv', 'w': 'wuh', 'x': 'ks', 'y': 'yuh', 'z': 'zzz',
+                // Short vowels
+                'a': 'aah', 'e': 'eh', 'i': 'ih', 'o': 'ah', 'u': 'uh'
+            };
+            
+            const soundText = phonicsSounds[letterLower] || letterLower;
+            
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(soundText);
+                utterance.rate = 0.6; // Slower for clarity
+                utterance.pitch = 1.2;
+                utterance.lang = 'en-US';
+                window.speechSynthesis.speak(utterance);
+                updateStatus(`🔊 Playing: "${soundText}" for letter ${letter.toUpperCase()}`);
+            } else {
+                updateStatus('❌ Web Speech API not supported in this browser');
+            }
+        }
+
+        function playSound(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 0.7;
+                utterance.lang = 'en-US';
+                window.speechSynthesis.speak(utterance);
+                updateStatus(`🔊 Speaking word: "${text}"`);
+            } else {
+                updateStatus('❌ Web Speech API not supported in this browser');
+            }
+        }
+
+        function blendWordSlowly(word) {
+            if (!word || word.length === 0) return;
+            
+            const letters = word.split('');
+            let delay = 0;
+            
+            updateStatus(`🐌 Starting slow blend for "${word}"...`);
+            
+            // Play each sound individually
+            letters.forEach((letter, index) => {
+                setTimeout(() => {
+                    playLetterSound(letter);
+                }, delay);
+                delay += 800; // 800ms between sounds
+            });
+            
+            // Then play the whole word
+            setTimeout(() => {
+                playSound(word);
+                updateStatus(`✅ Blend complete! Final word: "${word}"`);
+            }, delay + 400);
+        }
+
+        function updateStatus(message) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = 'status success';
+        }
+
+        function testAllSounds() {
+            const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+            let delay = 0;
+            
+            updateStatus('🎵 Playing all 26 letter sounds...');
+            
+            alphabet.forEach((letter, index) => {
+                setTimeout(() => {
+                    playLetterSound(letter);
+                    updateStatus(`🔊 Sound ${index + 1}/26: ${letter.toUpperCase()}`);
+                }, delay);
+                delay += 1000;
+            });
+            
+            setTimeout(() => {
+                updateStatus('✅ All sounds complete!');
+            }, delay + 500);
+        }
+
+        // Generate alphabet test grid
+        window.onload = function() {
+            const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+            const container = document.getElementById('alphabet-test');
+            
+            container.innerHTML = alphabet.map(letter => 
+                `<button onclick="playLetterSound('${letter}')" style="font-size: 18px; padding: 10px 15px; margin: 5px;">
+                    ${letter.toUpperCase()}
+                </button>`
+            ).join('');
+            
+            // Check if browser supports speech synthesis
+            if (!('speechSynthesis' in window)) {
+                updateStatus('⚠️ WARNING: Your browser does not support Web Speech API. Audio will not work.');
+            }
+        };
+    </script>
+</body>
+</html>
